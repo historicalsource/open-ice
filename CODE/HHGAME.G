@@ -1,0 +1,87 @@
+;
+;	GLOBALS DEFINED IN HHGAME.ASM
+;
+;	ROUTINES:
+;
+	.global		player_start
+	.global		check_for_player
+	.global		fix_curplyrs
+	.global		restart_game_mode
+	.global		world_mt_point
+	.global		team1_score
+	.global		team2_score
+	.global		team1
+	.global		team2
+	.global		game_over
+	.global		period_over
+	.global		period_start
+	.global		period
+	.global		find_dist_quick
+	.global		plwatch
+	.global		record_data
+	.global		record_data_pointer
+	.global		puck_op
+	.global		team1_home
+	.global		team2_home
+	.global		find_dist_quick2
+	.global		button_wait
+	.global		all_watch
+	.global		create_rink
+	.global		CROWD_NOISE_PROC
+	.global		ORGAN_PROC
+	.global		nolist
+	.global		MY_WIPEOUT
+	.global		do_we_have_start_credits
+	.global		il_string_m
+	.global		get_period_players
+	.global		hold_net_anim
+	.global		lgoalF_object
+	.global		rgoalF_object
+	.global		TEAM1_SWAP
+	.global		TEAM2_SWAP
+	.global		goal1a
+	.global		lgoalR_object
+	.global		rgoalR_object
+	.global		ledge_object
+	.global		redge_object
+	.global		ledge2_object
+	.global		redge2_object
+	.global		GO_PAL_LIST
+	.global		START_HELP_WINDOWS
+	.global		HELP_WINDOW_COUNT
+	.global		clear_all_player_blocks
+	.global		find_cpu_team
+	.global		COUNT_PLAYER_BITS
+	.global		bw_tab
+	.global		bw_tab_2P
+	.global		MY_WIPEOUT_NOVIDEO
+	.global		my_wipeout_novideo_noprocess
+	.global		team1_score_P1
+	.global		team1_score_P2
+	.global		team2_score_P1
+	.global		team2_score_P2
+	.global		fix_palette_lights
+	.global		fix_palette_lights_off
+	.global		teampal2
+	.global		teampal1
+	.global		SHOW_START_SHIT
+	.global		all_beaten_bits
+	.global		dpl_lst
+	.global		edge_28_piece
+	.global		back_wall_script
+	.global		edge_28_script
+	.global		get_button_s_mask
+	.global		GO_MESS
+	.global		start_game
+	.global		fill_up_ot
+	.global		team1_score_P3
+	.global		team2_score_P3
+	.global		start_game_awin
+	.global		start_game_force_new_initials
+	.global		side_brightness
+	.global		big_fire_inc
+	.global		small_fire_inc
+;
+;	RAM:
+;
+

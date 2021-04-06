@@ -1,0 +1,603 @@
+	.DATA
+gdc01:
+	.word   07000H,31,34
+	.long   01d2baH
+	.word   15,29
+	.long   BLUEHELM1
+gdc02:
+	.word   07000H,34,36
+	.long   01ef8cH
+	.word   13,29
+	.long   BLUEHELM1
+gdc03:
+	.word   07000H,36,34
+	.long   021104H
+	.word   13,27
+	.long   BLUEHELM1
+gdc04:
+	.word   07000H,34,34
+	.long   02327cH
+	.word   14,27
+	.long   BLUEHELM1
+gdc05:
+	.word   07000H,32,32
+	.long   025218H
+	.word   14,27
+	.long   BLUEHELM1
+gdc06:
+	.word   07000H,33,30
+	.long   026e18H
+	.word   16,27
+	.long   BLUEHELM1
+gdc07:
+	.word   07000H,37,30
+	.long   02892aH
+	.word   20,27
+	.long   BLUEHELM1
+gdc08:
+	.word   07000H,43,31
+	.long   02a784H
+	.word   25,27
+	.long   BLUEHELM1
+gdc09:
+	.word   07000H,37,32
+	.long   02cbf7H
+	.word   18,28
+	.long   BLUEHELM1
+gdc10:
+	.word   07000H,34,35
+	.long   02ec57H
+	.word   16,29
+	.long   BLUEHELM1
+gdc11:
+	.word   07000H,32,37
+	.long   030ce1H
+	.word   15,27
+	.long   BLUEHELM1
+gdc12:
+	.word   07000H,34,39
+	.long   032d41H
+	.word   14,27
+	.long   BLUEHELM1
+gdc13:
+	.word   07000H,34,38
+	.long   035183H
+	.word   11,27
+	.long   BLUEHELM1
+gdc14:
+	.word   07000H,32,38
+	.long   0374d7H
+	.word   11,26
+	.long   BLUEHELM1
+gdc15:
+	.word   07000H,33,30
+	.long   039617H
+	.word   17,26
+	.long   BLUEHELM1
+GCC01:
+	.word   07000H,29,37
+	.long   03b129H
+	.word   12,28
+	.long   BLUEHELM1
+GCC02:
+	.word   07000H,32,38
+	.long   03ce80H
+	.word   13,28
+	.long   BLUEHELM1
+GCC03:
+	.word   07000H,35,36
+	.long   03efc0H
+	.word   14,28
+	.long   BLUEHELM1
+GCC04:
+	.word   07000H,33,36
+	.long   041234H
+	.word   13,28
+	.long   BLUEHELM1
+GCC05:
+	.word   07000H,30,33
+	.long   0432b0H
+	.word   15,28
+	.long   BLUEHELM1
+GCC06:
+	.word   07000H,30,36
+	.long   044dc2H
+	.word   14,29
+	.long   BLUEHELM1
+GCC07:
+	.word   07000H,38,32
+	.long   046b4aH
+	.word   21,28
+	.long   BLUEHELM1
+GCC08:
+	.word   07000H,45,30
+	.long   048c8aH
+	.word   26,27
+	.long   BLUEHELM1
+GCC09:
+	.word   07000H,37,33
+	.long   04b174H
+	.word   17,28
+	.long   BLUEHELM1
+GCC10:
+	.word   07000H,31,35
+	.long   04d2d7H
+	.word   14,29
+	.long   BLUEHELM1
+GCC11:
+	.word   07000H,30,39
+	.long   04f082H
+	.word   14,28
+	.long   BLUEHELM1
+GCC12:
+	.word   07000H,35,38
+	.long   051080H
+	.word   13,25
+	.long   BLUEHELM1
+GCC13:
+	.word   07000H,34,39
+	.long   0534deH
+	.word   10,26
+	.long   BLUEHELM1
+GCC14:
+	.word   07000H,34,39
+	.long   055920H
+	.word   12,25
+	.long   BLUEHELM1
+GCC15:
+	.word   07000H,33,32
+	.long   057d62H
+	.word   16,25
+	.long   BLUEHELM1
+PEC01:
+	.word   07000H,25,33
+	.long   059a42H
+	.word   11,28
+	.long   BLUEHELM1
+PEC02:
+	.word   07000H,29,32
+	.long   05b0d1H
+	.word   11,28
+	.long   BLUEHELM1
+PEC03:
+	.word   07000H,32,32
+	.long   05ca31H
+	.word   13,28
+	.long   BLUEHELM1
+PEC04:
+	.word   07000H,31,32
+	.long   05e631H
+	.word   13,28
+	.long   BLUEHELM1
+PEC05:
+	.word   07000H,26,29
+	.long   060151H
+	.word   11,28
+	.long   BLUEHELM1
+PEC06:
+	.word   07000H,28,30
+	.long   0615efH
+	.word   13,28
+	.long   BLUEHELM1
+PEC07:
+	.word   07000H,32,28
+	.long   062ce7H
+	.word   18,27
+	.long   BLUEHELM1
+PEC08:
+	.word   07000H,37,28
+	.long   064567H
+	.word   21,27
+	.long   BLUEHELM1
+PEC09:
+	.word   07000H,33,31
+	.long   0661bbH
+	.word   16,28
+	.long   BLUEHELM1
+PEC10:
+	.word   07000H,28,32
+	.long   067db4H
+	.word   14,30
+	.long   BLUEHELM1
+PEC11:
+	.word   07000H,27,35
+	.long   069634H
+	.word   13,27
+	.long   BLUEHELM1
+PEC12:
+	.word   07000H,32,33
+	.long   06b00bH
+	.word   8,26
+	.long   BLUEHELM1
+PEC13:
+	.word   07000H,32,33
+	.long   06ccebH
+	.word   5,24
+	.long   BLUEHELM1
+PEC14:
+	.word   07000H,31,33
+	.long   06e9cbH
+	.word   7,23
+	.long   BLUEHELM1
+PEC15:
+	.word   07000H,26,30
+	.long   0705c4H
+	.word   11,24
+	.long   BLUEHELM1
+PBC01:
+	.word   07000H,29,35
+	.long   071b18H
+	.word   13,30
+	.long   BLUEHELM1
+PBC02:
+	.word   07000H,31,35
+	.long   0736d9H
+	.word   13,30
+	.long   BLUEHELM1
+PBC03:
+	.word   07000H,33,36
+	.long   075484H
+	.word   14,30
+	.long   BLUEHELM1
+PBC04:
+	.word   07000H,31,35
+	.long   077500H
+	.word   13,30
+	.long   BLUEHELM1
+PBC05:
+	.word   07000H,30,31
+	.long   0792abH
+	.word   14,28
+	.long   BLUEHELM1
+PBC11:
+	.word   07000H,29,34
+	.long   07ac19H
+	.word   13,28
+	.long   BLUEHELM1
+PBC12:
+	.word   07000H,33,36
+	.long   07c70fH
+	.word   7,28
+	.long   BLUEHELM1
+PBC13:
+	.word   07000H,35,36
+	.long   07e78bH
+	.word   8,27
+	.long   BLUEHELM1
+PBC14:
+	.word   07000H,33,36
+	.long   0809ffH
+	.word   9,25
+	.long   BLUEHELM1
+PBC15:
+	.word   07000H,30,27
+	.long   082a7bH
+	.word   14,24
+	.long   BLUEHELM1
+PBC06:
+	.word   07000H,30,32
+	.long   0840a1H
+	.word   14,29
+	.long   BLUEHELM1
+PBC07:
+	.word   07000H,34,32
+	.long   085ae1H
+	.word   20,28
+	.long   BLUEHELM1
+PBC08:
+	.word   07000H,41,30
+	.long   0878a1H
+	.word   25,28
+	.long   BLUEHELM1
+PBC09:
+	.word   07000H,34,32
+	.long   089a43H
+	.word   19,29
+	.long   BLUEHELM1
+PBC10:
+	.word   07000H,31,34
+	.long   08b803H
+	.word   15,30
+	.long   BLUEHELM1
+PFC01:
+	.word   07000H,27,33
+	.long   08d4d5H
+	.word   12,30
+	.long   BLUEHELM1
+PFC02:
+	.word   07000H,31,35
+	.long   08ed32H
+	.word   13,30
+	.long   BLUEHELM1
+PFC03:
+	.word   07000H,33,36
+	.long   090addH
+	.word   14,31
+	.long   BLUEHELM1
+PFC04:
+	.word   07000H,31,33
+	.long   092b59H
+	.word   13,30
+	.long   BLUEHELM1
+PFC05:
+	.word   07000H,28,32
+	.long   094752H
+	.word   12,30
+	.long   BLUEHELM1
+PFC06:
+	.word   07000H,29,29
+	.long   095fd2H
+	.word   12,29
+	.long   BLUEHELM1
+PFC07:
+	.word   07000H,34,31
+	.long   0976d1H
+	.word   20,28
+	.long   BLUEHELM1
+PFC08:
+	.word   07000H,39,29
+	.long   0993a3H
+	.word   23,27
+	.long   BLUEHELM1
+PFC09:
+	.word   07000H,34,31
+	.long   09b290H
+	.word   18,30
+	.long   BLUEHELM1
+PFC10:
+	.word   07000H,30,34
+	.long   09cf62H
+	.word   14,31
+	.long   BLUEHELM1
+PFC11:
+	.word   07000H,29,35
+	.long   09eb46H
+	.word   13,27
+	.long   BLUEHELM1
+PFC12:
+	.word   07000H,33,35
+	.long   0a0707H
+	.word   7,29
+	.long   BLUEHELM1
+PFC13:
+	.word   07000H,34,34
+	.long   0a269cH
+	.word   7,26
+	.long   BLUEHELM1
+PFC14:
+	.word   07000H,33,33
+	.long   0a4638H
+	.word   10,24
+	.long   BLUEHELM1
+PFC15:
+	.word   07000H,28,28
+	.long   0a63ffH
+	.word   13,24
+	.long   BLUEHELM1
+PAC01:
+	.word   07000H,26,36
+	.long   0a796fH
+	.word   12,30
+	.long   BLUEHELM1
+PAC02:
+	.word   07000H,30,36
+	.long   0a9307H
+	.word   12,30
+	.long   BLUEHELM1
+PAC03:
+	.word   07000H,30,34
+	.long   0ab08fH
+	.word   12,30
+	.long   BLUEHELM1
+PAC04:
+	.word   07000H,31,35
+	.long   0acc73H
+	.word   13,30
+	.long   BLUEHELM1
+PAC05:
+	.word   07000H,26,32
+	.long   0aea1eH
+	.word   11,29
+	.long   BLUEHELM1
+PAC06:
+	.word   07000H,28,32
+	.long   0b00deH
+	.word   13,29
+	.long   BLUEHELM1
+PAC07:
+	.word   07000H,34,31
+	.long   0b195eH
+	.word   20,28
+	.long   BLUEHELM1
+PAC08:
+	.word   07000H,40,29
+	.long   0b3630H
+	.word   24,27
+	.long   BLUEHELM1
+PAC09:
+	.word   07000H,35,32
+	.long   0b55e8H
+	.word   18,29
+	.long   BLUEHELM1
+PAC10:
+	.word   07000H,29,33
+	.long   0b7488H
+	.word   14,30
+	.long   BLUEHELM1
+PAC11:
+	.word   07000H,27,35
+	.long   0b8eb3H
+	.word   12,28
+	.long   BLUEHELM1
+PAC12:
+	.word   07000H,33,35
+	.long   0ba88aH
+	.word   8,28
+	.long   BLUEHELM1
+PAC13:
+	.word   07000H,32,35
+	.long   0bc81fH
+	.word   6,27
+	.long   BLUEHELM1
+PAC14:
+	.word   07000H,34,34
+	.long   0be6bfH
+	.word   10,24
+	.long   BLUEHELM1
+PAC15:
+	.word   07000H,27,30
+	.long   0c065bH
+	.word   12,23
+	.long   BLUEHELM1
+WARMSK1:
+	.word   07000H,30,42
+	.long   0c1c81H
+	.word   14,30
+	.long   WARBELF1
+WARMSK2:
+	.word   07000H,35,41
+	.long   0c3ef5H
+	.word   15,29
+	.long   WARBELF1
+WARMSK3:
+	.word   07000H,34,40
+	.long   0c6632H
+	.word   15,29
+	.long   WARBELF1
+WARMSK4:
+	.word   07000H,36,40
+	.long   0c8b62H
+	.word   16,29
+	.long   WARBELF1
+WARMSK5:
+	.word   07000H,32,35
+	.long   0cb2c2H
+	.word   15,28
+	.long   WARBELF1
+WARMSK6:
+	.word   07000H,30,32
+	.long   0cd162H
+	.word   15,26
+	.long   WARBELF1
+WARMSK7:
+	.word   07000H,41,31
+	.long   0ceba2H
+	.word   22,26
+	.long   WARBELF1
+WARMSK8:
+	.word   07000H,47,31
+	.long   0d0e63H
+	.word   26,26
+	.long   WARBELF1
+WARMSK9:
+	.word   07000H,40,32
+	.long   0d363aH
+	.word   21,26
+	.long   WARBELF1
+WARMSK10:
+	.word   07000H,33,33
+	.long   0d593aH
+	.word   15,26
+	.long   WARBELF1
+WARMSK11:
+	.word   07000H,31,43
+	.long   0d7701H
+	.word   15,27
+	.long   WARBELF1
+WARMSK12:
+	.word   07000H,36,43
+	.long   0d9b74H
+	.word   15,28
+	.long   WARBELF1
+WARMSK13:
+	.word   07000H,31,42
+	.long   0dc5c8H
+	.word   10,27
+	.long   WARBELF1
+WARMSK14:
+	.word   07000H,35,43
+	.long   0de962H
+	.word   12,27
+	.long   WARBELF1
+WARMSK15:
+	.word   07000H,31,40
+	.long   0e1289H
+	.word   15,26
+	.long   WARBELF1
+IRBCGE1:
+	.word   07000H,29,37
+	.long   0e3471H
+	.word   14,27
+	.long   IRBPAL1
+IRBCGE2:
+	.word   07000H,33,34
+	.long   0e51c8H
+	.word   14,26
+	.long   IRBPAL1
+IRBCGE3:
+	.word   07000H,36,35
+	.long   0e7076H
+	.word   14,26
+	.long   IRBPAL1
+IRBCGE4:
+	.word   07000H,34,36
+	.long   0e92eaH
+	.word   14,26
+	.long   IRBPAL1
+IRBCGE5:
+	.word   07000H,29,33
+	.long   0eb462H
+	.word   14,26
+	.long   IRBPAL1
+IRBCGE6:
+	.word   07000H,30,32
+	.long   0ece8dH
+	.word   14,26
+	.long   IRBPAL1
+IRBCGE7:
+	.word   07000H,40,31
+	.long   0ee8cdH
+	.word   21,26
+	.long   IRBPAL1
+IRBCGE8:
+	.word   07000H,46,30
+	.long   0f0ab5H
+	.word   27,25
+	.long   IRBPAL1
+IRBCGE9:
+	.word   07000H,37,31
+	.long   0f3071H
+	.word   19,26
+	.long   IRBPAL1
+IRBCGE10:
+	.word   07000H,30,32
+	.long   0f4fceH
+	.word   13,27
+	.long   IRBPAL1
+IRBCGE11:
+	.word   07000H,29,39
+	.long   0f6a0eH
+	.word   14,26
+	.long   IRBPAL1
+IRBCGE12:
+	.word   07000H,33,40
+	.long   0f88fbH
+	.word   13,26
+	.long   IRBPAL1
+IRBCGE13:
+	.word   07000H,34,39
+	.long   0fad13H
+	.word   13,26
+	.long   IRBPAL1
+IRBCGE14:
+	.word   07000H,32,40
+	.long   0fd155H
+	.word   12,26
+	.long   IRBPAL1
+IRBCGE15:
+	.word   07000H,29,31
+	.long   0ff455H
+	.word   14,26
+	.long   IRBPAL1
+	.TEXT
+

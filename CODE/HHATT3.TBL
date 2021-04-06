@@ -1,0 +1,103 @@
+	.DATA
+HAFI1F01:
+	.word   07980H,113,150
+	.long   03919d1aH
+	.word   43,143
+	.long   HAFI1F01P
+HAFI1F02:
+	.word   07980H,110,150
+	.long   0392e720H
+	.word   41,143
+	.long   HAFI1F01P
+HAFI1F03:
+	.word   07980H,108,150
+	.long   03942c80H
+	.word   40,143
+	.long   HAFI1F01P
+HAFI1F04:
+	.word   07980H,109,149
+	.long   03956f78H
+	.word   41,142
+	.long   HAFI1F01P
+HANU1F01:
+	.word   07680H,127,154
+	.long   0396b2b5H
+	.word   77,144
+	.long   HAFI1F01P
+HANU1F02:
+	.word   07a80H,131,153
+	.long   03980b13H
+	.word   77,143
+	.long   HAFI1F01P
+HANU1F03:
+	.word   07a80H,131,152
+	.long   03996d80H
+	.word   77,142
+	.long   HAFI1F01P
+HANU1F04:
+	.word   07a80H,126,149
+	.long   039ad2a8H
+	.word   76,139
+	.long   HAFI1F01P
+HANU1F05:
+	.word   07680H,123,146
+	.long   039c2f76H
+	.word   76,136
+	.long   HAFI1F01P
+EXCLUSIVE_LL:
+	.word   06000H,204,129
+	.long   039d8008H
+	.word   0,-126
+	.long   SPRTEXP
+EXCLUSIVE_LR:
+	.word   06000H,196,129
+	.long   039fe8d0H
+	.word   -204,-126
+	.long   SPRTEXP
+EXCLUSIVE_UL:
+	.word   06000H,204,126
+	.long   03a23968H
+	.word   0,0
+	.long   SPRTEXP
+EXCLUSIVE_UR:
+	.word   06000H,196,126
+	.long   03a493d8H
+	.word   -204,0
+	.long   SPRTEXP
+TOPICEB2:
+	.word   06000H,196,126
+	.long   03a6d6a8H
+	.word   -204,0
+	.long   TOPICE02P
+TOPICED2:
+	.word   06000H,196,129
+	.long   03a91978H
+	.word   -204,-126
+	.long   TOPICE02P
+COACH:
+	.word   07000H,400,32
+	.long   03ab6a10H
+	.word   0,-13
+	.long   COACHP
+CLPWHST1:
+	.word   07b80H,159,250
+	.long   03acc810H
+	.word   -241,-5
+	.long   CLPWHST1P
+CPLAY1:
+	.word   04d80H,136,103
+	.long   03afb9a6H
+	.word   -254,-152
+	.long   CPLAY1P
+CSTICK1:
+	.word   06f80H,145,149
+	.long   03b0619eH
+	.word   0,0
+	.long   CSTICK1P
+COILOGO1:
+	.word   06580H,72,55
+	.long   03b0f6f4H
+	.word   -3,0
+	.long   COILOGO1P
+	.TEXT
+

@@ -1,0 +1,82 @@
+.struct hhstrc.tvs
+.set sndport 0x1E00000
+.set sndstrb 0xFD00
+.wp LASTPROC,UHL
+.wp THISPROC,UHL
+.wp THISWAKE,UHL
+.wp CPUAVG,UDW
+.wp CPULEFT,UDW
+.wp DMAAVG,UDW
+.wp DMALFT,UDW
+.wp WAVEIRQS,UDL
+.wp WAVECPUBOG,UDL
+.wp WAVEDMABOG,UDL
+.wp WORLDX,SHL
+.wp WORLDY,SHL
+.wp team1_score,UDW
+.wp team2_score,UDW
+.wp track_puck_pointer,UHL
+.wp VC_DIRQ,UDW
+.wp VC_ANIM,UDW
+.wp VCOUNT0,UDW
+.wp VCOUNT1,UDW
+.wp VCOUNT2,UDW
+.wp VCOUNT3,UDW
+.wp period,UDW
+.wp minutes,UHL
+.wp TIMER,UHL
+.wp SUPER_GOALIE,UHW
+
+.km e \ @Vhh.inc"CR"
+.km E \ @Vhh.inc"CR"
+.km v \ @Vhh.tvs"CR"
+.km V \ @Vhhstrc.tvs"CR"
+;**** display SOURCE when cursor on longword in struct or mem display ****
+;.km S @M"CR"S"CR"
+;**** display WORDS when cursor on longword in struct or mem display ****
+;.km W @M"CR"W"CR"
+;**** SET PC TO CURRENT LINE
+.km ^P ^RPC=AD1"CR"
+
+;**** View display page N
+.km 1 \ ^J"HOME"@J*(SUPPLSTS+1*>20)\ ANIMP\ OSLINK"CR"
+.km 9 ^R0C0000090H=0CH,UHL"CR"
+.km 0 ^R0C0000090H=0F02CH,UHL"CR"
+
+;*** REGULAR FUNCTION KEYS
+.km !f1 \ ^J"HOME"@J*ANIOBJS\ ANIM\ AnimNxt"CR"
+.km !f2 \ ^J"HOME"@J*OFREE\ OBJ\ OLINK"CR"
+.km !f3 \ ^J"HOME"@J@JDMAIQSTR\ DMAQUE\ *"CR"
+.km !f4 \ ^J"HOME"@JB13\ DMAQUE\ *"CR"
+.km !f6 \ ^J"HOME"@J*ACTIVE\ PRC\ PLINK"CR"
+.km !f7 \ ^J"HOME"@J*PACTIVE\ PRC\ PLINK"CR"
+.km !f8 \ ^J"HOME"@J*FREE\ PRC\ PLINK"CR"
+.km !f9 \ ^J"HOME"@JFPALRAM\ PALETTE\ *"CR"
+.km !f10 \ ^J"HOME"@JPLAYER_1_BLOCK\ PLAYER\ *"CR"
+.km !f11 \ ^J"HOME"@Jtrack_puck_data\ PUCKPOS\ *"CR"
+.km !f12 \ ^J"HOME"@Jraw_sound_buffer\ SNDQUE\ *"CR"
+
+;*** SHIFT FUNCTION KEYS
+.km !F6 \ ^J"HOME"@J*FREEZE\ PRC\ PLINK"CR"
+.km !F7 \ ^J"HOME"@J*PFREEZE\ PRC\ PLINK"CR"
+
+;*** CONTROL FUNCTION KEYS ***
+.km ^!F1 \ ^J"HOME"@J*(SUPPLSTS+1*>20)\ OBJ\ OSLINK"CR"
+.km ^!F2 \ ^J"HOME"@J*(SUPPLSTS+2*>20)\ OBJ\ OSLINK"CR"
+.km ^!F3 \ ^J"HOME"@J*(SUPPLSTS+3*>20)\ OBJ\ OSLINK"CR"
+.km ^!F4 \ ^J"HOME"@J*(SUPPLSTS+4*>20)\ OBJ\ OSLINK"CR"
+.km ^!F5 \ ^J"HOME"@J*(SUPPLSTS+5*>20)\ OBJ\ OSLINK"CR"
+.km ^!F6 \ ^J"HOME"@J*(SUPPLSTS+6*>20)\ OBJ\ OSLINK"CR"
+.km ^!F7 \ ^J"HOME"@J*(SUPPLSTS+7*>20)\ OBJ\ OSLINK"CR"
+.km ^!F8 \ ^J"HOME"@J*(SUPPLSTS+8*>20)\ OBJ\ OSLINK"CR"
+.km ^!F9 \ ^J"HOME"@J*(SUPPLSTS+9*>20)\ OBJ\ OSLINK"CR"
+.km ^!F10 \ ^J"HOME"@J*(SUPPLSTS+10*>20)\ OBJ\ OSLINK"CR"
+.km ^!F11 \ ^J"HOME"@J*(SUPPLSTS+11*>20)\ OBJ\ OSLINK"CR"
+.km ^!F12 \ ^J"HOME"@J*(SUPPLSTS+12*>20)\ OBJ\ OSLINK"CR"
+
+;*** ALTERNATE FUNCTION KEYS ***
+.km @!F1 \ ^J"HOME"@J*FGLIST\ OBJ\ OLINK\ FGLIST"CR"
+.km @!F2 \ ^J"HOME"@J*>01000000\ OBJ\ OLINK\ FGLIST"CR"
+
+
+

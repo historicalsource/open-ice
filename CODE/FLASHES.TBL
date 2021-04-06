@@ -1,0 +1,18 @@
+	.DATA
+AVALANC2:
+	.word   04a80H,121,14
+	.long   09611H
+	.word   60,2
+	.long   GFONT10CP
+flash1:
+	.word   06480H,23,23
+	.long   0a949H
+	.word   13,9
+	.long   FLASHP
+flash2:
+	.word   06080H,31,31
+	.long   0b121H
+	.word   15,15
+	.long   FLASHP
+	.TEXT
+

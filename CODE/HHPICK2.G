@@ -1,0 +1,14 @@
+;
+;	GLOBALS DEFINED IN HHPICK2.ASM
+;
+;	ROUTINES:
+;
+	.global		GET_READY_MESSAGE
+	.global		DO_BUY_IN
+	.global		DISPLAY_UPDATED_RECORDS
+	.global		SUBSTITUTION_PAGE
+;
+;	RAM:
+;
+
+

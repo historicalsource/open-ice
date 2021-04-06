@@ -1,0 +1,23 @@
+	.DATA
+P01:
+	.word   04000H,9,16
+	.long   07f524e5H
+	.word   4,0
+	.long   FONTGRYP
+P02:
+	.word   04000H,14,16
+	.long   07f52725H
+	.word   6,0
+	.long   FONTGRYP
+P03:
+	.word   04000H,14,16
+	.long   07f52aa5H
+	.word   6,0
+	.long   FONTGRYP
+P04:
+	.word   04000H,14,16
+	.long   07f52e25H
+	.word   6,0
+	.long   FONTGRYP
+	.TEXT
+

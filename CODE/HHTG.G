@@ -1,0 +1,14 @@
+;
+;	GLOBALS DEFINED IN HHTG.ASM
+;
+;	ROUTINES:
+;
+	.global		TONIGHTS_GAME
+	.global		DISPLAY_TEAM_GRAPHICS
+	.global		CHECK_BUTTON_ABORT
+	.global		SLIDE_OFF_COUNT
+;
+;	RAM:
+;
+
+

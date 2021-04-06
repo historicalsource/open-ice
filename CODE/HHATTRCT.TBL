@@ -1,0 +1,53 @@
+	.DATA
+TITLOGO1:
+	.word   00H,204,126
+	.long   064d6f31H
+	.word   0,0
+	.long   TSLOGOP
+TITLOGO2:
+	.word   00H,196,126
+	.long   06509271H
+	.word   -204,0
+	.long   TSLOGOP
+TITLOGO3:
+	.word   00H,204,129
+	.long   06539631H
+	.word   0,-126
+	.long   TSLOGOP
+TITLOGO4:
+	.word   00H,196,129
+	.long   0656cc91H
+	.word   -204,-126
+	.long   TSLOGOP
+NHLPADSC1:
+	.word   04f80H,309,59
+	.long   0659e2b1H
+	.word   154,29
+	.long   DISCLAIMP
+NHLPADSC2:
+	.word   04f80H,221,32
+	.long   065a9265H
+	.word   110,15
+	.long   DISCLAIMP
+NHLPALGO:
+	.word   06b80H,110,123
+	.long   065ac885H
+	.word   54,61
+	.long   NHLPALGOP
+NHLLIC1:
+	.word   06a80H,127,106
+	.long   065b6c71H
+	.word   63,52
+	.long   NHLLOGO4P
+NHLDSC1:
+	.word   04f80H,260,43
+	.long   065c6dadH
+	.word   129,21
+	.long   DISCLAIMP
+ARCHIVE:
+	.word   04780H,132,21
+	.long   065ce655H
+	.word   66,9
+	.long   DISCLAIMP
+	.TEXT
+

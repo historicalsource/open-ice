@@ -1,0 +1,159 @@
+	.DATA
+FONT51A:
+	.word   05080H,46,50
+	.long   065d06d5H
+	.word   0,0
+FONT51B:
+	.word   05080H,46,50
+	.long   065d3218H
+	.word   0,0
+FONT51C:
+	.word   05480H,46,50
+	.long   065d5e5fH
+	.word   0,0
+FONT51D:
+	.word   05080H,46,50
+	.long   065d83d0H
+	.word   0,0
+FONT51E:
+	.word   05480H,46,50
+	.long   065db05dH
+	.word   0,0
+FONT51F:
+	.word   05480H,46,50
+	.long   065ddac9H
+	.word   0,0
+FONT51G:
+	.word   05480H,47,50
+	.long   065dfc93H
+	.word   0,0
+FONT51H:
+	.word   05000H,47,50
+	.long   065e2970H
+	.word   0,0
+FONT51I:
+	.word   05000H,19,50
+	.long   065e5756H
+	.word   0,0
+FONT51J:
+	.word   05180H,47,50
+	.long   065e69e4H
+	.word   0,0
+FONT51K:
+	.word   05080H,47,50
+	.long   065e887fH
+	.word   0,0
+FONT51L:
+	.word   05480H,47,50
+	.long   065eb421H
+	.word   0,0
+FONT51M:
+	.word   05000H,52,50
+	.long   065ed0a5H
+	.word   0,0
+FONT51N:
+	.word   05000H,48,50
+	.long   065f036dH
+	.word   0,0
+FONT51O:
+	.word   05080H,46,50
+	.long   065f324dH
+	.word   0,0
+FONT51P:
+	.word   05480H,46,50
+	.long   065f5d27H
+	.word   0,0
+FONT51Q:
+	.word   05080H,46,50
+	.long   065f8095H
+	.word   0,0
+FONT51R:
+	.word   05080H,46,50
+	.long   065fabc9H
+	.word   0,0
+FONT51S:
+	.word   05580H,46,50
+	.long   065fd798H
+	.word   0,0
+FONT51T:
+	.word   05180H,46,50
+	.long   06600178H
+	.word   0,0
+FONT51U:
+	.word   05080H,46,50
+	.long   06601cfdH
+	.word   0,0
+FONT51V:
+	.word   05080H,46,50
+	.long   0660498aH
+	.word   0,0
+FONT51W:
+	.word   05000H,52,50
+	.long   06606cdfH
+	.word   0,0
+FONT51X:
+	.word   05080H,46,50
+	.long   06609fa7H
+	.word   0,0
+FONT51Y:
+	.word   05080H,46,50
+	.long   0660c8abH
+	.word   0,0
+FONT51Z:
+	.word   05080H,46,50
+	.long   0660e8feH
+	.word   0,0
+FONT511:
+	.word   05080H,27,50
+	.long   06611045H
+	.word   0,0
+FONT512:
+	.word   05480H,46,50
+	.long   066124ccH
+	.word   0,0
+FONT513:
+	.word   05080H,46,50
+	.long   06614fbfH
+	.word   0,0
+FONT514:
+	.word   05180H,46,50
+	.long   06617701H
+	.word   0,0
+FONT515:
+	.word   05580H,46,50
+	.long   06619bd7H
+	.word   0,0
+FONT516:
+	.word   05480H,46,50
+	.long   0661c73dH
+	.word   0,0
+FONT517:
+	.word   05180H,46,50
+	.long   0661f0faH
+	.word   0,0
+FONT518:
+	.word   05080H,46,50
+	.long   06620f36H
+	.word   0,0
+FONT519:
+	.word   05080H,46,50
+	.long   06623920H
+	.word   0,0
+FONT510:
+	.word   05080H,46,50
+	.long   0662633cH
+	.word   0,0
+FONT51EXC:
+	.word   05000H,18,50
+	.long   06628e16H
+	.word   0,0
+FONT51DASH:
+	.word   03000H,34,16
+	.long   06629faaH
+	.word   0,-17
+FONT51PER:
+	.word   03000H,15,16
+	.long   0662a60aH
+	.word   0,-34
+	.TEXT
+

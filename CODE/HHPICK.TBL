@@ -1,0 +1,678 @@
+	.DATA
+STANCHA2a:
+	.word   07580H,85,85
+	.long   062a9d95H
+	.word   42,42
+	.long   STAN128a
+TEAMBCK1:
+	.word   04000H,160,61
+	.long   062b3026H
+	.word   -9,-17
+	.long   TMBKPRPP
+TEAMBX1:
+	.word   06000H,190,123
+	.long   062bc8a6H
+	.word   11,0
+	.long   TEAMBX1P
+SLVFRM07:
+	.word   06000H,161,45
+	.long   062dec62H
+	.word   -9,-78
+	.long   SLVFRM07P
+ANAHEIMS:
+	.word   04000H,53,9
+	.long   062e9630H
+	.word   -6,-6
+	.long   CITYPURPP
+BOSTONS:
+	.word   04000H,49,9
+	.long   062e9da4H
+	.word   -245,-6
+	.long   CITYBLUEP
+BUFFALOS:
+	.word   04000H,55,9
+	.long   062ea488H
+	.word   -245,-18
+	.long   CITYBLUEP
+CALGARYS:
+	.word   04000H,54,9
+	.long   062eac44H
+	.word   -6,-18
+	.long   CITYPURPP
+CHICAGOS:
+	.word   04000H,51,9
+	.long   062eb3dcH
+	.word   -92,-6
+	.long   CITYPURPP
+DALLASS:
+	.word   04000H,48,9
+	.long   062ebb08H
+	.word   -92,-18
+	.long   CITYPURPP
+DETROITS:
+	.word   04080H,53,9
+	.long   062ec1c8H
+	.word   -92,-30
+	.long   CITYPURPP
+EDMONTOS:
+	.word   04000H,67,9
+	.long   062ec934H
+	.word   -6,-42
+	.long   CITYPURPP
+FLORIDAS:
+	.word   04000H,51,9
+	.long   062ed2a0H
+	.word   -156,-6
+	.long   CITYBLUEP
+HARTFORS:
+	.word   04000H,65,9
+	.long   062ed9ccH
+	.word   -245,-30
+	.long   CITYBLUEP
+LOSANGES:
+	.word   04000H,81,9
+	.long   062ee2f0H
+	.word   -6,-54
+	.long   CITYPURPP
+MONTREAS:
+	.word   04080H,67,9
+	.long   062eee54H
+	.word   -245,-42
+	.long   CITYBLUEP
+NEWJERSS:
+	.word   04000H,78,9
+	.long   062ef784H
+	.word   -156,-18
+	.long   CITYBLUEP
+NYISLANS:
+	.word   04000H,84,9
+	.long   062f027cH
+	.word   -156,-42
+	.long   CITYBLUEP
+NYRANGRS:
+	.word   04000H,74,9
+	.long   062f0e4cH
+	.word   -156,-30
+	.long   CITYBLUEP
+OTTAWAS:
+	.word   04000H,51,9
+	.long   062f18b4H
+	.word   -245,-54
+	.long   CITYBLUEP
+PHILADES:
+	.word   04000H,84,9
+	.long   062f1fe0H
+	.word   -156,-54
+	.long   CITYBLUEP
+PITTSBUS:
+	.word   04000H,73,9
+	.long   062f2bb0H
+	.word   -245,-66
+	.long   CITYBLUEP
+COLORADS:
+	.word   04000H,63,9
+	.long   062f35f4H
+	.word   -6,-30
+	.long   CITYPURPP
+SANJOSES:
+	.word   04000H,59,9
+	.long   062f3ed0H
+	.word   -6,-66
+	.long   CITYPURPP
+STLOUISS:
+	.word   04000H,55,9
+	.long   062f471cH
+	.word   -92,-42
+	.long   CITYPURPP
+TAMPAS:
+	.word   04080H,68,9
+	.long   062f4ed8H
+	.word   -156,-66
+	.long   CITYBLUEP
+TORONTOS:
+	.word   04080H,58,9
+	.long   062f5840H
+	.word   -92,-54
+	.long   CITYPURPP
+VANCOUVS:
+	.word   04000H,72,9
+	.long   062f6050H
+	.word   -6,-78
+	.long   CITYPURPP
+WASHINGS:
+	.word   04000H,78,9
+	.long   062f6a70H
+	.word   -156,-78
+	.long   CITYBLUEP
+WINNIPES:
+	.word   04000H,56,9
+	.long   062f7568H
+	.word   -92,-66
+	.long   CITYPURPP
+WEST01:
+	.word   07080H,34,52
+	.long   062f7d48H
+	.word   0,0
+	.long   WESTFLGP
+WEST02:
+	.word   07000H,33,51
+	.long   062fac37H
+	.word   0,0
+	.long   WESTFLGP
+WEST03:
+	.word   07000H,33,51
+	.long   062fda3cH
+	.word   0,0
+	.long   WESTFLGP
+WEST04:
+	.word   07000H,33,52
+	.long   06300841H
+	.word   0,0
+	.long   WESTFLGP
+WEST05:
+	.word   07000H,33,51
+	.long   0630372dH
+	.word   0,0
+	.long   WESTFLGP
+WEST06:
+	.word   07000H,33,51
+	.long   06306532H
+	.word   0,0
+	.long   WESTFLGP
+WEST07:
+	.word   07000H,33,51
+	.long   06309337H
+	.word   0,0
+	.long   WESTFLGP
+WEST08:
+	.word   07000H,33,52
+	.long   0630c13cH
+	.word   0,0
+	.long   WESTFLGP
+WEST09:
+	.word   07000H,33,52
+	.long   0630f028H
+	.word   0,0
+	.long   WESTFLGP
+WEST10:
+	.word   07000H,33,51
+	.long   06311f14H
+	.word   0,0
+	.long   WESTFLGP
+WEST11:
+	.word   07000H,33,51
+	.long   06314d19H
+	.word   0,0
+	.long   WESTFLGP
+WEST12:
+	.word   07000H,33,51
+	.long   06317b1eH
+	.word   0,0
+	.long   WESTFLGP
+WEST13:
+	.word   07000H,33,51
+	.long   0631a923H
+	.word   0,0
+	.long   WESTFLGP
+WEST14:
+	.word   07080H,34,51
+	.long   0631d728H
+	.word   0,0
+	.long   WESTFLGP
+WEST15:
+	.word   07000H,33,51
+	.long   06320591H
+	.word   0,0
+	.long   WESTFLGP
+WEST16:
+	.word   07000H,33,52
+	.long   06323396H
+	.word   0,0
+	.long   WESTFLGP
+WEST17:
+	.word   07000H,33,51
+	.long   06326282H
+	.word   0,0
+	.long   WESTFLGP
+WEST18:
+	.word   07000H,33,51
+	.long   06329087H
+	.word   0,0
+	.long   WESTFLGP
+WEST19:
+	.word   07080H,34,51
+	.long   0632be8cH
+	.word   0,0
+	.long   WESTFLGP
+WEST20:
+	.word   07000H,33,51
+	.long   0632ece7H
+	.word   0,0
+	.long   WESTFLGP
+EAST01:
+	.word   07080H,34,52
+	.long   06331aecH
+	.word   1,0
+	.long   EASTFLGP
+EAST02:
+	.word   07000H,33,51
+	.long   063349dbH
+	.word   0,0
+	.long   EASTFLGP
+EAST03:
+	.word   07000H,33,51
+	.long   063377e0H
+	.word   0,0
+	.long   EASTFLGP
+EAST04:
+	.word   07000H,33,52
+	.long   0633a5e5H
+	.word   0,0
+	.long   EASTFLGP
+EAST05:
+	.word   07000H,33,51
+	.long   0633d4d1H
+	.word   0,0
+	.long   EASTFLGP
+EAST06:
+	.word   07000H,33,51
+	.long   063402d6H
+	.word   0,0
+	.long   EASTFLGP
+EAST07:
+	.word   07000H,33,51
+	.long   063430dbH
+	.word   0,0
+	.long   EASTFLGP
+EAST08:
+	.word   07000H,33,52
+	.long   06345ee0H
+	.word   0,0
+	.long   EASTFLGP
+EAST09:
+	.word   07000H,33,52
+	.long   06348dccH
+	.word   0,0
+	.long   EASTFLGP
+EAST10:
+	.word   07000H,33,51
+	.long   0634bcb8H
+	.word   0,0
+	.long   EASTFLGP
+EAST11:
+	.word   07000H,33,51
+	.long   0634eabdH
+	.word   0,0
+	.long   EASTFLGP
+EAST12:
+	.word   07000H,33,51
+	.long   063518c2H
+	.word   0,0
+	.long   EASTFLGP
+EAST13:
+	.word   07000H,33,51
+	.long   063546c7H
+	.word   0,0
+	.long   EASTFLGP
+EAST14:
+	.word   07080H,34,51
+	.long   063574ccH
+	.word   1,0
+	.long   EASTFLGP
+EAST15:
+	.word   07000H,33,51
+	.long   0635a335H
+	.word   0,0
+	.long   EASTFLGP
+EAST16:
+	.word   07000H,33,52
+	.long   0635d13aH
+	.word   0,0
+	.long   EASTFLGP
+EAST17:
+	.word   07000H,33,51
+	.long   06360026H
+	.word   0,0
+	.long   EASTFLGP
+EAST18:
+	.word   07000H,33,51
+	.long   06362e2bH
+	.word   0,0
+	.long   EASTFLGP
+EAST19:
+	.word   07080H,34,51
+	.long   06365c30H
+	.word   1,0
+	.long   EASTFLGP
+EAST20:
+	.word   07000H,33,51
+	.long   06368a8bH
+	.word   0,0
+	.long   EASTFLGP
+PUCKCRD1:
+	.word   07080H,13,12
+	.long   0636b890H
+	.word   6,5
+	.long   PCKCRDXP
+PCKCRDBX:
+	.word   06000H,50,20
+	.long   0636bc8cH
+	.word   0,0
+	.long   SLVFRM07P
+INITBX01:
+	.word   06000H,195,5
+	.long   0636d3fcH
+	.word   0,0
+	.long   SLVFRM07P
+INITBX02:
+	.word   06000H,5,245
+	.long   0636ead6H
+	.word   0,-5
+	.long   SLVFRM07P
+INITBX03:
+	.word   06000H,7,240
+	.long   0637078cH
+	.word   -94,-5
+	.long   SLVFRM07P
+INITBX04:
+	.word   06000H,5,245
+	.long   06372eecH
+	.word   -190,-5
+	.long   SLVFRM07P
+INITBX05:
+	.word   06000H,185,5
+	.long   06374ba2H
+	.word   -5,-245
+	.long   SLVFRM07P
+METAL1:
+	.word   04000H,204,126
+	.long   06376150H
+	.word   0,0
+	.long   METALP
+METAL2:
+	.word   04000H,196,126
+	.long   0638f2f0H
+	.word   -204,0
+	.long   METALP
+METAL3:
+	.word   04000H,204,129
+	.long   063a74d0H
+	.word   0,-126
+	.long   METALP
+METAL4:
+	.word   04000H,196,129
+	.long   063c1000H
+	.word   -204,-126
+	.long   METALP
+METBEVA:
+	.word   05000H,324,4
+	.long   063d9b10H
+	.word   161,0
+	.long   METBEV2P
+METBEVB:
+	.word   05000H,4,89
+	.long   063db460H
+	.word   161,-4
+	.long   METBEV2P
+METBEVC:
+	.word   04000H,4,89
+	.long   063dbb54H
+	.word   -159,-4
+	.long   METBEV2P
+METBEVD:
+	.word   03000H,316,4
+	.long   063dc0e4H
+	.word   157,-89
+	.long   METBEV2P
+BOTA:
+	.word   05f80H,162,192
+	.long   063dcfb4H
+	.word   0,-21
+	.long   MARKSP
+BOTB:
+	.word   05f80H,163,192
+	.long   063e654cH
+	.word   -237,-21
+	.long   MARKSP
+BOTC:
+	.word   05780H,152,5
+	.long   063f0d54H
+	.word   0,-227
+	.long   MARKSP
+BOTD:
+	.word   05980H,48,58
+	.long   063f198eH
+	.word   -152,-190
+	.long   MARKSP
+BOTE:
+	.word   05680H,47,58
+	.long   063f3274H
+	.word   -200,-190
+	.long   MARKSP
+BOTF:
+	.word   05b80H,153,5
+	.long   063f4a42H
+	.word   -247,-227
+	.long   MARKSP
+CENTA:
+	.word   05080H,17,14
+	.long   063f56b3H
+	.word   -27,-9
+	.long   MARKSP
+CENTB:
+	.word   05080H,17,14
+	.long   063f5b15H
+	.word   -356,-9
+	.long   MARKSP
+CENTC:
+	.word   05080H,17,14
+	.long   063f5f72H
+	.word   -27,-231
+	.long   MARKSP
+CENTD:
+	.word   05080H,17,14
+	.long   063f63d4H
+	.word   -356,-231
+	.long   MARKSP
+CENTE:
+	.word   05380H,83,8
+	.long   063f6831H
+	.word   0,-123
+	.long   MARKSP
+CENTH:
+	.word   05380H,84,8
+	.long   063f6cf9H
+	.word   -316,-123
+	.long   MARKSP
+TOP1A:
+	.word   05b80H,153,5
+	.long   063f71e9H
+	.word   0,-22
+	.long   MARKSP
+TOP1B:
+	.word   05980H,48,58
+	.long   063f7e5aH
+	.word   -153,-6
+	.long   MARKSP
+TOP1C:
+	.word   05680H,47,58
+	.long   063f96b4H
+	.word   -201,-6
+	.long   MARKSP
+TOP1D:
+	.word   05780H,152,5
+	.long   063faf54H
+	.word   -248,-22
+	.long   MARKSP
+TOP1E:
+	.word   05f80H,400,8
+	.long   063fbb8eH
+	.word   0,-246
+	.long   MARKSP
+TOP1F:
+	.word   05f80H,163,192
+	.long   063fdf1eH
+	.word   0,-41
+	.long   MARKSP
+TOP1G:
+	.word   05f80H,162,192
+	.long   0640784eH
+	.word   -238,-41
+	.long   MARKSP
+CENTF:
+	.word   05f80H,117,192
+	.long   06411c96H
+	.word   -83,-31
+	.long   MARKSP
+CENTG:
+	.word   05f80H,116,192
+	.long   06416a4eH
+	.word   -200,-31
+	.long   MARKSP
+POSITION1:
+	.word   05080H,45,70
+	.long   0641b7deH
+	.word   -30,-43
+	.long   MARKSP
+POSITION2:
+	.word   05980H,83,70
+	.long   0641e876H
+	.word   -107,-43
+	.long   MARKSP
+POSITION3:
+	.word   05680H,80,70
+	.long   06423ba0H
+	.word   -207,-43
+	.long   MARKSP
+POSITION4:
+	.word   05280H,84,70
+	.long   06428e0cH
+	.word   -301,-43
+	.long   MARKSP
+POSITION2A:
+	.word   05980H,83,70
+	.long   0642da97H
+	.word   -302,-44
+	.long   MARKSP
+OPENEMB3:
+	.word   05f80H,282,210
+	.long   06432dc1H
+	.word   -57,-24
+	.long   MARKSP
+INSERT11:
+	.word   04280H,61,23
+	.long   064673f5H
+	.word   0,0
+	.long   GFONT10CP
+PRESST11:
+	.word   04280H,56,23
+	.long   064685d5H
+	.word   -3,0
+	.long   GFONT10CP
+JOININ11:
+	.word   04080H,63,11
+	.long   0646999dH
+	.word   -11,-6
+	.long   GFONT10CP
+CHALNEED11:
+	.word   04380H,85,23
+	.long   0646a449H
+	.word   0,0
+	.long   GFONT10CP
+TEAMNEED11:
+	.word   04380H,78,23
+	.long   0646bef9H
+	.word   -3,0
+	.long   GFONT10CP
+FULLGAME10:
+	.word   04380H,64,21
+	.long   0646d811H
+	.word   31,10
+	.long   GFONT10CP
+FULLBOX:
+	.word   06000H,73,29
+	.long   0646ecc1H
+	.word   36,14
+	.long   SLVFRM07P
+JOININ:
+	.word   02000H,40,10
+	.long   06471e5fH
+	.word   -5,-5
+	.long   JOININP
+FREEBOX:
+	.word   04000H,23,15
+	.long   0647217fH
+	.word   12,8
+	.long   FREEBOXP
+CREDITBX:
+	.word   04000H,31,15
+	.long   064726e3H
+	.word   16,8
+	.long   FREEBOXP
+TOPTEN10:
+	.word   04280H,51,21
+	.long   06472e27H
+	.word   25,10
+	.long   GFONT10CP
+INITIALS11:
+	.word   04000H,71,11
+	.long   06473d37H
+	.word   35,0
+	.long   GFONT10CP
+MONTH11:
+	.word   04000H,59,11
+	.long   0647496bH
+	.word   29,0
+	.long   GFONT10CP
+DAY11:
+	.word   04000H,34,11
+	.long   0647538fH
+	.word   16,0
+	.long   GFONT10CP
+YESBLK1:
+	.word   06000H,152,68
+	.long   06475967H
+	.word   75,0
+	.long   SLVFRM07P
+NOBLK1:
+	.word   06000H,110,68
+	.long   06484ba7H
+	.word   54,0
+	.long   SLVFRM07P
+ALPHABET:
+	.word   04380H,81,163
+	.long   0648faf7H
+	.word   0,0
+	.long   GFONT10CP
+MONTHS:
+	.word   04380H,84,159
+	.long   0649ac6bH
+	.word   0,0
+	.long   GFONT10CP
+DAYS:
+	.word   04b80H,84,166
+	.long   064a4973H
+	.word   0,0
+	.long   GFONT10CP
+DAY30:
+	.word   04000H,18,19
+	.long   064b03b3H
+	.word   -22,-147
+	.long   GFONT10CP
+DAY31:
+	.word   04000H,16,19
+	.long   064b090bH
+	.word   -45,-147
+	.long   GFONT10CP
+ATTRIBS_HEADER:
+	.word   01000H,28,23
+	.long   064b83bbH
+	.word   0,0
+	.long   onecolor
+BAR0:
+	.word   04000H,38,4
+	.long   064b863fH
+	.word   0,0
+	.long   BARPAL0
+	.TEXT
+

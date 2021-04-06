@@ -1,0 +1,358 @@
+	.DATA
+THERMO1:
+	.word   02000H,52,5
+	.long   06096d9cH
+	.word   24,12
+	.long   NEWBARx3
+THERMO2:
+	.word   03000H,52,5
+	.long   06096fa4H
+	.word   24,12
+	.long   NEWBARx3
+THERMO3:
+	.word   03000H,52,5
+	.long   060972b0H
+	.word   24,12
+	.long   NEWBARx3
+THERMO4:
+	.word   03000H,52,5
+	.long   060975bcH
+	.word   24,12
+	.long   NEWBARx3
+THERMO5:
+	.word   03000H,52,5
+	.long   060978c8H
+	.word   24,12
+	.long   NEWBARx3
+THERMO6:
+	.word   03000H,52,5
+	.long   06097bd4H
+	.word   24,12
+	.long   NEWBARx3
+THERMO7:
+	.word   03000H,52,5
+	.long   06097ee0H
+	.word   24,12
+	.long   NEWBARx3
+THERMO8:
+	.word   03000H,52,5
+	.long   060981ecH
+	.word   24,12
+	.long   NEWBARx3
+THERMO9:
+	.word   03000H,52,5
+	.long   060984f8H
+	.word   24,12
+	.long   NEWBARx3
+THERMO10:
+	.word   04000H,52,5
+	.long   06098804H
+	.word   24,12
+	.long   NEWBARx3
+THERMO1a:
+	.word   03000H,52,5
+	.long   06098c14H
+	.word   24,12
+	.long   NEWBARx3
+THERMO2a:
+	.word   03000H,52,5
+	.long   06098f20H
+	.word   24,12
+	.long   NEWBARx3
+THERMO3a:
+	.word   03000H,52,5
+	.long   0609922cH
+	.word   24,12
+	.long   NEWBARx3
+THERMO4a:
+	.word   03000H,52,5
+	.long   06099538H
+	.word   24,12
+	.long   NEWBARx3
+THERMO5a:
+	.word   03000H,52,5
+	.long   06099844H
+	.word   24,12
+	.long   NEWBARx3
+THERMO6a:
+	.word   03000H,52,5
+	.long   06099b50H
+	.word   24,12
+	.long   NEWBARx3
+THERMO7a:
+	.word   03000H,52,5
+	.long   06099e5cH
+	.word   24,12
+	.long   NEWBARx3
+THERMO8a:
+	.word   03000H,52,5
+	.long   0609a168H
+	.word   24,12
+	.long   NEWBARx3
+THERMO9a:
+	.word   03000H,52,5
+	.long   0609a474H
+	.word   24,12
+	.long   NEWBARx3
+HOTFLSHl1:
+	.word   03000H,52,7
+	.long   0609a780H
+	.word   27,13
+	.long   HOTNUM1
+HOTFLSHl2:
+	.word   03000H,52,5
+	.long   0609abc4H
+	.word   27,12
+	.long   HOTNUM1
+HOTFLSHl3:
+	.word   03000H,52,5
+	.long   0609aed0H
+	.word   27,12
+	.long   HOTNUM1
+HOTFLSHl4:
+	.word   03000H,52,5
+	.long   0609b1dcH
+	.word   27,12
+	.long   HOTNUM1
+HOTFLSHl5:
+	.word   03000H,52,5
+	.long   0609b4e8H
+	.word   27,12
+	.long   HOTNUM1
+HOTFLSHl6:
+	.word   03000H,52,7
+	.long   0609b7f4H
+	.word   27,13
+	.long   HOTNUM1
+HOTFLSHl7:
+	.word   03000H,52,7
+	.long   0609bc38H
+	.word   27,13
+	.long   HOTNUM1
+HOTFLSHr1:
+	.word   03000H,52,7
+	.long   0609c07cH
+	.word   24,13
+	.long   HOTNUM1
+HOTFLSHr2:
+	.word   03000H,52,5
+	.long   0609c4c0H
+	.word   24,12
+	.long   HOTNUM1
+HOTFLSHr3:
+	.word   03000H,52,5
+	.long   0609a474H
+	.word   24,12
+	.long   HOTNUM1
+HOTFLSHr4:
+	.word   03000H,52,5
+	.long   0609c7ccH
+	.word   24,12
+	.long   HOTNUM1
+HOTFLSHr5:
+	.word   03000H,52,5
+	.long   0609cad8H
+	.word   24,12
+	.long   HOTNUM1
+HOTFLSHr6:
+	.word   03000H,52,7
+	.long   0609cde4H
+	.word   24,13
+	.long   HOTNUM1
+HOTFLSHr7:
+	.word   03000H,52,7
+	.long   0609d228H
+	.word   24,13
+	.long   HOTNUM1
+BIGHOT3:
+	.word   03000H,57,14
+	.long   0609d66cH
+	.word   26,17
+	.long   HOTNUM1
+BIGHOT3l:
+	.word   03000H,58,14
+	.long   0609dfc6H
+	.word   30,17
+	.long   HOTNUM1
+NAMEBAR1:
+	.word   06000H,87,15
+	.long   0609e94aH
+	.word   0,0
+	.long   NAMEBARP
+NAMEBUYIN:
+	.word   06000H,87,15
+	.long   060a07e0H
+	.word   0,0
+	.long   NAMEBAR2P
+GRNTRBO1:
+	.word   02000H,71,5
+	.long   060a2676H
+	.word   0,0
+	.long   GRYTRBOP
+GRNTRBOx:
+	.word   02000H,87,5
+	.long   060a293cH
+	.word   0,0
+	.long   GRYTRBOP
+PRSSTART:
+	.word   02000H,82,7
+	.long   060a2ca2H
+	.word   40,3
+	.long   LSTNME1P
+TOCONTROL:
+	.word   02000H,77,7
+	.long   060a311eH
+	.word   38,3
+	.long   LSTNME1P
+PLEASEWT:
+	.word   02000H,82,7
+	.long   060a3554H
+	.word   40,3
+	.long   LSTNME1P
+INSERTCN:
+	.word   02000H,72,7
+	.long   060a39d0H
+	.word   35,3
+	.long   LSTNME1P
+NMPUCK01:
+	.word   07080H,18,17
+	.long   060a3dc0H
+	.word   9,7
+	.long   NMPUCK01P
+NMPUCK02:
+	.word   07080H,19,17
+	.long   060a44a0H
+	.word   9,7
+	.long   NMPUCK01P
+NMPUCK03:
+	.word   07080H,19,17
+	.long   060a4c1aH
+	.word   9,7
+	.long   NMPUCK01P
+NMPUCK04:
+	.word   07080H,19,17
+	.long   060a53e8H
+	.word   9,7
+	.long   NMPUCK01P
+NMPUCK05:
+	.word   07080H,19,17
+	.long   060a5b8cH
+	.word   9,7
+	.long   NMPUCK01P
+NMPUCK06:
+	.word   07080H,19,16
+	.long   060a634cH
+	.word   9,7
+	.long   NMPUCK01P
+NMPUCK07:
+	.word   07080H,19,15
+	.long   060a6a86H
+	.word   9,7
+	.long   NMPUCK01P
+NMPUCK08:
+	.word   07080H,18,14
+	.long   060a70bcH
+	.word   9,6
+	.long   NMPUCK01P
+NMPUCK09:
+	.word   07080H,17,14
+	.long   060a758cH
+	.word   9,6
+	.long   NMPUCK01P
+PUCKPNTR1:
+	.word   04180H,25,51
+	.long   060a7a7fH
+	.word   12,52
+	.long   PUCKPNT1P
+HELPBX1:
+	.word   06000H,96,97
+	.long   06277be6H
+	.word   47,0
+	.long   GRYBLOCKP
+HELPBX2:
+	.word   06000H,96,75
+	.long   06285626H
+	.word   47,0
+	.long   GRYBLOCKP
+HELPBX3:
+	.word   06000H,96,59
+	.long   0628fee6H
+	.word   47,0
+	.long   GRYBLOCKP
+HELPBX4:
+	.word   06000H,96,52
+	.long   062983a6H
+	.word   47,0
+	.long   GRYBLOCKP
+HELPBK1:
+	.word   01000H,84,85
+	.long   0629f8a6H
+	.word   41,-6
+	.long   HELPBK2P
+HELPBK2:
+	.word   01000H,84,63
+	.long   062a148aH
+	.word   41,-6
+	.long   HELPBK2P
+HELPBK3:
+	.word   01000H,84,47
+	.long   062a2936H
+	.word   41,-6
+	.long   HELPBK2P
+HELPBK4:
+	.word   01000H,84,40
+	.long   062a38a2H
+	.word   41,-6
+	.long   HELPBK2P
+HLPTRBO1:
+	.word   03380H,69,67
+	.long   062a45c2H
+	.word   33,-20
+	.long   INSTRUCP
+HLPGOAL1:
+	.word   02280H,70,21
+	.long   062a66bbH
+	.word   34,-15
+	.long   INSTRUCP
+HLPCPU1:
+	.word   03780H,74,45
+	.long   062a6f4fH
+	.word   36,-20
+	.long   INSTRUCP
+HLPBUTN1:
+	.word   03780H,64,21
+	.long   062a822dH
+	.word   32,-20
+	.long   INSTRUCP
+HLPJOYS1:
+	.word   02280H,42,29
+	.long   062a8c71H
+	.word   21,-20
+	.long   INSTRUCP
+HLPSHOT1:
+	.word   01280H,61,29
+	.long   062a93e9H
+	.word   30,-20
+	.long   INSTRUCP
+HNUM1:
+	.word   04000H,5,10
+	.long   062a990dH
+	.word   -24,-7
+	.long   GFONT10CP
+HNUM2:
+	.word   04000H,8,10
+	.long   062a99d5H
+	.word   -24,-7
+	.long   GFONT10CP
+HNUM3:
+	.word   04000H,8,10
+	.long   062a9b15H
+	.word   -24,-7
+	.long   GFONT10CP
+HNUM4:
+	.word   04000H,8,10
+	.long   062a9c55H
+	.word   -24,-7
+	.long   GFONT10CP
+	.TEXT
+

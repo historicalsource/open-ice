@@ -1,0 +1,43 @@
+	.DATA
+intrmson:
+	.word   01000H,199,23
+	.long   0ba1521H
+	.word   0,0
+	.long   ientpal
+buyin:
+	.word   01000H,113,29
+	.long   0ba2702H
+	.word   0,0
+	.long   ientpal
+gameover:
+	.word   01000H,163,100
+	.long   0ba33cfH
+	.word   0,0
+	.long   ientpal
+bigpuck:
+	.word   03000H,61,34
+	.long   0ba737bH
+	.word   30,10
+	.long   bgppal
+fullgame:
+	.word   01000H,68,20
+	.long   0ba8bc9H
+	.word   0,0
+	.long   fgpal
+onepb:
+	.word   01000H,13,8
+	.long   0ba9119H
+	.word   0,0
+	.long   fgpal
+twopb:
+	.word   01000H,32,9
+	.long   0ba9181H
+	.word   0,0
+	.long   fgpal
+threepb:
+	.word   01000H,52,11
+	.long   0ba92a1H
+	.word   0,0
+	.long   fgpal
+	.TEXT
+

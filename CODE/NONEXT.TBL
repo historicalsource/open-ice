@@ -1,0 +1,8 @@
+	.DATA
+STACHA2a:
+	.word   07580H,85,85
+	.long   00H
+	.word   42,42
+	.long   STAN128a
+	.TEXT
+

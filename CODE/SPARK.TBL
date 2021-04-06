@@ -1,0 +1,28 @@
+	.DATA
+SPARK01:
+	.word   04000H,4,4
+	.long   03dec2f0H
+	.word   1,2
+	.long   SPARKP
+SPARK02:
+	.word   04000H,10,8
+	.long   03dec330H
+	.word   4,4
+	.long   SPARKP
+SPARK03:
+	.word   04080H,14,12
+	.long   03dec470H
+	.word   6,6
+	.long   SPARKP
+SPARK04:
+	.word   04080H,18,16
+	.long   03dec6f0H
+	.word   9,8
+	.long   SPARKP
+SPARK05:
+	.word   04080H,26,22
+	.long   03decae4H
+	.word   13,11
+	.long   SPARKP
+	.TEXT
+

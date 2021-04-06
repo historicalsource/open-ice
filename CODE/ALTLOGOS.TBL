@@ -1,0 +1,8 @@
+	.DATA
+DUCKSLOGO2:
+	.word   05a80H,91,55
+	.long   03fd5bb7H
+	.word   33,25
+	.long   ducks2p
+	.TEXT
+

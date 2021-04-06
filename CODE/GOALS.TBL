@@ -1,0 +1,53 @@
+	.DATA
+goal1a:
+	.word   07180H,42,73
+	.long   060a87cbH
+	.word   37,70
+	.long   GOALP
+goal1b:
+	.word   07580H,34,45
+	.long   060ac213H
+	.word   29,67
+	.long   GOALP
+goal2a:
+	.word   07180H,43,73
+	.long   060ad31fH
+	.word   37,70
+	.long   GOALP
+goal2b:
+	.word   07980H,34,45
+	.long   060b0c79H
+	.word   28,67
+	.long   GOALP
+goal3a:
+	.word   07180H,44,73
+	.long   060b1d77H
+	.word   36,70
+	.long   GOALP
+goal3b:
+	.word   07980H,35,45
+	.long   060b55a4H
+	.word   27,67
+	.long   GOALP
+goal4a:
+	.word   07180H,44,72
+	.long   060b67b3H
+	.word   36,69
+	.long   GOALP
+goal4b:
+	.word   07980H,35,46
+	.long   060b9f45H
+	.word   27,68
+	.long   GOALP
+goal5a:
+	.word   07180H,46,72
+	.long   060bb227H
+	.word   36,69
+	.long   GOALP
+goal5b:
+	.word   07980H,36,43
+	.long   060be862H
+	.word   26,65
+	.long   GOALP
+	.TEXT
+

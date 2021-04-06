@@ -1,0 +1,13 @@
+	.DATA
+statbox:
+	.word   01000H,45,68
+	.long   0be04a0H
+	.word   0,0
+	.long   statbpal
+G_MESS:
+	.word   01000H,37,8
+	.long   0be1094H
+	.word   18,4
+	.long   GC_PAL
+	.TEXT
+

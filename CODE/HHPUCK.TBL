@@ -1,0 +1,303 @@
+	.DATA
+PUCK2:
+	.word   06000H,8,5
+	.long   01c7cb4bH
+	.word   4,2
+	.long   PCKSCRN2P
+puck101:
+	.word   06000H,8,7
+	.long   01c7cc3bH
+	.word   3,3
+	.long   PCKSCRN2P
+puck102:
+	.word   06000H,9,7
+	.long   01c7cd8bH
+	.word   4,3
+	.long   PCKSCRN2P
+puck103:
+	.word   06000H,8,6
+	.long   01c7cf05H
+	.word   3,2
+	.long   PCKSCRN2P
+puck104:
+	.word   06000H,9,3
+	.long   01c7d025H
+	.word   4,1
+	.long   PCKSCRN2P
+puck105:
+	.word   06000H,9,2
+	.long   01c7d0c7H
+	.word   4,0
+	.long   PCKSCRN2P
+puck106:
+	.word   06000H,9,5
+	.long   01c7d133H
+	.word   4,2
+	.long   PCKSCRN2P
+puck107:
+	.word   06000H,9,6
+	.long   01c7d241H
+	.word   4,2
+	.long   PCKSCRN2P
+puck108:
+	.word   06000H,9,6
+	.long   01c7d385H
+	.word   4,2
+	.long   PCKSCRN2P
+puck109:
+	.word   06000H,8,6
+	.long   01c7d4c9H
+	.word   3,2
+	.long   PCKSCRN2P
+puck201:
+	.word   06000H,9,7
+	.long   01c7d5e9H
+	.word   4,3
+	.long   PCKSCRN2P
+puck202:
+	.word   06000H,9,7
+	.long   01c7d763H
+	.word   4,3
+	.long   PCKSCRN2P
+puck203:
+	.word   06000H,8,7
+	.long   01c7d8ddH
+	.word   3,3
+	.long   PCKSCRN2P
+puck204:
+	.word   06000H,8,5
+	.long   01c7da2dH
+	.word   3,2
+	.long   PCKSCRN2P
+puck205:
+	.word   06000H,8,6
+	.long   01c7db1dH
+	.word   4,2
+	.long   PCKSCRN2P
+puck206:
+	.word   06000H,8,5
+	.long   01c7dc3dH
+	.word   3,2
+	.long   PCKSCRN2P
+puck207:
+	.word   06000H,8,5
+	.long   01c7dd2dH
+	.word   4,2
+	.long   PCKSCRN2P
+puck208:
+	.word   06000H,8,6
+	.long   01c7de1dH
+	.word   4,3
+	.long   PCKSCRN2P
+puck209:
+	.word   06000H,9,7
+	.long   01c7df3dH
+	.word   4,4
+	.long   PCKSCRN2P
+puck301:
+	.word   06000H,9,7
+	.long   01c7e0b7H
+	.word   4,3
+	.long   PCKSCRN2P
+puck302:
+	.word   06000H,8,7
+	.long   01c7e231H
+	.word   3,3
+	.long   PCKSCRN2P
+puck303:
+	.word   06000H,8,7
+	.long   01c7e381H
+	.word   4,3
+	.long   PCKSCRN2P
+puck304:
+	.word   06000H,8,7
+	.long   01c7e4d1H
+	.word   4,3
+	.long   PCKSCRN2P
+puck305:
+	.word   06000H,8,5
+	.long   01c7e621H
+	.word   4,2
+	.long   PCKSCRN2P
+puck306:
+	.word   06000H,7,6
+	.long   01c7e711H
+	.word   3,2
+	.long   PCKSCRN2P
+puck307:
+	.word   06000H,8,7
+	.long   01c7e80dH
+	.word   3,3
+	.long   PCKSCRN2P
+puck308:
+	.word   06000H,8,7
+	.long   01c7e95dH
+	.word   3,3
+	.long   PCKSCRN2P
+puck309:
+	.word   06000H,8,7
+	.long   01c7eaadH
+	.word   3,3
+	.long   PCKSCRN2P
+puck401:
+	.word   06000H,8,7
+	.long   01c7ebfdH
+	.word   3,3
+	.long   PCKSCRN2P
+puck402:
+	.word   06000H,8,8
+	.long   01c7ed4dH
+	.word   3,3
+	.long   PCKSCRN2P
+puck403:
+	.word   06000H,8,7
+	.long   01c7eecdH
+	.word   3,3
+	.long   PCKSCRN2P
+puck404:
+	.word   06000H,7,7
+	.long   01c7f01dH
+	.word   3,3
+	.long   PCKSCRN2P
+puck405:
+	.word   06000H,6,6
+	.long   01c7f143H
+	.word   3,3
+	.long   PCKSCRN2P
+puck406:
+	.word   06000H,7,7
+	.long   01c7f21bH
+	.word   3,3
+	.long   PCKSCRN2P
+puck407:
+	.word   06000H,6,8
+	.long   01c7f341H
+	.word   2,3
+	.long   PCKSCRN2P
+puck408:
+	.word   06000H,7,8
+	.long   01c7f461H
+	.word   3,3
+	.long   PCKSCRN2P
+puck409:
+	.word   06000H,7,8
+	.long   01c7f5b1H
+	.word   4,3
+	.long   PCKSCRN2P
+puck501:
+	.word   06000H,9,7
+	.long   01c7f701H
+	.word   4,3
+	.long   PCKSCRN2P
+puck502:
+	.word   06000H,7,7
+	.long   01c7f87bH
+	.word   3,3
+	.long   PCKSCRN2P
+puck503:
+	.word   06000H,6,7
+	.long   01c7f9a1H
+	.word   2,3
+	.long   PCKSCRN2P
+puck504:
+	.word   06000H,3,8
+	.long   01c7fa9dH
+	.word   1,3
+	.long   PCKSCRN2P
+puck505:
+	.word   06000H,3,8
+	.long   01c7fb2dH
+	.word   1,3
+	.long   PCKSCRN2P
+puck506:
+	.word   06000H,6,8
+	.long   01c7fbbdH
+	.word   2,3
+	.long   PCKSCRN2P
+puck507:
+	.word   06000H,7,8
+	.long   01c7fcddH
+	.word   3,3
+	.long   PCKSCRN2P
+puck508:
+	.word   06000H,9,8
+	.long   01c7fe2dH
+	.word   4,3
+	.long   PCKSCRN2P
+puck601:
+	.word   06000H,8,4
+	.long   01c7ffddH
+	.word   3,1
+	.long   PCKSCRN2P
+puck602:
+	.word   06000H,9,3
+	.long   01c8009dH
+	.word   4,1
+	.long   PCKSCRN2P
+puck603:
+	.word   06000H,8,3
+	.long   01c8013fH
+	.word   3,1
+	.long   PCKSCRN2P
+puck604:
+	.word   06000H,10,5
+	.long   01c801cfH
+	.word   4,2
+	.long   PCKSCRN2P
+pckshado:
+	.word   01000H,8,4
+	.long   01c802fbH
+	.word   3,1
+	.long   trailp
+SMBRST01:
+	.word   06000H,9,7
+	.long   01c8031bH
+	.word   5,2
+	.long   SMBRST01P
+SMBRST02:
+	.word   06000H,11,9
+	.long   01c80495H
+	.word   6,3
+	.long   SMBRST01P
+SMBRST03:
+	.word   06000H,14,10
+	.long   01c806e7H
+	.word   7,3
+	.long   SMBRST01P
+SMBRST04:
+	.word   06000H,12,11
+	.long   01c80a2fH
+	.word   6,4
+	.long   SMBRST01P
+SMBRST05:
+	.word   06000H,14,13
+	.long   01c80d47H
+	.word   7,5
+	.long   SMBRST01P
+SMBRST06:
+	.word   06000H,14,13
+	.long   01c8118bH
+	.word   7,5
+	.long   SMBRST01P
+SMBRST07:
+	.word   06000H,13,12
+	.long   01c815cfH
+	.word   6,5
+	.long   SMBRST01P
+SMBRST08:
+	.word   06000H,13,12
+	.long   01c81977H
+	.word   6,5
+	.long   SMBRST01P
+SMBRST09:
+	.word   06000H,14,12
+	.long   01c81d1fH
+	.word   6,4
+	.long   SMBRST01P
+SMBRST10:
+	.word   06000H,14,11
+	.long   01c8210fH
+	.word   6,4
+	.long   SMBRST01P
+	.TEXT
+

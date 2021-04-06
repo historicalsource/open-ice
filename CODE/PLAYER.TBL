@@ -1,0 +1,68 @@
+	.DATA
+arrow1l:
+	.word   04180H,30,19
+	.long   06000000H
+	.word   0,0
+	.long   arrp_pal
+arrow1r:
+	.word   04480H,30,19
+	.long   06000608H
+	.word   0,0
+	.long   arrp_pal
+arrow1t:
+	.word   04080H,25,26
+	.long   06000c18H
+	.word   12,26
+	.long   arrp_pal
+arrow2l:
+	.word   04180H,30,19
+	.long   060012bcH
+	.word   0,0
+	.long   arrb_pal
+arrow2r:
+	.word   04480H,30,19
+	.long   0600191cH
+	.word   0,0
+	.long   arrb_pal
+arrow2t:
+	.word   04080H,25,26
+	.long   06001f5cH
+	.word   12,26
+	.long   arrb_pal
+arrow3l:
+	.word   04180H,30,19
+	.long   06002604H
+	.word   0,0
+	.long   arry_pal
+arrow3r:
+	.word   04480H,30,19
+	.long   06002c64H
+	.word   0,0
+	.long   arry_pal
+arrow3t:
+	.word   04080H,25,26
+	.long   06003294H
+	.word   12,26
+	.long   arry_pal
+arrow4l:
+	.word   04180H,30,19
+	.long   06003938H
+	.word   0,0
+	.long   arrg_pal
+arrow4r:
+	.word   04480H,30,19
+	.long   06003f68H
+	.word   0,0
+	.long   arrg_pal
+arrow4t:
+	.word   04080H,25,26
+	.long   060045c8H
+	.word   12,26
+	.long   arrg_pal
+cpu:
+	.word   04000H,21,11
+	.long   06004c74H
+	.word   9,-2
+	.long   scorep
+	.TEXT
+

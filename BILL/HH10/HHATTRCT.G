@@ -1,0 +1,10 @@
+;
+;	GLOBALS DEFINED IN HHATTRCT.ASM
+;
+;	ROUTINES:
+;
+	.global		ATTRACT_MODE
+;
+;	RAM:
+;
+

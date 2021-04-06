@@ -1,0 +1,92 @@
+;
+;	GLOBALS DEFINED IN HHPUCK.ASM
+;
+;	ROUTINES:
+;
+	.def		PUCK_OBJECT
+	.def		create_puck
+	.def		puck_watch
+	.def		PUCK_LAST_CONTROL
+	.def		PUCK_CONTROL
+	.def		PUCK_INTENDED
+	.def		find_time_to_get_to_point
+	.def		send_puck_to_player
+	.def		NO_PUCK_SLOW
+	.def		PUCK_MODE
+	.def		PUCK_MODE_2
+	.def		send_puck_to_point_xyz
+	.def		put_puck_in_other_direction
+	.def		PUCK_OPEN_CONTROL_TIME
+	.def		PUCK_OPEN_LAST_TIME
+	.def		turn_puck_on
+	.def		turn_puck_off
+	.def		reset_puck_position
+	.def		r_corner_check
+	.def		r_vertical_wall
+	.def		r_horizontal_wall
+	.def		r_rgoal_check
+	.def		r_lgoal_check
+	.def		trigger_puck_sound
+	.def		new_puck_control
+	.def		PUCK_CONTROL_START
+	.def		cpip_control
+	.def		give_puck_shot_gravity
+	.def		send_puck_to_point_xyz_v
+	.def		track_puck_pointer
+	.def		track_puck_data
+	.def		set_puck_outlaw
+	.def		get_puck_y_data_for_t
+	.def		get_puck_data_for_x
+	.def		get_puck_time_for_x
+	.def		puck_owner_data
+	.def		puck_owner_pointer
+	.def		record_puck_a6
+	.def		not_free_receiver
+	.def		send_puck_to_point_xyz_asamev
+	.def		outlaw_puck
+	.def		outlaw_puck2
+	.def		put_puck_outside_net
+	.def		SEND_PUCK_POLAR
+	.def		goal_pass
+	.def		PUCK_GOALIE_CHECK0
+	.def		put_point_in_rink
+	.def		LAST_PUCK_OWNER
+	.def		set_safe_puck_mode_a14
+	.def		set_safe_puck_mode_a4
+	.def		set_safe_puck_mode_a1
+	.def		set_safe_puck_mode_a0
+	.def		put_puck_outside_netp
+	.def		set_puck_script
+	.def		GET_PUCK_CONTROL
+	.def		find_closest_player_to_puck_r
+	.def		send_puck_to_player_boards
+	.def		bhit_dest_time
+	.def		find_time_to_get_to_point_okb
+	.def		PUCK_NEWDIR_TIME
+	.def		compute_bounce_angle
+	.def		slow_object_down
+	.def		killtrails
+	.def		give_puck_gravity
+	.def		puck_shadow_off
+	.def		debug_track_puck
+	.def		are_we_inside_goal
+	.def		put_point_outside_netp
+	.def		get_z_from_x_midpoint
+	.def		PUCK_SHADOW
+	.def		kill_all_trails
+	.def		show_puck_on_fire
+	.def		SHOT_ATTEMPTS
+	.def		SHOTIRQ
+	.def		send_puck_to_player_part1
+	.def		send_puck_to_player_part2
+	.def		GOALIE_MISS
+	.def		last_puck_owner_a14
+	.def		SAVE_FIRE_ANIM
+	.def		SAVE_FIRE_INIT
+	.def		puck_control_blink
+	.def		FIVE_HOLE
+	.def		FIREBALL_INIT
+;
+;	RAM:
+;
+

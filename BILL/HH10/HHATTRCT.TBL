@@ -1,0 +1,148 @@
+	.DATA
+nhllogo:
+	.word   02000H,235,244
+	.long   084a620H
+	.word   111,124
+	.long   nhlpal
+BREW:
+	.word   05000H,148,148
+	.long   0866618H
+	.word   74,71
+	.long   BREWP
+BUFF:
+	.word   06000H,139,139
+	.long   08811e8H
+	.word   68,71
+	.long   BUFFP
+CAL:
+	.word   06000H,160,140
+	.long   089d6beH
+	.word   89,67
+	.long   CALP
+DETROIT:
+	.word   06000H,159,122
+	.long   08be3beH
+	.word   67,67
+	.long   DETROITP
+DEVILS:
+	.word   05000H,156,161
+	.long   08daa62H
+	.word   82,77
+	.long   DEVILSP
+DUCKS:
+	.word   07000H,148,132
+	.long   08f94eeH
+	.word   73,53
+	.long   DUCKSP
+HAWKS:
+	.word   06000H,119,104
+	.long   091ab1eH
+	.word   53,53
+	.long   HAWKSP
+ISLANDE:
+	.word   06000H,155,147
+	.long   092cd2eH
+	.word   76,77
+	.long   ISLANDEP
+JETS:
+	.word   06000H,164,141
+	.long   094e334H
+	.word   89,75
+	.long   JETSP
+NHLPA:
+	.word   06000H,75,100
+	.long   097012cH
+	.word   35,42
+	.long   NHLPAP
+OILER:
+	.word   06000H,146,148
+	.long   097b0f4H
+	.word   73,73
+	.long   OILERP
+OTTOWA:
+	.word   06000H,170,137
+	.long   099ab64H
+	.word   102,75
+	.long   OTTOWAP
+PANTHER:
+	.word   06000H,183,179
+	.long   09bcd40H
+	.word   92,88
+	.long   PANTHERP
+PENGUIN:
+	.word   06000H,164,166
+	.long   09eccfeH
+	.word   81,82
+	.long   PENGUINP
+PHILI:
+	.word   06000H,174,121
+	.long   0a14b0eH
+	.word   83,49
+	.long   PHILIP
+RANGER:
+	.word   06000H,153,144
+	.long   0a33882H
+	.word   75,77
+	.long   RANGERP
+STARS:
+	.word   06000H,173,110
+	.long   0a53ce2H
+	.word   81,50
+	.long   STARSP
+STLOU:
+	.word   06000H,125,105
+	.long   0a6fae6H
+	.word   61,37
+	.long   STLOUP
+WHALER:
+	.word   06000H,138,132
+	.long   0a82e84H
+	.word   68,65
+	.long   WHALERP
+canucks:
+	.word   07000H,177,122
+	.long   0a9d974H
+	.word   73,56
+	.long   canuckp
+tampa:
+	.word   07000H,145,143
+	.long   0ac27eaH
+	.word   56,61
+	.long   tampal
+nordiq:
+	.word   05000H,153,99
+	.long   0ae5ee3H
+	.word   67,51
+	.long   norpal
+canada:
+	.word   06000H,124,85
+	.long   0af86baH
+	.word   61,41
+	.long   canapal
+sharks:
+	.word   07000H,160,156
+	.long   0b07dc2H
+	.word   79,66
+	.long   sharpal
+toronto:
+	.word   04000H,140,150
+	.long   0b32842H
+	.word   68,81
+	.long   torpal
+nhl:
+	.word   05000H,152,151
+	.long   0b47062H
+	.word   76,73
+	.long   nhlpal
+kings:
+	.word   05000H,177,113
+	.long   0b630aaH
+	.word   85,47
+	.long   kingpal
+capital:
+	.word   05000H,147,78
+	.long   0b7b74fH
+	.word   67,42
+	.long   capitpal
+	.TEXT
+

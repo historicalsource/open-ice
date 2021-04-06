@@ -1,0 +1,83 @@
+;
+;	GLOBALS DEFINED IN HHCONTRL.ASM
+;
+;	ROUTINES:
+;
+	.def		control_player
+	.def		pass_puck_sw
+	.def		shoot_puck_sw
+	.def		set_player_script
+	.def		change_tpass
+	.def		change_tshot
+	.def		change_pass
+	.def		change_shot
+	.def		int_control
+	.def		change_tdump
+	.def		change_dump
+	.def		face_travel
+	.def		give_player_control
+	.def		take_player_control
+	.def		clear_all_signals
+	.def		pass_puck
+	.def		move_player
+	.def		face_player
+	.def		drone_rink_check
+	.def		stop_player
+	.def		turbo_shoot_script_done_2
+	.def		turbo_shoot_script_done_1
+	.def		shoot_script_done_2
+	.def		shoot_script_done_1
+	.def		shoot_puck
+	.def		move_player_dir
+	.def		dump_puck
+	.def		get_shot_point_nt
+	.def		get_shot_point_t
+	.def		get_shot_point_ot
+	.def		signal_to_pass
+	.def		signal_to_shoot
+	.def		skater_push
+	.def		pass_script_done_1
+	.def		pass_script_done_2
+	.def		fix_all_signals
+	.def		A_SCRIPT_DONE
+	.def		get_quick_shot_point
+	.def		close_area_check
+	.def		onetime_script_done_1
+	.def		onetime_script_done_2
+	.def		onetime_script_done_ff1
+	.def		no_shoot_release
+	.def		set_player_script_a79
+	.def		take_player_control_a7
+	.def		clean_up_players
+	.def		mina03
+	.def		are_we_intended
+	.def		record_check_a6
+	.def		record_steal_a6
+	.def		onetime_script_done_fff1
+	.def		shad_do
+	.def		move_to_s_no_r
+	.def		GOFF_CONTROL
+	.def		GDEF_CONTROL
+	.def		non_shoot_script_done
+	.def		line_up_for_pass
+	.def		global_control_slow
+	.def		off_control1
+	.def		def_control1
+	.def		off_control2
+	.def		def_control2
+	.def		off_control3
+	.def		def_control3
+	.def		off_control4
+	.def		def_control4
+	.def		off_control5
+	.def		def_control5
+	.def		whack_goalie_count
+	.def		pass_script_done_zero
+	.def		pass_script_done_zero_one
+	.def		read_just_buttons
+	.def		shadow3
+	.def		no_control
+	.def		take_player_control_m
+;
+;	RAM:
+;

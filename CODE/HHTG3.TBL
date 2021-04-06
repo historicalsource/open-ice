@@ -1,0 +1,238 @@
+	.DATA
+LTS0007:
+	.word   06280H,63,31
+	.long   036127d0H
+	.word   62,30
+	.long   LTS0001P
+LTS0008:
+	.word   06380H,77,39
+	.long   03614116H
+	.word   76,38
+	.long   LTS0001P
+LTS0009:
+	.word   06380H,97,48
+	.long   03616780H
+	.word   96,47
+	.long   LTS0001P
+LTS0010:
+	.word   06380H,113,55
+	.long   0361a07aH
+	.word   112,54
+	.long   LTS0001P
+LTS0011:
+	.word   06380H,133,65
+	.long   0361ed56H
+	.word   132,64
+	.long   LTS0001P
+LTS0012:
+	.word   06380H,154,75
+	.long   036253f6H
+	.word   153,74
+	.long   LTS0001P
+LTS0013:
+	.word   06b80H,175,87
+	.long   0362e8d6H
+	.word   174,86
+	.long   LTS0001P
+LTS0014:
+	.word   06f80H,197,97
+	.long   0363b5ccH
+	.word   196,96
+	.long   LTS0001P
+LTS0015:
+	.word   06380H,200,107
+	.long   0364c632H
+	.word   199,106
+	.long   LTS0001P
+BXLT01:
+	.word   05980H,85,43
+	.long   0366191eH
+	.word   45,22
+	.long   BXLT01P
+BXLT02:
+	.word   05980H,90,48
+	.long   03664fafH
+	.word   46,23
+	.long   BXLT01P
+BXLT03:
+	.word   05980H,90,52
+	.long   03668f55H
+	.word   46,26
+	.long   BXLT01P
+BXLT04:
+	.word   05a80H,98,58
+	.long   0366d6f5H
+	.word   50,29
+	.long   BXLT01P
+BXLT05:
+	.word   05a80H,101,61
+	.long   036729ddH
+	.word   52,30
+	.long   BXLT01P
+BXLT06:
+	.word   05a80H,106,68
+	.long   03678606H
+	.word   55,34
+	.long   BXLT01P
+BXLT07:
+	.word   05a80H,113,73
+	.long   0367ee2eH
+	.word   58,36
+	.long   BXLT01P
+BXLT08:
+	.word   05a80H,118,81
+	.long   036864a7H
+	.word   60,40
+	.long   BXLT01P
+BLOGO101:
+	.word   07180H,68,59
+	.long   0368eb19H
+	.word   33,27
+	.long   BLOGO101P
+BLOGO102:
+	.word   07580H,66,59
+	.long   03694be8H
+	.word   33,27
+	.long   BLOGO101P
+BLOGO103:
+	.word   07580H,63,60
+	.long   0369a80aH
+	.word   32,28
+	.long   BLOGO101P
+BLOGO104:
+	.word   07580H,56,60
+	.long   036a00a6H
+	.word   29,28
+	.long   BLOGO101P
+BLOGO105:
+	.word   07080H,48,60
+	.long   036a5082H
+	.word   25,28
+	.long   BLOGO101P
+BLOGO106:
+	.word   07080H,37,61
+	.long   036a9487H
+	.word   20,29
+	.long   BLOGO101P
+BLOGO107:
+	.word   07080H,26,61
+	.long   036aca78H
+	.word   14,29
+	.long   BLOGO101P
+BLOGO108:
+	.word   07080H,15,61
+	.long   036af0e8H
+	.word   8,29
+	.long   BLOGO101P
+BLOGO201:
+	.word   07080H,14,61
+	.long   036b07faH
+	.word   7,29
+	.long   BLOGO201P
+BLOGO202:
+	.word   07080H,25,61
+	.long   036b1ef0H
+	.word   12,29
+	.long   BLOGO201P
+BLOGO203:
+	.word   07080H,38,61
+	.long   036b44e9H
+	.word   18,29
+	.long   BLOGO201P
+BLOGO204:
+	.word   07180H,48,61
+	.long   036b7b2eH
+	.word   23,29
+	.long   BLOGO201P
+BLOGO205:
+	.word   07580H,57,60
+	.long   036bbfceH
+	.word   28,28
+	.long   BLOGO201P
+BLOGO206:
+	.word   07580H,63,60
+	.long   036c1052H
+	.word   31,28
+	.long   BLOGO201P
+BLOGO207:
+	.word   07580H,67,60
+	.long   036c69ceH
+	.word   33,28
+	.long   BLOGO201P
+BLOGO208:
+	.word   07580H,68,60
+	.long   036cc81aH
+	.word   34,28
+	.long   BLOGO201P
+WMASKB02:
+	.word   0680H,81,122
+	.long   036d27a8H
+	.word   44,59
+	.long   BCOLOmsk1
+WMASKB03:
+	.word   0680H,85,122
+	.long   036e0268H
+	.word   46,59
+	.long   BCOLOmsk1
+WMASKB04:
+	.word   0680H,86,123
+	.long   036ee678H
+	.word   47,59
+	.long   BCOLOmsk1
+WMASKB05:
+	.word   0680H,84,123
+	.long   036fcbb0H
+	.word   46,59
+	.long   BCOLOmsk1
+WMASKB06:
+	.word   0680H,80,123
+	.long   0370aba8H
+	.word   43,59
+	.long   BCOLOmsk1
+WMASKB07:
+	.word   0580H,74,123
+	.long   037181c0H
+	.word   40,59
+	.long   BCOLOmsk1
+WMASKB08:
+	.word   0580H,73,123
+	.long   03724b28H
+	.word   36,59
+	.long   BCOLOmsk1
+WMASKC01:
+	.word   0580H,75,128
+	.long   037311c8H
+	.word   40,64
+	.long   BCOLOmsk1
+WMASKC02:
+	.word   0980H,77,128
+	.long   0373dc28H
+	.word   40,64
+	.long   BCOLOmsk1
+WMASKC03:
+	.word   0980H,79,126
+	.long   0374ae58H
+	.word   39,63
+	.long   BCOLOmsk1
+WMASKD01:
+	.word   0a80H,80,121
+	.long   037588a8H
+	.word   37,61
+	.long   BCOLOmsk1
+WMASKD02:
+	.word   0a80H,80,121
+	.long   03766610H
+	.word   37,61
+	.long   BCOLOmsk1
+WMASKD03:
+	.word   0a80H,80,121
+	.long   03774378H
+	.word   37,61
+	.long   BCOLOmsk1
+WMASKD04:
+	.word   0a80H,80,121
+	.long   037820e0H
+	.word   37,61
+	.long   BCOLOmsk1
+	.TEXT
+

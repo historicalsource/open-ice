@@ -1,0 +1,83 @@
+;
+;	GLOBALS DEFINED IN HHCONTRL.ASM
+;
+;	ROUTINES:
+;
+	.global		control_player
+	.global		pass_puck_sw
+	.global		shoot_puck_sw
+	.global		set_player_script
+	.global		change_tpass
+	.global		change_tshot
+	.global		change_pass
+	.global		change_shot
+	.global		int_control
+	.global		change_tdump
+	.global		change_dump
+	.global		face_travel
+	.global		give_player_control
+	.global		take_player_control
+	.global		clear_all_signals
+	.global		pass_puck
+	.global		move_player
+	.global		face_player
+	.global		drone_rink_check
+	.global		stop_player
+	.global		turbo_shoot_script_done_2
+	.global		turbo_shoot_script_done_1
+	.global		shoot_script_done_2
+	.global		shoot_script_done_1
+	.global		shoot_puck
+	.global		move_player_dir
+	.global		dump_puck
+	.global		get_shot_point_nt
+	.global		get_shot_point_t
+	.global		get_shot_point_ot
+	.global		signal_to_pass
+	.global		signal_to_shoot
+	.global		skater_push
+	.global		pass_script_done_1
+	.global		pass_script_done_2
+	.global		fix_all_signals
+	.global		A_SCRIPT_DONE
+	.global		get_quick_shot_point
+	.global		close_area_check
+	.global		onetime_script_done_1
+	.global		onetime_script_done_2
+	.global		onetime_script_done_ff1
+	.global		no_shoot_release
+	.global		set_player_script_a79
+	.global		take_player_control_a7
+	.global		clean_up_players
+	.global		mina03
+	.global		are_we_intended
+	.global		record_check_a6
+	.global		record_steal_a6
+	.global		onetime_script_done_fff1
+	.global		shad_do
+	.global		move_to_s_no_r
+	.global		GOFF_CONTROL
+	.global		GDEF_CONTROL
+	.global		non_shoot_script_done
+	.global		line_up_for_pass
+	.global		global_control_slow
+	.global		off_control1
+	.global		def_control1
+	.global		off_control2
+	.global		def_control2
+	.global		off_control3
+	.global		def_control3
+	.global		off_control4
+	.global		def_control4
+	.global		off_control5
+	.global		def_control5
+	.global		whack_goalie_count
+	.global		pass_script_done_zero
+	.global		pass_script_done_zero_one
+	.global		read_just_buttons
+	.global		shadow3
+	.global		no_control
+	.global		take_player_control_m
+;
+;	RAM:
+;

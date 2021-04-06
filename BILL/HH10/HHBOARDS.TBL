@@ -1,0 +1,58 @@
+	.DATA
+back1:
+	.word   06000H,56,52
+	.long   081b760H
+	.word   0,0
+	.long   allb
+back2:
+	.word   06000H,56,52
+	.long   081fba0H
+	.word   0,0
+	.long   allb
+back3:
+	.word   06000H,56,52
+	.long   0823fe0H
+	.word   0,0
+	.long   allb
+back4:
+	.word   06000H,56,52
+	.long   0828420H
+	.word   0,0
+	.long   allb
+back5:
+	.word   06000H,56,52
+	.long   082c860H
+	.word   0,0
+	.long   allb
+back6:
+	.word   06000H,56,52
+	.long   0830ca0H
+	.word   0,0
+	.long   allb
+back7:
+	.word   06000H,56,52
+	.long   08350e0H
+	.word   0,0
+	.long   allb
+back8:
+	.word   06000H,56,52
+	.long   0839520H
+	.word   0,0
+	.long   allb
+back9:
+	.word   06000H,56,52
+	.long   083d960H
+	.word   0,0
+	.long   allb
+backx1:
+	.word   06000H,56,52
+	.long   0841da0H
+	.word   0,0
+	.long   allb
+backx2:
+	.word   06000H,56,52
+	.long   08461e0H
+	.word   0,0
+	.long   allb
+	.TEXT
+

@@ -1,0 +1,10 @@
+;
+;	GLOBALS DEFINED IN HHUART.ASM
+;
+;	ROUTINES:
+;
+	.global		INITIALIZE_UART
+;
+;	RAM:
+;
+

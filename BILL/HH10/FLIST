@@ -1,0 +1,48 @@
+hh.asm:	MOVE	A0,@SYSCTRL0,L		;Setup system control and
+hh.asm:	MOVE	A0,@SYSCTRL1,L		;Tug the sound board reset line
+hh.asm:	MOVE	A0,@SYSCTRL1,L		;Release the reset line
+hh.asm:	move	a0,@SYSCTRL,W
+hh.asm:	MOVE	A0,@SYSCTRL0,L
+hh.asm:	MOVE	A0,@SYSCTRL1,L
+hh.asm:	move	a0,@SYSCTRL,W
+hh.asm:	MOVE	A0,@SYSCTRL0,L		; XUNIT
+hh.asm:	move	a0,@SYSCTRL1,L		; XUNIT
+hh.asm:	move	a0,@SYSCTRL,W
+hh.asm:*DO SOME SYSCTRL STUFF WHILE INTERRUPTS ARE OFF
+hh.asm:	MOVE	A0,@SYSCTRL1,L	; XUNIT
+hh.asm:	move	a0,@SYSCTRL,W
+hh.asm:	MOVE	A0,@SYSCTRL0,L		; XUNIT
+hh.asm:	MOVE	A0,@SYSCTRL1,L		; XUNIT
+hh.asm:	move	a0,@SYSCTRL,W
+hh.asm:	MOVE	A0,@SYSCTRL0,L		; XUNIT
+hh.asm:	MOVE	A0,@SYSCTRL1,L		; XUNIT
+hh.asm:	move	a0,@SYSCTRL,W
+hh.asm:	MOVE	A0,@SYSCTRL1,L	; XUNIT
+hh.asm:	move	a0,@SYSCTRL,W
+hhcmos.asm:*          THIS SETS (CLRS) THE WRITE CMOS ENABLE BIT IN SYSCTRL0        *
+hhcmos.asm:	move	a14,@SYSCTRL0
+hhcmos.asm:	move	a14,@SYSCTRL0
+hhdtst.asm:	MOVE	A1,@SYSCTRL0,L		; XUNIT
+hhdtst.asm:	move	a1,@SYSCTRL1,L		; XUNIT
+hhdtst.asm:	move	a1,@SYSCTRL,W
+hhdtst.asm:	MOVE	A0,@SYSCTRL0,L		; XUNIT
+hhdtst.asm:	MOVE	A0,@SYSCTRL1,L		; XUNIT
+hhdtst.asm:	move	a0,@SYSCTRL,W
+hhdtst.asm:	MOVE	A0,@SYSCTRL0,L		; XUNIT
+hhdtst.asm:	MOVE	A0,@SYSCTRL1,L		; XUNIT
+hhdtst.asm:	move	a0,@SYSCTRL,W
+hhdtst.asm:	MOVE	A13,@SYSCTRL,W		;MAKE SURE WE'RE WRITING TO BIT MAP
+hhdtst.asm:	MOVE	A13,@SYSCTRL,W
+hhdtst.asm:	MOVE	A13,@SYSCTRL,W
+hhdtst.asm:	move	a14,@SYSCTRL,W		; Image IROM bank 1
+hhdtst.asm:	move	a14,@SYSCTRL,W		; Back to IROM bank 0
+hhdtst.asm:	move	a14,@SYSCTRL,W		; Back to IROM bank 0
+hhdtst.asm:	MOVE	A13,@SYSCTRL0,L		; XUNIT
+hhdtst.asm:	MOVE	A13,@SYSCTRL1,L		; XUNIT
+hhdtst.asm:	move	a13,@SYSCTRL,W
+hhdtst.asm:	MOVE	A0,@SYSCTRL0,L		; XUNIT
+hhdtst.asm:	MOVE	A0,@SYSCTRL1,L		; XUNIT
+hhdtst.asm:	move	a0,@SYSCTRL,W
+hhram.asm:	.BSS	SYSCOPY,16	;RAM COPY OF SYSCTRL LATCH
+hhsnd.asm:	MOVE	A14,@SYSCTRL1,W		;And really assert it here
+hhsnd.asm:	MOVE	A14,@SYSCTRL1,W		;And really release it here

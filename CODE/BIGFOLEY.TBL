@@ -1,0 +1,8 @@
+	.DATA
+BGFOLEY1:
+	.word   07b80H,149,183
+	.long   03fd9820H
+	.word   91,182
+	.long   BGFOLEY1P
+	.TEXT
+

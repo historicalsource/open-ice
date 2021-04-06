@@ -1,0 +1,84 @@
+;
+;	GLOBALS DEFINED IN HHSND.ASM
+;
+;	ROUTINES:
+;
+	.global		LINT2_SERVICE
+	.global		QSNDRST
+	.global		DEBUG_SNDRST
+	.global		FACTORY_VOLUME
+	.global		FACTORY_MINVOL
+	.global		SNDRES
+	.global		do_sound
+	.global		sound_exec
+	.global		set_background_tune
+	.global		send_track_volume
+	.global		set_track_volume
+	.global		SEND_RAW_SOUND
+	.global		do_sound_at_volume
+	.global		cancel_track_sound
+	.global		SOUND_RX
+	.global		ice_skate_track
+	.global		puck_bounce_track
+	.global		puck_ice_track
+	.global		current_tune
+	.global		set_track_priority
+	.global		get_track_time
+	.global		set_track_time
+	.global		get_track_volume
+	.global		track_0_pri
+	.global		track_0_time
+	.global		track_0_last
+	.global		track_0_volume
+	.global		track_1_pri
+	.global		track_1_time
+	.global		track_1_last
+	.global		track_2_pri
+	.global		track_2_time
+	.global		track_2_last
+	.global		track_2_volume
+	.global		track_3_pri
+	.global		track_3_time
+	.global		track_3_last
+	.global		track_3_volume
+	.global		last_track_used
+	.global		kill_all_sound
+	.global		SWITCH_VOLUME_UP
+	.global		SWITCH_VOLUME_DOWN
+	.global		track_1_volume
+	.global		track_4_pri
+	.global		track_4_time
+	.global		track_4_last
+	.global		track_4_volume
+	.global		track_5_pri
+	.global		track_5_time
+	.global		track_5_last
+	.global		track_5_volume
+	.global		set_tune_a0
+	.global		tune_address_5
+	.global		tune_address_4
+	.global		tune_address_3
+	.global		tune_address_2
+	.global		tune_address_1
+	.global		raw_sound_pointer
+	.global		raw_sound_buffer
+	.global		organ_track
+	.global		crowd_track
+	.global		set_select_tune
+	.global		set_intermission_tune
+	.global		init_speech_buffer
+	.global		add_speech_sound_or_time
+	.global		speech_irq
+	.global		add_speech_sound
+	.global		add_speech_time
+	.global		get_speech_time_remaining
+	.global		END_INTERMISSION_TUNE
+	.global		SET_VOLUME
+	.global		kill_all_sound_but_speech
+	.global		set_game_over_tune
+	.global		set_tune_a0_safe
+	.global		kill_all_but_speech_tune
+;
+;	RAM:
+;
+

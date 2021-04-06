@@ -1,0 +1,8 @@
+	.DATA
+PLWAIT:
+	.word   02280H,48,16
+	.long   064c53cbH
+	.word   23,7
+	.long   LSTNME1P
+	.TEXT
+

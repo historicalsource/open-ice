@@ -1,0 +1,18 @@
+	.DATA
+FONT17CRCLR:
+	.word   04000H,17,17
+	.long   02062eH
+	.word   0,0
+	.long   CIRCLERP
+FONT17TM:
+	.word   04000H,19,9
+	.long   020ab2H
+	.word   0,0
+	.long   TRADMARKP
+CIRCLER:
+	.word   02000H,8,9
+	.long   020d5eH
+	.word   0,0
+	.long   GFONT10CP
+	.TEXT
+

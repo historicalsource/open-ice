@@ -1,0 +1,33 @@
+	.DATA
+CONT19:
+	.word   04080H,87,19
+	.long   064b0dcbH
+	.word   44,0
+	.long   GFONT10CP
+PERIOD17:
+	.word   04000H,72,19
+	.long   064b272bH
+	.word   35,-84
+	.long   GFONT10CP
+THIRD18:
+	.word   04480H,36,19
+	.long   064b3c8bH
+	.word   17,-63
+	.long   GFONT10CP
+SECOND18:
+	.word   04480H,36,19
+	.long   064b44a3H
+	.word   17,-63
+	.long   GFONT10CP
+OT18:
+	.word   04080H,35,19
+	.long   064b4cdfH
+	.word   17,-63
+	.long   GFONT10CP
+GETREADYFOR17:
+	.word   04280H,66,61
+	.long   064b56a7H
+	.word   32,0
+	.long   GFONT10CP
+	.TEXT
+

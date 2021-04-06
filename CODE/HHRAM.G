@@ -1,0 +1,79 @@
+;
+;	GLOBALS DEFINED IN HHRAM.ASM
+;
+;	ROUTINES:
+;
+	.global		GAME_STATE
+	.global		RAND
+	.global		IRQSKYE
+	.global		CURPLYRS
+	.global		IRQGNDE
+	.global		COLRTEMP
+	.global		SWSTMN
+	.global		PAGEADDR
+	.global		CPULOW
+	.global		SWSTACK
+	.global		INTADDR
+	.global		DIAG_DFLAG
+	.global		GAMERASE
+	.global		CPULEFT
+	.global		WAVEDISPS
+	.global		GRAMEND
+	.global		SOUND_COPY
+	.global		OldAECol
+	.global		WAVEIRQS
+	.global		PAGE
+	.global		DMACFIGCOPY
+	.global		SKIPDISP
+	.global		NewAECol
+	.global		NOAUTOE
+	.global		GRAMSTRT
+	.global		CPUHI
+	.global		SW2TEMP1
+	.global		SUPRESS_PAGE_FLIP
+	.global		SW2TEMP2
+	.global		OldGNDCol
+	.global		SWTEMP1
+	.global		SWTEMP2
+	.global		CPUAVG
+	.global		NPLAYERS
+	.global		LASTINT
+	.global		NOPGFLIP
+	.global		NewGNDCol
+	.global		SWSTST
+	.global		PALRAM
+	.global		FPALRAM
+	.global		COUNTER_COPY
+	.global		SOUNDSUP
+	.global		RAMTEMP1
+	.global		RAMTEMP2
+	.global		DISPATCH_DELAY
+	.global		COLRTEND
+	.global		PLAYER_BITS
+	.global		VOLUME_SET
+	.global		BLACKOUT
+	.global		LAST_PLAYER_BITS
+	.global		game_frozen
+	.global		GOALIE_CONTROL_4
+	.global		GOALIE_CONTROL_8
+	.global		GTIMES1
+	.global		GTIMEP1
+	.global		GTIMET1
+	.global		GTIMES2
+	.global		GTIMEP2
+	.global		GTIMET2
+	.global		GTIMES5
+	.global		GTIMEP5
+	.global		GTIMET5
+	.global		GTIMES6
+	.global		GTIMEP6
+	.global		GTIMET6
+	.global		SKYCOLOR
+	.global		GROUNDCOLOR
+	.global		MISCOUT_COPY
+	.global		RAMTEMP3
+	.global		STARTSW
+	.global		PLAYERLBITS
+;
+;	RAM:
+;

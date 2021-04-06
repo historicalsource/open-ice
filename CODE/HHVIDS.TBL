@@ -1,0 +1,88 @@
+	.DATA
+OCTOP01:
+	.word   06000H,72,63
+	.long   03f4a327H
+	.word   0,0
+	.long   OCTOP01P
+OCTOP02:
+	.word   06000H,72,63
+	.long   03f50d77H
+	.word   0,0
+OCTOP03:
+	.word   06000H,72,63
+	.long   03f577c7H
+	.word   0,0
+OCTOP04:
+	.word   06000H,72,63
+	.long   03f5e217H
+	.word   0,0
+OCTOP05:
+	.word   06000H,72,63
+	.long   03f64c67H
+	.word   0,0
+OCTOP06:
+	.word   06000H,72,63
+	.long   03f6b6b7H
+	.word   0,0
+OCTOP07:
+	.word   06000H,72,63
+	.long   03f72107H
+	.word   0,0
+OCTOP08:
+	.word   06000H,72,63
+	.long   03f78b57H
+	.word   0,0
+OCTOP09:
+	.word   06000H,72,63
+	.long   03f7f5a7H
+	.word   0,0
+OCTOP10:
+	.word   06000H,72,63
+	.long   03f85ff7H
+	.word   0,0
+OCTOP11:
+	.word   06000H,72,63
+	.long   03f8ca47H
+	.word   0,0
+OCTOP12:
+	.word   06000H,72,63
+	.long   03f93497H
+	.word   0,0
+OCTOP13:
+	.word   06000H,72,63
+	.long   03f99ee7H
+	.word   0,0
+OCTOP14:
+	.word   06000H,72,63
+	.long   03fa0937H
+	.word   0,0
+OCTOP15:
+	.word   06000H,72,63
+	.long   03fa7387H
+	.word   0,0
+OCTOP16:
+	.word   06000H,72,63
+	.long   03faddd7H
+	.word   0,0
+OCTOP17:
+	.word   06000H,72,63
+	.long   03fb4827H
+	.word   0,0
+OCTOP18:
+	.word   06000H,72,63
+	.long   03fbb277H
+	.word   0,0
+OCTOP19:
+	.word   06000H,72,63
+	.long   03fc1cc7H
+	.word   0,0
+OCTOP20:
+	.word   06000H,72,63
+	.long   03fc8717H
+	.word   0,0
+OCTOP21:
+	.word   06000H,72,63
+	.long   03fcf167H
+	.word   0,0
+	.TEXT
+

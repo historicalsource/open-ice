@@ -1,0 +1,8 @@
+	.DATA
+COOLEST:
+	.word   04b80H,195,166
+	.long   07f3c8fdH
+	.word   97,82
+	.long   COOLGP16
+	.TEXT
+

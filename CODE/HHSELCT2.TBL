@@ -1,0 +1,8 @@
+	.DATA
+COLORAD1:
+	.word   05580H,78,61
+	.long   03cb7b18H
+	.word   35,30
+	.long   COLORAD2P
+	.TEXT
+

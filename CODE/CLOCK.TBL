@@ -1,0 +1,303 @@
+	.DATA
+SCORBAR9:
+	.word   06f80H,321,74
+	.long   06215360H
+	.word   0,0
+	.long   SCOREBAR
+OPICESM4:
+	.word   080H,61,47
+	.long   0622cb3cH
+	.word   13,0
+	.long   OPICESM4P
+JITTER1:
+	.word   06f80H,254,62
+	.long   06231d44H
+	.word   5,-13
+	.long   JITTERP
+JITTER2:
+	.word   06f80H,254,62
+	.long   0624370cH
+	.word   5,-13
+	.long   JITTERP
+FIRST:
+	.word   05080H,37,11
+	.long   062550d4H
+	.word   0,0
+	.long   PERIODP
+SECOND:
+	.word   05080H,42,11
+	.long   062557b7H
+	.word   0,0
+	.long   PERIODP
+THIRD:
+	.word   05080H,41,11
+	.long   0625602fH
+	.word   0,0
+	.long   PERIODP
+OT:
+	.word   05080H,29,11
+	.long   0625687aH
+	.word   0,0
+	.long   PERIODP
+SCOR0:
+	.word   04000H,11,16
+	.long   06256dbeH
+	.word   0,0
+	.long   SCORESP
+SCOR1:
+	.word   04000H,8,15
+	.long   0625707eH
+	.word   -2,0
+	.long   SCORESP
+SCOR2:
+	.word   07080H,13,15
+	.long   0625725eH
+	.word   0,0
+	.long   SCORESP
+SCOR3:
+	.word   04000H,12,16
+	.long   062576feH
+	.word   0,0
+	.long   SCORESP
+SCOR4:
+	.word   04000H,11,15
+	.long   062579feH
+	.word   0,0
+	.long   SCORESP
+SCOR5:
+	.word   080H,13,16
+	.long   06257c92H
+	.word   0,0
+	.long   SCORESP
+SCOR6:
+	.word   04000H,12,16
+	.long   0625822aH
+	.word   0,0
+	.long   SCORESP
+SCOR7:
+	.word   04000H,12,15
+	.long   0625852aH
+	.word   0,0
+	.long   SCORESP
+SCOR8:
+	.word   080H,11,16
+	.long   062587faH
+	.word   0,0
+	.long   SCORESP
+SCOR9:
+	.word   04000H,12,16
+	.long   06258d7aH
+	.word   0,0
+	.long   SCORESP
+LED00:
+	.word   04000H,9,9
+	.long   0625907aH
+	.word   0,0
+	.long   LEDSP
+LED01:
+	.word   04000H,9,9
+	.long   062591beH
+	.word   0,0
+	.long   LEDSP
+LED02:
+	.word   04000H,9,9
+	.long   06259302H
+	.word   0,0
+	.long   LEDSP
+LED03:
+	.word   04000H,9,9
+	.long   06259446H
+	.word   0,0
+	.long   LEDSP
+LED04:
+	.word   04000H,9,9
+	.long   0625958aH
+	.word   0,0
+	.long   LEDSP
+LED05:
+	.word   04000H,9,9
+	.long   062596ceH
+	.word   0,0
+	.long   LEDSP
+LED06:
+	.word   04000H,9,9
+	.long   06259812H
+	.word   0,0
+	.long   LEDSP
+LED07:
+	.word   04000H,9,9
+	.long   06259956H
+	.word   0,0
+	.long   LEDSP
+LED08:
+	.word   04000H,9,9
+	.long   06259a9aH
+	.word   0,0
+	.long   LEDSP
+LED09:
+	.word   04000H,9,9
+	.long   06259bdeH
+	.word   0,0
+	.long   LEDSP
+LEDPER:
+	.word   03000H,3,2
+	.long   06259d22H
+	.word   0,0
+	.long   LEDSP
+LEDCOL:
+	.word   03000H,3,5
+	.long   06259d34H
+	.word   0,0
+	.long   LEDSP
+SCRFLSH1:
+	.word   02000H,188,23
+	.long   06259d61H
+	.word   0,0
+	.long   JITTERP
+SCRFLSH2:
+	.word   02000H,188,23
+	.long   0625bf29H
+	.word   0,0
+	.long   JITTERP
+FLOATERC:
+	.word   04000H,56,31
+	.long   0625e0f1H
+	.word   0,0
+	.long   FLOATRCP
+FLOATERD:
+	.word   04000H,56,31
+	.long   0625fc11H
+	.word   0,0
+	.long   FLOATRCP
+FL1STA:
+	.word   02000H,22,6
+	.long   06261731H
+	.word   0,0
+	.long   CITYP
+FL2NDA:
+	.word   02000H,23,6
+	.long   06261839H
+	.word   0,0
+	.long   CITYP
+FL3RDA:
+	.word   02000H,23,6
+	.long   0626194dH
+	.word   0,0
+	.long   CITYP
+FLOTA:
+	.word   02000H,19,6
+	.long   06261a61H
+	.word   0,0
+	.long   CITYP
+FL01:
+	.word   02000H,4,5
+	.long   06261b45H
+	.word   0,0
+	.long   CITYP
+FL02:
+	.word   02000H,4,5
+	.long   06261b6dH
+	.word   0,0
+	.long   CITYP
+FL03:
+	.word   02000H,4,5
+	.long   06261b95H
+	.word   0,0
+	.long   CITYP
+FL04:
+	.word   02000H,4,5
+	.long   06261bbdH
+	.word   0,0
+	.long   CITYP
+FL05:
+	.word   02000H,4,5
+	.long   06261be5H
+	.word   0,0
+	.long   CITYP
+FL06:
+	.word   02000H,4,5
+	.long   06261c0dH
+	.word   0,0
+	.long   CITYP
+FL07:
+	.word   02000H,4,5
+	.long   06261c35H
+	.word   0,0
+	.long   CITYP
+FL08:
+	.word   02000H,4,5
+	.long   06261c5dH
+	.word   0,0
+	.long   CITYP
+FL09:
+	.word   02000H,4,5
+	.long   06261c85H
+	.word   0,0
+	.long   CITYP
+FL00:
+	.word   02000H,4,5
+	.long   06261cadH
+	.word   0,0
+	.long   CITYP
+FLCOL:
+	.word   02000H,4,4
+	.long   06261cd5H
+	.word   0,1
+	.long   CITYP
+FLPER:
+	.word   02000H,4,4
+	.long   06261cf5H
+	.word   0,3
+	.long   CITYP
+FLSC01:
+	.word   02000H,6,7
+	.long   06261d15H
+	.word   0,0
+	.long   CITYP
+FLSC02:
+	.word   02000H,8,7
+	.long   06261d69H
+	.word   0,0
+	.long   CITYP
+FLSC03:
+	.word   02000H,8,7
+	.long   06261dd9H
+	.word   0,0
+	.long   CITYP
+FLSC04:
+	.word   02000H,8,7
+	.long   06261e49H
+	.word   0,0
+	.long   CITYP
+FLSC05:
+	.word   02000H,8,7
+	.long   06261eb9H
+	.word   0,0
+	.long   CITYP
+FLSC06:
+	.word   02000H,8,7
+	.long   06261f29H
+	.word   0,0
+	.long   CITYP
+FLSC07:
+	.word   02000H,8,7
+	.long   06261f99H
+	.word   0,0
+	.long   CITYP
+FLSC08:
+	.word   02000H,8,7
+	.long   06262009H
+	.word   0,0
+	.long   CITYP
+FLSC09:
+	.word   02000H,8,7
+	.long   06262079H
+	.word   0,0
+	.long   CITYP
+FLSC00:
+	.word   02000H,8,7
+	.long   062620e9H
+	.word   0,0
+	.long   CITYP
+	.TEXT
+

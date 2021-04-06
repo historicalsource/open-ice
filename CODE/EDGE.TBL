@@ -1,0 +1,118 @@
+	.DATA
+DS01:
+	.word   00H,3,66
+	.long   028ca478H
+	.word   2,65
+	.long   ALLBORD5
+DS02:
+	.word   00H,8,66
+	.long   028caaa8H
+	.word   7,65
+	.long   ALLBORD5
+DS03:
+	.word   00H,14,66
+	.long   028cbb28H
+	.word   13,65
+	.long   ALLBORD5
+DS04:
+	.word   00H,19,66
+	.long   028cd808H
+	.word   18,65
+	.long   ALLBORD5
+DS05:
+	.word   00H,24,67
+	.long   028cff38H
+	.word   23,65
+	.long   ALLBORD5
+DS07:
+	.word   00H,35,68
+	.long   028d3178H
+	.word   34,65
+	.long   ALLBORD5
+DS08:
+	.word   0880H,40,69
+	.long   028d7bd8H
+	.word   39,65
+	.long   ALLBORD5
+DS10:
+	.word   0880H,51,71
+	.long   028dd200H
+	.word   50,65
+	.long   ALLBORD5
+DSIDEB14:
+	.word   0880H,72,78
+	.long   028e4060H
+	.word   71,65
+	.long   ALLBORD5
+DSIDEB16:
+	.word   0c80H,83,84
+	.long   028ee050H
+	.word   82,65
+	.long   ALLBORD5
+DSIDEB18:
+	.word   0c80H,94,102
+	.long   028f9d90H
+	.word   93,65
+	.long   ALLBORD5
+DSIDEB20:
+	.word   0c80H,104,128
+	.long   02907f60H
+	.word   103,65
+	.long   ALLBORD5
+DSIDEB22:
+	.word   0c80H,115,157
+	.long   02918ce0H
+	.word   114,65
+	.long   ALLBORD5
+DSIDEB24:
+	.word   0c80H,126,190
+	.long   0292cd40H
+	.word   125,65
+	.long   ALLBORD5
+DSIDEB25:
+	.word   0c80H,131,203
+	.long   029453d0H
+	.word   130,65
+	.long   ALLBORD5
+DSIDEB27:
+	.word   0c80H,130,209
+	.long   02960370H
+	.word   129,65
+	.long   ALLBORD5
+DSIDEB28:
+	.word   0c80H,128,213
+	.long   0297b408H
+	.word   127,65
+	.long   ALLBORD5
+DSIDEB28b:
+	.word   0c80H,128,213
+	.long   02995d30H
+	.word   127,65
+	.long   ALLBORD5
+DSIDEB28c:
+	.word   0c80H,128,213
+	.long   029b0640H
+	.word   127,65
+	.long   ALLBORD5
+DSIDEB28d:
+	.word   0c80H,128,213
+	.long   029caf68H
+	.word   127,65
+	.long   ALLBORD5
+DSIDEB28e:
+	.word   0c80H,128,213
+	.long   029e5890H
+	.word   127,65
+	.long   ALLBORD5
+DSIDEB28f:
+	.word   0c80H,128,213
+	.long   02a001b8H
+	.word   127,65
+	.long   ALLBORD5
+DSIDEB28g:
+	.word   0c80H,128,213
+	.long   02a1aae0H
+	.word   127,65
+	.long   ALLBORD5
+	.TEXT
+

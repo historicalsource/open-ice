@@ -1,0 +1,6 @@
+
+system dos4g
+libpath %WATCOM%\lib386\dos
+op stub=wstub.exe
+op stack=16k
+file aotb.obj

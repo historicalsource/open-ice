@@ -1,0 +1,12 @@
+;
+;	GLOBALS DEFINED IN HHSTATS.ASM
+;
+;	ROUTINES:
+;
+	.global		DISPLAY_INTERMISSION_PAGE
+	.global		TOTAL_STAT
+	.global		STARS_INIT
+;
+;	RAM:
+;
+

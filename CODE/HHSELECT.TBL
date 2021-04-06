@@ -1,0 +1,393 @@
+	.DATA
+BLACKHIT:
+	.word   04080H,129,11
+	.long   06005010H
+	.word   60,0
+	.long   GFONT10CP
+BLUESIT:
+	.word   04080H,70,11
+	.long   06006514H
+	.word   31,0
+	.long   GFONT10CP
+BRUINSIT:
+	.word   04080H,77,11
+	.long   06006ff4H
+	.word   34,0
+	.long   GFONT10CP
+CANADIIT:
+	.word   04080H,107,11
+	.long   06007c08H
+	.word   49,0
+	.long   GFONT10CP
+CANUCKIT:
+	.word   04080H,91,11
+	.long   06008d90H
+	.word   41,0
+	.long   GFONT10CP
+CAPITAIT:
+	.word   04080H,94,11
+	.long   06009c58H
+	.word   43,0
+	.long   GFONT10CP
+DEVILSIT:
+	.word   04080H,76,11
+	.long   0600aba4H
+	.word   34,0
+	.long   GFONT10CP
+FLAMESIT:
+	.word   04480H,92,11
+	.long   0600b78cH
+	.word   39,0
+	.long   GFONT10CP
+FLYERSIT:
+	.word   04080H,79,11
+	.long   0600c4ecH
+	.word   35,0
+	.long   GFONT10CP
+ISLANDIT:
+	.word   04080H,109,11
+	.long   0600d158H
+	.word   50,0
+	.long   GFONT10CP
+JETSIT:
+	.word   04080H,59,11
+	.long   0600e2ecH
+	.word   25,0
+	.long   GFONT10CP
+KINGSIT:
+	.word   04080H,66,11
+	.long   0600ebc4H
+	.word   29,0
+	.long   GFONT10CP
+LIGHTNIT:
+	.word   04080H,102,11
+	.long   0600f5f4H
+	.word   46,0
+	.long   GFONT10CP
+MAPLELIT:
+	.word   04080H,137,11
+	.long   06010678H
+	.word   64,0
+	.long   GFONT10CP
+MIGHTYIT:
+	.word   04480H,146,11
+	.long   06011cdcH
+	.word   66,0
+	.long   GFONT10CP
+NORDIQIT:
+	.word   04480H,121,11
+	.long   060133a4H
+	.word   60,0
+	.long   GFONT10CP
+OILERSIT:
+	.word   04080H,74,11
+	.long   060145f0H
+	.word   33,0
+	.long   GFONT10CP
+PANTHEIT:
+	.word   04480H,110,11
+	.long   060151b8H
+	.word   48,0
+	.long   GFONT10CP
+PENGUIIT:
+	.word   04080H,99,11
+	.long   06016230H
+	.word   45,0
+	.long   GFONT10CP
+RANGERIT:
+	.word   04080H,94,11
+	.long   0601720cH
+	.word   43,0
+	.long   GFONT10CP
+REDWINIT:
+	.word   04080H,109,11
+	.long   0601810cH
+	.word   50,0
+	.long   GFONT10CP
+SABRESIT:
+	.word   04080H,83,11
+	.long   060192a0H
+	.word   37,0
+	.long   GFONT10CP
+SENATOIT:
+	.word   04480H,108,11
+	.long   06019fb4H
+	.word   47,0
+	.long   GFONT10CP
+SHARKSIT:
+	.word   04080H,84,11
+	.long   0601afecH
+	.word   38,0
+	.long   GFONT10CP
+STARSIT:
+	.word   04080H,71,11
+	.long   0601bd2cH
+	.word   31,0
+	.long   GFONT10CP
+ANAHEIMIT:
+	.word   04080H,108,11
+	.long   0601c830H
+	.word   53,0
+	.long   GFONT10CP
+BOSTONIT:
+	.word   04080H,76,11
+	.long   0601d9e0H
+	.word   34,0
+	.long   GFONT10CP
+BUFFALOIT:
+	.word   04080H,84,11
+	.long   0601e5d8H
+	.word   38,0
+	.long   GFONT10CP
+CALGARYIT:
+	.word   04080H,82,11
+	.long   0601f368H
+	.word   38,0
+	.long   GFONT10CP
+CHICAGOIT:
+	.word   04080H,75,11
+	.long   0602008cH
+	.word   35,0
+	.long   GFONT10CP
+DALLASIT:
+	.word   04080H,74,11
+	.long   06020cdcH
+	.word   33,0
+	.long   GFONT10CP
+DETROITIT:
+	.word   04080H,81,11
+	.long   06021874H
+	.word   37,0
+	.long   GFONT10CP
+EDMONTONIT:
+	.word   04080H,101,11
+	.long   06022500H
+	.word   47,0
+	.long   GFONT10CP
+FLORIDAIT:
+	.word   04080H,75,11
+	.long   06023544H
+	.word   37,0
+	.long   GFONT10CP
+HARTFORDIT:
+	.word   04080H,96,11
+	.long   06024174H
+	.word   46,0
+	.long   GFONT10CP
+LOSANGELIT:
+	.word   04080H,121,11
+	.long   06025128H
+	.word   56,0
+	.long   GFONT10CP
+MONTREALIT:
+	.word   04080H,94,11
+	.long   060264f0H
+	.word   46,0
+	.long   GFONT10CP
+NEWJERSIT:
+	.word   04080H,118,11
+	.long   0602746cH
+	.word   55,0
+	.long   GFONT10CP
+NEWYORKIT:
+	.word   04080H,96,11
+	.long   06028774H
+	.word   46,0
+	.long   GFONT10CP
+OTTAWAIT:
+	.word   04080H,71,11
+	.long   060296d8H
+	.word   33,0
+	.long   GFONT10CP
+PHILADELIT:
+	.word   04080H,125,11
+	.long   0602a290H
+	.word   57,0
+	.long   GFONT10CP
+PITTSBRGIT:
+	.word   04080H,115,11
+	.long   0602b758H
+	.word   53,0
+	.long   GFONT10CP
+QUEBECIT:
+	.word   04080H,90,11
+	.long   0602ca04H
+	.word   44,0
+	.long   GFONT10CP
+SANJOSEIT:
+	.word   04080H,92,11
+	.long   0602d8e8H
+	.word   41,0
+	.long   GFONT10CP
+STLOUISIT:
+	.word   04080H,90,11
+	.long   0602e78cH
+	.word   40,0
+	.long   GFONT10CP
+TAMPABAYIT:
+	.word   04080H,101,11
+	.long   0602f5dcH
+	.word   48,0
+	.long   GFONT10CP
+TOR0NTOIT:
+	.word   04080H,83,11
+	.long   06030620H
+	.word   41,0
+	.long   GFONT10CP
+VANCOUVERIT:
+	.word   04080H,102,11
+	.long   060313acH
+	.word   47,0
+	.long   GFONT10CP
+WASHINGTIT:
+	.word   04080H,116,11
+	.long   060324c0H
+	.word   54,0
+	.long   GFONT10CP
+WHALERIT:
+	.word   04080H,95,11
+	.long   060337c4H
+	.word   43,0
+	.long   GFONT10CP
+WINNIPEGIT:
+	.word   04080H,86,11
+	.long   0603471cH
+	.word   39,0
+	.long   GFONT10CP
+SPECIALIT:
+	.word   04080H,132,11
+	.long   06035534H
+	.word   66,1
+	.long   GFONT10CP
+SPECIALTM:
+	.word   04c80H,145,17
+	.long   06036accH
+	.word   0,0
+	.long   KCITYP
+BLCKHWK2:
+	.word   06980H,73,53
+	.long   06038e3cH
+	.word   36,26
+	.long   BLCKHWK2P
+KINGS3:
+	.word   05a80H,98,54
+	.long   0603d26eH
+	.word   48,26
+	.long   KINGS3P
+ANAHEIM1:
+	.word   05580H,68,52
+	.long   060417daH
+	.word   33,25
+	.long   ANAHEIM1P
+BOSTON1:
+	.word   05580H,70,55
+	.long   06044c9cH
+	.word   33,27
+	.long   BOSTON1P
+BUFFALO1:
+	.word   05580H,71,59
+	.long   06048978H
+	.word   35,29
+	.long   BUFFALO1P
+CALGARY1:
+	.word   05a80H,78,58
+	.long   0604ce3fH
+	.word   38,28
+	.long   CALGARY1P
+DALLAS1:
+	.word   05980H,89,48
+	.long   0605138fH
+	.word   44,23
+	.long   DALLAS1P
+DETROIT1:
+	.word   04a80H,85,56
+	.long   06054fa7H
+	.word   42,27
+	.long   DETROIT1P
+EDMONTO1:
+	.word   05580H,67,56
+	.long   06058267H
+	.word   33,27
+	.long   EDMONTO1P
+FLORIDA1:
+	.word   06580H,66,65
+	.long   0605bf91H
+	.word   32,32
+	.long   FLORIDA4P
+HARTFOR1:
+	.word   05280H,72,59
+	.long   0605f9c1H
+	.word   35,28
+	.long   HARTFOR1P
+MONTREA1:
+	.word   05580H,93,54
+	.long   06064801H
+	.word   46,26
+	.long   MONTREA1P
+NEWJER1:
+	.word   05980H,67,57
+	.long   060699d9H
+	.word   33,28
+	.long   NEWJER1P
+NWYRKIS1:
+	.word   05580H,79,56
+	.long   0606d7a6H
+	.word   39,27
+	.long   NWYRKIS1P
+NWYRKRA1:
+	.word   04080H,63,60
+	.long   06070e5eH
+	.word   30,29
+	.long   NWYRKRA1P
+OTTAWA1:
+	.word   05680H,84,57
+	.long   0607422eH
+	.word   41,28
+	.long   OTTAWA1P
+PHILADE1:
+	.word   04880H,87,54
+	.long   06078280H
+	.word   43,26
+	.long   PHILADE1P
+PITSBRG1:
+	.word   05580H,71,59
+	.long   0607c50cH
+	.word   35,29
+	.long   PITSBRG1P
+SANJOSE1:
+	.word   05880H,71,58
+	.long   0607f4b1H
+	.word   35,28
+	.long   SANJOSE1P
+STLOUIS1:
+	.word   05880H,71,52
+	.long   06082a7fH
+	.word   35,25
+	.long   STLOUIS1P
+TORONTO1:
+	.word   04580H,64,57
+	.long   06085a4bH
+	.word   31,28
+	.long   TORONTO1P
+VANCOU5:
+	.word   05980H,87,52
+	.long   060880cbH
+	.word   43,25
+	.long   VANCOU1P
+WASHING1:
+	.word   05a80H,70,56
+	.long   0608bd3fH
+	.word   34,27
+	.long   WASHING1P
+WINNIPEG:
+	.word   04680H,83,58
+	.long   0608ed03H
+	.word   41,28
+	.long   WINNPEGP
+TAMPA1:
+	.word   05880H,71,59
+	.long   06092293H
+	.word   35,29
+	.long   TAMPA1P
+	.TEXT
+

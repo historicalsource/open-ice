@@ -1,0 +1,94 @@
+;
+;	GLOBALS DEFINED IN HHPUCK.ASM
+;
+;	ROUTINES:
+;
+	.global		PUCK_OBJECT
+	.global		create_puck
+	.global		puck_watch
+	.global		PUCK_LAST_CONTROL
+	.global		PUCK_CONTROL
+	.global		PUCK_INTENDED
+	.global		find_time_to_get_to_point
+	.global		send_puck_to_player
+	.global		NO_PUCK_SLOW
+	.global		PUCK_MODE
+	.global		PUCK_MODE_2
+	.global		send_puck_to_point_xyz
+	.global		put_puck_in_other_direction
+	.global		PUCK_OPEN_CONTROL_TIME
+	.global		PUCK_OPEN_LAST_TIME
+	.global		turn_puck_on
+	.global		turn_puck_off
+	.global		reset_puck_position
+	.global		r_corner_check
+	.global		r_vertical_wall
+	.global		r_horizontal_wall
+	.global		r_rgoal_check
+	.global		r_lgoal_check
+	.global		trigger_puck_sound
+	.global		new_puck_control
+	.global		PUCK_CONTROL_START
+	.global		give_puck_shot_gravity
+	.global		send_puck_to_point_xyz_v
+	.global		track_puck_pointer
+	.global		track_puck_data
+	.global		set_puck_outlaw
+	.global		cpip_control
+	.global		get_puck_y_data_for_t
+	.global		get_puck_data_for_x
+	.global		get_puck_time_for_x
+	.global		puck_owner_data
+	.global		puck_owner_pointer
+	.global		record_puck_a6
+	.global		not_free_receiver
+	.global		send_puck_to_point_xyz_asamev
+	.global		outlaw_puck
+	.global		outlaw_puck2
+	.global		put_puck_outside_net
+	.global		SEND_PUCK_POLAR
+	.global		goal_pass
+	.global		PUCK_GOALIE_CHECK0
+	.global		put_point_in_rink
+	.global		LAST_PUCK_OWNER
+	.global		set_safe_puck_mode_a14
+	.global		set_safe_puck_mode_a4
+	.global		set_safe_puck_mode_a1
+	.global		set_safe_puck_mode_a0
+	.global		put_puck_outside_netp
+	.global		GOAL_PASS_LEFT
+	.global		GOAL_PASS_RGHT
+	.global		set_puck_script
+	.global		GET_PUCK_CONTROL
+	.global		find_closest_player_to_puck_r
+	.global		send_puck_to_player_boards
+	.global		bhit_dest_time
+	.global		find_time_to_get_to_point_okb
+	.global		PUCK_NEWDIR_TIME
+	.global		compute_bounce_angle
+	.global		slow_object_down
+	.global		killtrails
+	.global		give_puck_gravity
+	.global		puck_shadow_off
+	.global		debug_track_puck
+	.global		are_we_inside_goal
+	.global		put_point_outside_netp
+	.global		get_z_from_x_midpoint
+	.global		PUCK_SHADOW
+	.global		kill_all_trails
+	.global		show_puck_on_fire
+	.global		SHOT_ATTEMPTS
+	.global		SHOTIRQ
+	.global		send_puck_to_player_part1
+	.global		send_puck_to_player_part2
+	.global		GOALIE_MISS
+	.global		last_puck_owner_a14
+	.global		SAVE_FIRE_ANIM
+	.global		SAVE_FIRE_INIT
+	.global		puck_control_blink
+	.global		FIVE_HOLE
+	.global		FIREBALL_INIT
+;
+;	RAM:
+;
+

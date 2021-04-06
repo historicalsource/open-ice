@@ -1,0 +1,58 @@
+	.DATA
+HAD16F01:
+	.word   07a80H,114,138
+	.long   07e69538H
+	.word   67,135
+	.long   HAD16F01P
+HAD16F02:
+	.word   07680H,111,134
+	.long   07e7c7bcH
+	.word   65,133
+	.long   HAD16F01P
+HAD16F03:
+	.word   07a80H,109,134
+	.long   07e8e77aH
+	.word   62,133
+	.long   HAD16F01P
+HAD16F04:
+	.word   07a80H,104,140
+	.long   07ea0070H
+	.word   58,139
+	.long   HAD16F01P
+HAD16F05:
+	.word   07680H,102,148
+	.long   07eb1e04H
+	.word   59,142
+	.long   HAD16F01P
+HAD16F06:
+	.word   07680H,101,153
+	.long   07ec4b6eH
+	.word   59,143
+	.long   HAD16F01P
+HNONOF01:
+	.word   07980H,93,165
+	.long   07ed7b1bH
+	.word   37,137
+	.long   HCLIPF01P
+HNONOF02:
+	.word   07980H,95,165
+	.long   07ee94f4H
+	.word   38,137
+	.long   HCLIPF01P
+HNONOF03:
+	.word   07980H,94,165
+	.long   07efb00fH
+	.word   38,137
+	.long   HCLIPF01P
+HNONOF04:
+	.word   07980H,94,165
+	.long   07f0cdedH
+	.word   38,137
+	.long   HCLIPF01P
+HNONOF05:
+	.word   07980H,94,166
+	.long   07f1eb07H
+	.word   38,138
+	.long   HCLIPF01P
+	.TEXT
+

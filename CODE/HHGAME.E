@@ -1,0 +1,87 @@
+;
+;	GLOBALS DEFINED IN HHGAME.ASM
+;
+;	ROUTINES:
+;
+	.def		player_start
+	.def		check_for_player
+	.def		fix_curplyrs
+	.def		restart_game_mode
+	.def		world_mt_point
+	.def		team1_score
+	.def		team2_score
+	.def		team1
+	.def		team2
+	.def		game_over
+	.def		period_over
+	.def		period_start
+	.def		period
+	.def		find_dist_quick
+	.def		plwatch
+	.def		record_data
+	.def		record_data_pointer
+	.def		puck_op
+	.def		team1_home
+	.def		team2_home
+	.def		find_dist_quick2
+	.def		button_wait
+	.def		all_watch
+	.def		create_rink
+	.def		CROWD_NOISE_PROC
+	.def		ORGAN_PROC
+	.def		nolist
+	.def		MY_WIPEOUT
+	.def		do_we_have_start_credits
+	.def		il_string_m
+	.def		get_period_players
+	.def		hold_net_anim
+	.def		lgoalF_object
+	.def		rgoalF_object
+	.def		TEAM1_SWAP
+	.def		TEAM2_SWAP
+	.def		goal1a
+	.def		lgoalR_object
+	.def		rgoalR_object
+	.def		ledge_object
+	.def		redge_object
+	.def		ledge2_object
+	.def		redge2_object
+	.def		GO_PAL_LIST
+	.def		START_HELP_WINDOWS
+	.def		HELP_WINDOW_COUNT
+	.def		clear_all_player_blocks
+	.def		find_cpu_team
+	.def		COUNT_PLAYER_BITS
+	.def		bw_tab
+	.def		bw_tab_2P
+	.def		MY_WIPEOUT_NOVIDEO
+	.def		my_wipeout_novideo_noprocess
+	.def		team1_score_P1
+	.def		team1_score_P2
+	.def		team2_score_P1
+	.def		team2_score_P2
+	.def		fix_palette_lights
+	.def		fix_palette_lights_off
+	.def		teampal2
+	.def		teampal1
+	.def		SHOW_START_SHIT
+	.def		all_beaten_bits
+	.def		dpl_lst
+	.def		edge_28_piece
+	.def		back_wall_script
+	.def		edge_28_script
+	.def		get_button_s_mask
+	.def		GO_MESS
+	.def		start_game
+	.def		fill_up_ot
+	.def		team1_score_P3
+	.def		team2_score_P3
+	.def		start_game_awin
+	.def		start_game_force_new_initials
+	.def		side_brightness
+	.def		big_fire_inc
+	.def		small_fire_inc
+;
+;	RAM:
+;
+

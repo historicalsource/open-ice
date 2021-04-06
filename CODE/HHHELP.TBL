@@ -1,0 +1,48 @@
+	.DATA
+INSTRBX:
+	.word   06000H,90,114
+	.long   06262989H
+	.word   44,0
+	.long   GRYBLOCKP
+INSTRBK:
+	.word   01000H,78,102
+	.long   06271a01H
+	.word   38,-6
+	.long   HELPBK2P
+INSTRUC1:
+	.word   02680H,62,53
+	.long   06273915H
+	.word   30,-19
+	.long   INSTRUCP
+INSTRUC2:
+	.word   03380H,67,58
+	.long   0627470dH
+	.word   32,-27
+	.long   INSTRUCP
+INSTRUC3:
+	.word   02380H,64,58
+	.long   06276251H
+	.word   31,-27
+	.long   INSTRUCP
+GREENN:
+	.word   03000H,24,5
+	.long   0627764bH
+	.word   25,-75
+	.long   INSTRUCP
+BLUEN:
+	.word   02000H,19,5
+	.long   062777b3H
+	.word   25,-75
+	.long   INSTRUCP
+YELLOWN:
+	.word   03000H,30,5
+	.long   06277871H
+	.word   25,-75
+	.long   INSTRUCP
+PURPLEN:
+	.word   03000H,29,5
+	.long   06277a33H
+	.word   25,-75
+	.long   INSTRUCP
+	.TEXT
+

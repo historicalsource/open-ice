@@ -1,0 +1,23 @@
+	.DATA
+PRSSTART:
+	.word   02000H,85,8
+	.long   03913e1H
+	.word   41,3
+	.long   LSTNME1P
+TOCONTROL:
+	.word   02000H,79,8
+	.long   0391931H
+	.word   38,3
+	.long   LSTNME1P
+PLEASEWT:
+	.word   02000H,84,8
+	.long   0391e21H
+	.word   41,3
+	.long   LSTNME1P
+INSERTCN:
+	.word   02000H,75,8
+	.long   0392361H
+	.word   36,3
+	.long   LSTNME1P
+	.TEXT
+

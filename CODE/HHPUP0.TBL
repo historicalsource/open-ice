@@ -1,0 +1,103 @@
+	.DATA
+G_MESS:
+	.word   04000H,39,10
+	.long   064c5899H
+	.word   19,12
+	.long   GFONT10CP
+BH_MESS:
+	.word   04000H,49,10
+	.long   064c5eb1H
+	.word   24,0
+	.long   GFONT10CP
+HH_MESS:
+	.word   04000H,60,10
+	.long   064c6659H
+	.word   29,0
+	.long   GFONT10CP
+TM_MESS:
+	.word   04000H,108,10
+	.long   064c6fb9H
+	.word   53,0
+	.long   GFONT10CP
+S_MESS:
+	.word   04000H,36,10
+	.long   064c8099H
+	.word   57,12
+	.long   GFONT10CP
+BP_MESS:
+	.word   04000H,49,10
+	.long   064c8639H
+	.word   24,0
+	.long   GFONT10CP
+BS_MESS:
+	.word   04000H,58,10
+	.long   064c8de1H
+	.word   28,0
+	.long   GFONT10CP
+UT_MESS:
+	.word   04000H,97,10
+	.long   064c96f1H
+	.word   48,0
+	.long   GFONT10CP
+UC_MESS:
+	.word   04000H,97,10
+	.long   064ca619H
+	.word   48,0
+	.long   GFONT10CP
+IS_MESS:
+	.word   04280H,54,22
+	.long   064cb541H
+	.word   26,0
+	.long   GFONT10CP
+FTR_MESS:
+	.word   04280H,67,22
+	.long   064cc441H
+	.word   33,0
+	.long   GFONT10CP
+ISH_MESS:
+	.word   04280H,54,22
+	.long   064cd8a5H
+	.word   26,0
+	.long   GFONT10CP
+IC_MESS:
+	.word   04280H,54,22
+	.long   064cea61H
+	.word   26,0
+	.long   GFONT10CP
+IP_MESS:
+	.word   04280H,54,22
+	.long   064cfc1dH
+	.word   26,0
+	.long   GFONT10CP
+IPH_MESS:
+	.word   04280H,85,22
+	.long   064d0cc1H
+	.word   42,0
+	.long   GFONT10CP
+CAO_MESS:
+	.word   04780H,92,22
+	.long   064d2479H
+	.word   45,0
+	.long   GFONT10CP
+FFH_MESS:
+	.word   04280H,53,22
+	.long   064d3d01H
+	.word   26,0
+	.long   GFONT10CP
+FH_MESS:
+	.word   04000H,53,10
+	.long   064d4bf1H
+	.word   26,0
+	.long   GFONT10CP
+TD_MESS:
+	.word   04080H,111,10
+	.long   064d5439H
+	.word   55,0
+	.long   GFONT10CP
+BAH_MESS:
+	.word   04000H,62,10
+	.long   064d6581H
+	.word   30,0
+	.long   GFONT10CP
+	.TEXT
+

@@ -1,0 +1,6 @@
+	.DATA
+HALF12	.set	03e5f570h
+HALF1X	.set	03fa1d70h
+HALF2X	.set	040e4570h
+	.TEXT
+

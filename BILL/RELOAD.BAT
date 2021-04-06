@@ -1,0 +1,17 @@
+loadw HH /RI
+loadw F2 /RI
+loadw F5 /RI
+loadw F7 /RI
+loadw NOW3 /RI
+loadw HH2 /RI
+loadw F1 /RI
+loadw F3 /RI
+loadw F4 /RI
+loadw F6 /RI
+loadw F8 /RI
+loadw F9 /RI
+loadw HHGOAL2 /RI
+loadw HHHEADS3 /RI
+loadw SANS1 /RI
+loadw SANS2 /RI
+loadw MASK3 /RI

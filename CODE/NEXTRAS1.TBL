@@ -1,0 +1,43 @@
+	.DATA
+WR21F04:
+	.word   07000H,82,85
+	.long   01da6f57H
+	.word   43,65,12,78,42,5,-1,22
+WR21F05:
+	.word   07000H,113,79
+	.long   01db2dedH
+	.word   84,68,3,70,74,6,-1,23
+WR21F06:
+	.word   07000H,132,73
+	.long   01dc2206H
+	.word   86,67,6,63,78,7,1,18
+WR21F07:
+	.word   07000H,104,75
+	.long   01dd2982H
+	.word   63,69,8,55,56,6,1,18
+WR21F08:
+	.word   07000H,87,74
+	.long   01ddfecaH
+	.word   49,68,5,57,49,5,1,5
+WR21F09:
+	.word   07000H,55,75
+	.long   01deaed4H
+	.word   22,68,21,61,36,7,1,4
+WR21F10:
+	.word   07000H,98,74
+	.long   01df1f9fH
+	.word   12,67,30,66,40,9,1,13
+WR21F11:
+	.word   07000H,93,70
+	.long   01dfe5ebH
+	.word   11,65,86,65,38,7,1,13
+WR25F04:
+	.word   07000H,67,66
+	.long   01e097edH
+	.word   30,70,8,58,24,4,1,5
+WR25F05:
+	.word   07000H,77,66
+	.long   01e110d7H
+	.word   55,70,7,60,40,5,1,18
+	.TEXT
+

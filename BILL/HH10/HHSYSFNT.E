@@ -1,0 +1,10 @@
+;
+;	GLOBALS DEFINED IN HHSYSFNT.ASM
+;
+;	ROUTINES:
+;
+	.def		SYSFONT
+;
+;	RAM:
+;
+

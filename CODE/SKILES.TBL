@@ -1,0 +1,8 @@
+	.DATA
+SKILESX:
+	.word   06580H,72,60
+	.long   03de89b0H
+	.word   36,59
+	.long   SKILESXP
+	.TEXT
+

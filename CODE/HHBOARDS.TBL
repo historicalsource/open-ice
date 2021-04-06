@@ -1,0 +1,523 @@
+	.DATA
+CSECS01:
+	.word   00H,56,66
+	.long   02226d70H
+	.word   55,65
+	.long   ALLBORD5
+CSECS02:
+	.word   00H,56,66
+	.long   0222e0f0H
+	.word   55,65
+	.long   ALLBORD5
+CSECS03:
+	.word   00H,56,66
+	.long   02235470H
+	.word   55,65
+	.long   ALLBORD5
+CSECS04:
+	.word   00H,56,66
+	.long   0223c7f0H
+	.word   55,65
+	.long   ALLBORD5
+CSECS05:
+	.word   00H,56,66
+	.long   02243b70H
+	.word   55,65
+	.long   ALLBORD5
+CSECS12:
+	.word   00H,56,66
+	.long   0224aef0H
+	.word   55,65
+	.long   ALLBORD5
+CSECS13:
+	.word   00H,56,66
+	.long   02252270H
+	.word   55,65
+	.long   ALLBORD5
+CSECS14:
+	.word   00H,56,66
+	.long   022595f0H
+	.word   55,65
+	.long   ALLBORD5
+CSECS15:
+	.word   00H,56,66
+	.long   02260970H
+	.word   55,65
+	.long   ALLBORD5
+CSECS16:
+	.word   00H,56,66
+	.long   02267cf0H
+	.word   55,65
+	.long   ALLBORD5
+CSECS17:
+	.word   00H,34,66
+	.long   0226f070H
+	.word   33,65
+	.long   ALLBORD5
+CSECS01b:
+	.word   00H,56,66
+	.long   02273690H
+	.word   0,0
+	.long   ALLBORD5
+CSECS02b:
+	.word   00H,56,66
+	.long   0227aa10H
+	.word   0,0
+	.long   ALLBORD5
+CSECS03b:
+	.word   00H,56,66
+	.long   02281d90H
+	.word   0,0
+	.long   ALLBORD5
+CSECS04b:
+	.word   00H,56,66
+	.long   02289110H
+	.word   0,0
+	.long   ALLBORD5
+CSECS05b:
+	.word   00H,56,66
+	.long   02290490H
+	.word   0,0
+	.long   ALLBORD5
+CSECS12b:
+	.word   00H,56,66
+	.long   02297810H
+	.word   0,0
+	.long   ALLBORD5
+CSECS13b:
+	.word   00H,56,66
+	.long   0229eb90H
+	.word   0,0
+	.long   ALLBORD5
+CSECS14b:
+	.word   00H,56,66
+	.long   022a5f10H
+	.word   0,0
+	.long   ALLBORD5
+CSECS15b:
+	.word   00H,56,66
+	.long   022ad290H
+	.word   0,0
+	.long   ALLBORD5
+CSECS16b:
+	.word   00H,56,66
+	.long   022b4610H
+	.word   0,0
+	.long   ALLBORD5
+CSECS17b:
+	.word   00H,34,66
+	.long   022bb990H
+	.word   0,0
+	.long   ALLBORD5
+CSECS06c:
+	.word   00H,56,66
+	.long   022bffb0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS07c:
+	.word   00H,56,66
+	.long   022c7330H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS08c:
+	.word   00H,56,66
+	.long   022ce6b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS09c:
+	.word   00H,56,66
+	.long   022d5a30H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS010c:
+	.word   00H,56,66
+	.long   022dcdb0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS011c:
+	.word   00H,56,66
+	.long   022e4130H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS06e:
+	.word   00H,56,66
+	.long   022eb4b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS07e:
+	.word   00H,56,66
+	.long   022f2830H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS08e:
+	.word   00H,56,66
+	.long   022f9bb0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS09e:
+	.word   00H,56,66
+	.long   02300f30H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS010e:
+	.word   00H,56,66
+	.long   023082b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS011e:
+	.word   00H,56,66
+	.long   0230f630H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS06f:
+	.word   00H,56,66
+	.long   023169b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS07f:
+	.word   00H,56,66
+	.long   0231dd30H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS08f:
+	.word   00H,56,66
+	.long   023250b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS09f:
+	.word   00H,56,66
+	.long   0232c430H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS10f:
+	.word   00H,56,66
+	.long   023337b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS11f:
+	.word   00H,56,66
+	.long   0233ab30H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS06h:
+	.word   00H,56,66
+	.long   02341eb0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS07h:
+	.word   00H,56,66
+	.long   02349230H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS08h:
+	.word   00H,56,66
+	.long   023505b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS09h:
+	.word   00H,56,66
+	.long   02357930H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS10h:
+	.word   00H,56,66
+	.long   0235ecb0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS11h:
+	.word   00H,56,66
+	.long   02366030H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS06i:
+	.word   00H,56,66
+	.long   0236d3b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS07i:
+	.word   00H,56,66
+	.long   02374730H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS08i:
+	.word   00H,56,66
+	.long   0237bab0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS09i:
+	.word   00H,56,66
+	.long   02382e30H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS10i:
+	.word   00H,56,66
+	.long   0238a1b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS11i:
+	.word   00H,56,66
+	.long   02391530H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS06j:
+	.word   00H,56,66
+	.long   023988b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS07j:
+	.word   00H,56,66
+	.long   0239fc30H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS08j:
+	.word   00H,56,66
+	.long   023a6fb0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS09j:
+	.word   00H,56,66
+	.long   023ae330H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS10j:
+	.word   00H,56,66
+	.long   023b56b0H
+	.word   0,0
+	.long   PLAYBEN1x
+CSECS11j:
+	.word   00H,56,66
+	.long   023bca30H
+	.word   0,0
+	.long   PLAYBEN1x
+PLEXIA02:
+	.word   0c80H,166,109
+	.long   023c3db0H
+	.word   106,102
+	.long   CHICORN1
+PLEXIA03:
+	.word   0c80H,166,109
+	.long   023e0908H
+	.word   106,102
+	.long   CHICORN1
+PLEXIA04:
+	.word   0c80H,166,109
+	.long   023fd460H
+	.word   106,102
+	.long   CHICORN1
+PLEXIA05:
+	.word   0c80H,166,109
+	.long   02419fb8H
+	.word   106,102
+	.long   CHICORN1
+PLEXIA06:
+	.word   0c80H,166,109
+	.long   02436b10H
+	.word   106,102
+	.long   CHICORN1
+PLEXIA07:
+	.word   0c80H,166,109
+	.long   02453668H
+	.word   106,102
+	.long   CHICORN1
+PLEXIA08:
+	.word   0c80H,166,109
+	.long   024701c0H
+	.word   106,102
+	.long   CHICORN1
+PLEXIB01:
+	.word   0c80H,166,109
+	.long   0248cd18H
+	.word   106,102
+	.long   CHICORN1
+PLEXIB02:
+	.word   0c80H,166,109
+	.long   024a9870H
+	.word   106,102
+	.long   CHICORN1
+PLEXIB03:
+	.word   0c80H,166,109
+	.long   024c63c8H
+	.word   106,102
+	.long   CHICORN1
+PLEXIC01:
+	.word   0c80H,166,109
+	.long   024e2f20H
+	.word   106,102
+	.long   CHICORN1
+PLEXIC02:
+	.word   0c80H,166,109
+	.long   024ffa78H
+	.word   106,102
+	.long   CHICORN1
+PLEXIC03:
+	.word   0c80H,166,109
+	.long   0251c5d0H
+	.word   106,102
+	.long   CHICORN1
+PLEXID01:
+	.word   0c80H,166,109
+	.long   02539128H
+	.word   106,102
+	.long   CHICORN1
+PLEXID02:
+	.word   0c80H,166,109
+	.long   02555c80H
+	.word   106,102
+	.long   CHICORN1
+PLEXID03:
+	.word   0c80H,166,109
+	.long   025727d8H
+	.word   106,102
+	.long   CHICORN1
+PLEXID04:
+	.word   0c80H,166,109
+	.long   0258f330H
+	.word   106,102
+	.long   CHICORN1
+PLEXID05:
+	.word   0c80H,166,109
+	.long   025abe88H
+	.word   106,102
+	.long   CHICORN1
+PLEXID06:
+	.word   0c80H,166,109
+	.long   025c89e0H
+	.word   106,102
+	.long   CHICORN1
+PLEXIE01:
+	.word   0c80H,166,109
+	.long   025e5538H
+	.word   106,102
+	.long   CHICORN1
+PLEXIE02:
+	.word   0c80H,166,109
+	.long   02602090H
+	.word   106,102
+	.long   CHICORN1
+PLEXIE03:
+	.word   0c80H,166,109
+	.long   0261ebe8H
+	.word   106,102
+	.long   CHICORN1
+PLEXIE04:
+	.word   0c80H,166,109
+	.long   0263b740H
+	.word   106,102
+	.long   CHICORN1
+PLEXIE05:
+	.word   0c80H,166,109
+	.long   02658298H
+	.word   106,102
+	.long   CHICORN1
+PLEXIE06:
+	.word   0c80H,166,109
+	.long   02674df0H
+	.word   106,102
+	.long   CHICORN1
+PLEXIE07:
+	.word   0c80H,166,109
+	.long   02691948H
+	.word   106,102
+	.long   CHICORN1
+PLEXIE08:
+	.word   0c80H,166,109
+	.long   026ae4a0H
+	.word   106,102
+	.long   CHICORN1
+PLEXIE09:
+	.word   0c80H,166,109
+	.long   026caff8H
+	.word   106,102
+	.long   CHICORN1
+PLXSLAM5:
+	.word   0c80H,166,108
+	.long   026e7b50H
+	.word   106,101
+	.long   CHICORN1
+SLAM1:
+	.word   0c80H,166,85
+	.long   02704b50H
+	.word   106,78
+	.long   CHICORN1
+SLAM2:
+	.word   0c80H,166,95
+	.long   0271c0f8H
+	.word   106,88
+	.long   CHICORN1
+SLAM3:
+	.word   0c80H,166,104
+	.long   027352e8H
+	.word   106,97
+	.long   CHICORN1
+SLAM4:
+	.word   0c80H,166,109
+	.long   02750300H
+	.word   106,102
+	.long   CHICORN1
+SLAM8:
+	.word   0c80H,166,95
+	.long   0276ce58H
+	.word   106,88
+	.long   CHICORN1
+SLAM6:
+	.word   0c80H,166,109
+	.long   02786048H
+	.word   106,102
+	.long   CHICORN1
+SLAM7:
+	.word   0c80H,166,104
+	.long   027a2ba0H
+	.word   106,97
+	.long   CHICORN1
+PLEXID01i1:
+	.word   0c80H,166,109
+	.long   027bdbb8H
+	.word   106,102
+	.long   CHICORN1
+PLEXID01i2:
+	.word   0c80H,166,109
+	.long   027da710H
+	.word   106,102
+	.long   CHICORN1
+SLAMXR1:
+	.word   0c80H,177,85
+	.long   027f7268H
+	.word   106,78
+	.long   CHICORN1
+SLAMXR2:
+	.word   0c80H,183,95
+	.long   02810108H
+	.word   106,88
+	.long   CHICORN1
+SLAMXR3:
+	.word   0c80H,185,104
+	.long   0282aab0H
+	.word   106,97
+	.long   CHICORN1
+SLAMXR4:
+	.word   0c80H,175,109
+	.long   02845a48H
+	.word   106,102
+	.long   CHICORN1
+SLAMXR5:
+	.word   0c80H,166,108
+	.long   02860e48H
+	.word   106,101
+	.long   CHICORN1
+SLAMXR6:
+	.word   0c80H,166,109
+	.long   0287bdc8H
+	.word   106,102
+	.long   CHICORN1
+SLAMXR7:
+	.word   0c80H,166,104
+	.long   028964a0H
+	.word   106,97
+	.long   CHICORN1
+SLAMXR8:
+	.word   0c80H,166,108
+	.long   028af6b8H
+	.word   106,101
+	.long   CHICORN1
+	.TEXT
+

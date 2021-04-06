@@ -1,0 +1,68 @@
+	.DATA
+TOPICEA:
+	.word   06000H,204,126
+	.long   03e2b604H
+	.word   0,0
+	.long   TOPICE02P
+TOPICEB:
+	.word   06000H,196,126
+	.long   03e51074H
+	.word   -204,0
+	.long   TOPICE02P
+TOPICEC:
+	.word   06000H,204,129
+	.long   03e75344H
+	.word   0,-126
+	.long   TOPICE02P
+TOPICED:
+	.word   06000H,196,129
+	.long   03e9bc0cH
+	.word   -204,-126
+	.long   TOPICE02P
+HORBAR01:
+	.word   07080H,15,255
+	.long   03ec0ca4H
+	.word   0,0
+	.long   HORBAR01P
+HORBAR02:
+	.word   07000H,333,46
+	.long   03ec66abH
+	.word   -67,0
+	.long   HORBAR01P
+TOPBAR01:
+	.word   07000H,52,255
+	.long   03ee0985H
+	.word   -15,0
+	.long   TOPBAR01P
+STANLY01:
+	.word   06000H,333,29
+	.long   03ef7419H
+	.word   -67,-2
+	.long   STANLY01P
+MOSTGAM1:
+	.word   06000H,264,29
+	.long   03f0566fH
+	.word   -93,-2
+	.long   STANLY01P
+MOSTPOP1:
+	.word   06000H,288,29
+	.long   03f109dfH
+	.word   -74,-2
+	.long   STANLY01P
+MOSTPTS1:
+	.word   06000H,220,29
+	.long   03f1cd9fH
+	.word   -136,-2
+	.long   STANLY01P
+BESTWIN:
+	.word   06000H,314,29
+	.long   03f26327H
+	.word   -86,-2
+	.long   STANLY01P
+TOPBAR02:
+	.word   07000H,52,255
+	.long   03f33893H
+	.word   -15,0
+	.long   TOPBAR01P
+	.TEXT
+

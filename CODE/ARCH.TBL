@@ -1,0 +1,8 @@
+	.DATA
+HOLDING:
+	.word   04000H,126,12
+	.long   07f3b15dH
+	.word   62,-2
+	.long   DISCLAI2P
+	.TEXT
+

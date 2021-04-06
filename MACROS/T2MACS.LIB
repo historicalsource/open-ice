@@ -1,0 +1,30 @@
+!<arch>
+msecwt.asm/     773634842   0     0     0       508       `
+**************************************************************************
+*								         *
+* 	MSECWT								 *
+* 									 *
+* 	Macro to delay the given number of micro-seconds.		 *
+* 									 *
+* 	DELAY = Number micro-seconds to wait				 *
+* 									 *
+* 	Note: Trashes A14						 *
+*								         *
+**************************************************************************
+MSECWT	.macro	DELAY
+	MOVI	(:DELAY:*MICRO_SECOND)/2,A14	;Load the time
+	DSJS	A14,$				;And wait it out
+	.endm
+p_fork.asm/     774838678   0     0     0       127       `
+*
+*PROCESS CREATION MACRO
+*P1=ID-->A1, P2=PC-->A7
+*
+P_FORK	.macro	P1
+	MOVI	:P1:,A7,L
+	CALLA	PROCESS_FORK
+	.endm
+
+
+
+

@@ -1,0 +1,15 @@
+	.DATA
+GPI13F03:
+	.word   07000H,49,75
+	.long   07fe72edH
+	.word   28,69,28,72,32,6,-1,17
+GPI13F07:
+	.word   07000H,58,75
+	.long   07fed76aH
+	.word   31,69,31,73,34,6,-1,17
+GPI13F08:
+	.word   07000H,59,75
+	.long   07ff4e5cH
+	.word   31,69,31,72,33,6,-1,17
+	.TEXT
+

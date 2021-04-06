@@ -1,0 +1,223 @@
+	.DATA
+BK3002:
+	.word   03a80H,71,42
+	.long   03ee92fH
+	.word   70,31
+	.long   BK3052P
+BK3052:
+	.word   03e80H,76,44
+	.long   03f0561H
+	.word   75,31
+	.long   BK3052P
+BK3102:
+	.word   03e80H,82,47
+	.long   03f23b9H
+	.word   81,31
+	.long   BK3052P
+BK3152:
+	.word   03e80H,87,50
+	.long   03f44cfH
+	.word   86,31
+	.long   BK3052P
+BK3202:
+	.word   03e80H,92,57
+	.long   03f6879H
+	.word   91,31
+	.long   BK3052P
+BK3252:
+	.word   03e80H,98,68
+	.long   03f8ef5H
+	.word   97,31
+	.long   BK3052P
+BK3302:
+	.word   03e80H,103,81
+	.long   03fb8d5H
+	.word   102,31
+	.long   BK3052P
+BK3352:
+	.word   03e80H,108,94
+	.long   03fe782H
+	.word   107,31
+	.long   BK3052P
+BK3402:
+	.word   03e80H,114,108
+	.long   040190aH
+	.word   113,31
+	.long   BK3052P
+BK3452:
+	.word   03e80H,119,123
+	.long   0404e4aH
+	.word   118,31
+	.long   BK3052P
+BK3502:
+	.word   03e80H,124,139
+	.long   0408915H
+	.word   123,31
+	.long   BK3052P
+BK3552:
+	.word   03e80H,130,156
+	.long   040c769H
+	.word   129,31
+	.long   BK3052P
+BK3602:
+	.word   03f80H,135,169
+	.long   0410ce1H
+	.word   134,31
+	.long   BK3052P
+BK3652:
+	.word   03e80H,137,179
+	.long   0415846H
+	.word   136,31
+	.long   BK3052P
+BK3702:
+	.word   03e80H,134,175
+	.long   041a78bH
+	.word   133,31
+	.long   BK3052P
+BK3752:
+	.word   03e80H,132,179
+	.long   041f2f9H
+	.word   131,31
+	.long   BK3052P
+BK240:
+	.word   03000H,7,32
+	.long   0423d91H
+	.word   6,31
+	.long   BK3052P
+BK245:
+	.word   03000H,12,32
+	.long   0424031H
+	.word   11,31
+	.long   BK3052P
+BK250:
+	.word   03000H,18,32
+	.long   04244b1H
+	.word   17,31
+	.long   BK3052P
+BK255:
+	.word   03000H,23,33
+	.long   0424b71H
+	.word   22,31
+	.long   BK3052P
+BK260:
+	.word   03000H,28,33
+	.long   0425456H
+	.word   27,31
+	.long   BK3052P
+BK265:
+	.word   03000H,34,34
+	.long   0425f2aH
+	.word   33,31
+	.long   BK3052P
+BK270:
+	.word   03580H,39,34
+	.long   0426cb6H
+	.word   38,31
+	.long   BK3052P
+BK275:
+	.word   03980H,44,35
+	.long   0427c3cH
+	.word   43,31
+	.long   BK3052P
+BK280:
+	.word   03a80H,50,36
+	.long   0428dc2H
+	.word   49,31
+	.long   BK3052P
+BK285:
+	.word   03a80H,55,37
+	.long   042a18aH
+	.word   54,31
+	.long   BK3052P
+BK290:
+	.word   03a80H,60,39
+	.long   042b743H
+	.word   59,31
+	.long   BK3052P
+BK295:
+	.word   03a80H,66,40
+	.long   042cf2bH
+	.word   65,31
+	.long   BK3052P
+BK3003:
+	.word   02000H,5,46
+	.long   042e937H
+	.word   4,45
+	.long   BK3003P
+BK3053:
+	.word   02000H,13,46
+	.long   042eb03H
+	.word   12,45
+	.long   BK3003P
+BK3103:
+	.word   02180H,21,47
+	.long   042efafH
+	.word   20,46
+	.long   BK3003P
+BK3153:
+	.word   02580H,29,48
+	.long   042f559H
+	.word   28,47
+	.long   BK3003P
+BK3203:
+	.word   02a80H,37,49
+	.long   042fb39H
+	.word   36,48
+	.long   BK3003P
+BK3253:
+	.word   02a80H,45,50
+	.long   04301fbH
+	.word   44,49
+	.long   BK3003P
+BK3303:
+	.word   02a80H,53,51
+	.long   04308dfH
+	.word   52,50
+	.long   BK3003P
+BK3353:
+	.word   02a80H,61,54
+	.long   043102dH
+	.word   60,53
+	.long   BK3003P
+BK3403:
+	.word   02b80H,69,56
+	.long   04318f9H
+	.word   68,55
+	.long   BK3003P
+BK3453:
+	.word   02f80H,77,59
+	.long   0432351H
+	.word   76,58
+	.long   BK3003P
+BK3503:
+	.word   02f80H,85,63
+	.long   0432ee7H
+	.word   84,62
+	.long   BK3003P
+BK3553:
+	.word   02f80H,93,67
+	.long   0433bd5H
+	.word   92,66
+	.long   BK3003P
+BK3603:
+	.word   02e80H,101,78
+	.long   0434a1bH
+	.word   100,77
+	.long   BK3003P
+BK3653:
+	.word   02e80H,105,84
+	.long   0435d47H
+	.word   104,83
+	.long   BK3003P
+BK3703:
+	.word   02e80H,105,85
+	.long   0437497H
+	.word   104,84
+	.long   BK3003P
+BK3753:
+	.word   02e80H,106,83
+	.long   0438c39H
+	.word   105,82
+	.long   BK3003P
+	.TEXT
+

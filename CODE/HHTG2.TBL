@@ -1,0 +1,333 @@
+	.DATA
+BGBRST01:
+	.word   080H,53,47
+	.long   07d46bc0H
+	.word   29,22
+	.long   BGBRSTP
+BGBRST02:
+	.word   0580H,59,51
+	.long   07d4abf0H
+	.word   32,24
+	.long   BGBRSTP
+BGBRST03:
+	.word   0580H,63,55
+	.long   07d4f950H
+	.word   34,26
+	.long   BGBRSTP
+BGBRST04:
+	.word   0580H,71,63
+	.long   07d55190H
+	.word   38,30
+	.long   BGBRSTP
+BGBRST05:
+	.word   0680H,82,78
+	.long   07d5c1d0H
+	.word   43,39
+	.long   BGBRSTP
+BGBRST06:
+	.word   0580H,100,89
+	.long   07d65f90H
+	.word   52,43
+	.long   BGBRSTP
+BGBRST07:
+	.word   0a80H,104,98
+	.long   07d73ee8H
+	.word   54,47
+	.long   BGBRSTP
+BGBRST08:
+	.word   0a80H,101,101
+	.long   07d832d8H
+	.word   54,48
+	.long   BGBRSTP
+BGBRST09:
+	.word   0a80H,105,97
+	.long   07d8ff88H
+	.word   56,45
+	.long   BGBRSTP
+BGBRST10:
+	.word   0a80H,104,95
+	.long   07d9c8f8H
+	.word   54,46
+	.long   BGBRSTP
+BGBRST11:
+	.word   0a80H,109,97
+	.long   07da8430H
+	.word   58,47
+	.long   BGBRSTP
+BGBRST12:
+	.word   0b80H,108,99
+	.long   07db4060H
+	.word   56,48
+	.long   BGBRSTP
+BGBRST13:
+	.word   0b80H,112,101
+	.long   07dbfcd8H
+	.word   58,49
+	.long   BGBRSTP
+BGBRST14:
+	.word   0b80H,107,104
+	.long   07dcbcc0H
+	.word   59,51
+	.long   BGBRSTP
+BGBRST15:
+	.word   0b80H,109,106
+	.long   07dd7fc0H
+	.word   60,52
+	.long   BGBRSTP
+BGBRST16:
+	.word   0780H,107,108
+	.long   07de45a0H
+	.word   61,53
+	.long   BGBRSTP
+BGBRST17:
+	.word   0780H,111,112
+	.long   07df0a10H
+	.word   63,55
+	.long   BGBRSTP
+BGBRST18:
+	.word   0b80H,115,117
+	.long   07dfd470H
+	.word   66,58
+	.long   BGBRSTP
+BGBRST19:
+	.word   0b80H,117,120
+	.long   07e0a090H
+	.word   67,60
+	.long   BGBRSTP
+BGBRST20:
+	.word   0b80H,119,122
+	.long   07e16af0H
+	.word   68,62
+	.long   BGBRSTP
+BGBRST21:
+	.word   0b80H,122,102
+	.long   07e23390H
+	.word   70,64
+	.long   BGBRSTP
+BGBRST22:
+	.word   0a80H,97,79
+	.long   07e2e2e0H
+	.word   51,49
+	.long   BGBRSTP
+BGBRST23:
+	.word   0780H,81,77
+	.long   07e36b30H
+	.word   35,49
+	.long   BGBRSTP
+BGBRST24:
+	.word   0580H,66,61
+	.long   07e3e5f0H
+	.word   22,35
+	.long   BGBRSTP
+BGBRST25:
+	.word   0680H,50,53
+	.long   07e428d8H
+	.word   14,31
+	.long   BGBRSTP
+BGBRST26:
+	.word   0580H,27,29
+	.long   07e44a40H
+	.word   7,10
+	.long   BGBRSTP
+FRAG101:
+	.word   06580H,31,44
+	.long   07e45610H
+	.word   14,18
+	.long   FRAG01P
+FRAG102:
+	.word   06080H,16,44
+	.long   07e46b44H
+	.word   8,18
+	.long   FRAG01P
+FRAG103:
+	.word   06080H,26,44
+	.long   07e476f4H
+	.word   10,18
+	.long   FRAG01P
+FRAG104:
+	.word   06580H,43,44
+	.long   07e48814H
+	.word   18,18
+	.long   FRAG01P
+FRAG105:
+	.word   06580H,44,44
+	.long   07e4a234H
+	.word   20,18
+	.long   FRAG01P
+FRAG106:
+	.word   06180H,29,44
+	.long   07e4bcd8H
+	.word   11,18
+	.long   FRAG01P
+FRAG107:
+	.word   06080H,16,44
+	.long   07e4cfb4H
+	.word   6,18
+	.long   FRAG01P
+FRAG108:
+	.word   06080H,25,44
+	.long   07e4db64H
+	.word   10,18
+	.long   FRAG01P
+FRAG109:
+	.word   06580H,42,44
+	.long   07e4ec48H
+	.word   22,18
+	.long   FRAG01P
+FRAG110:
+	.word   06580H,43,44
+	.long   07e506b0H
+	.word   21,18
+	.long   FRAG01P
+FRAG201:
+	.word   06480H,42,31
+	.long   07e522a4H
+	.word   20,14
+	.long   FRAG01P
+FRAG202:
+	.word   06480H,41,18
+	.long   07e535fcH
+	.word   20,6
+	.long   FRAG01P
+FRAG203:
+	.word   06480H,42,11
+	.long   07e5420eH
+	.word   20,4
+	.long   FRAG01P
+FRAG204:
+	.word   06480H,42,27
+	.long   07e549b6H
+	.word   20,12
+	.long   FRAG01P
+FRAG205:
+	.word   06480H,40,38
+	.long   07e55904H
+	.word   21,17
+	.long   FRAG01P
+FRAG206:
+	.word   06480H,39,35
+	.long   07e56e80H
+	.word   18,15
+	.long   FRAG01P
+FRAG207:
+	.word   06480H,38,20
+	.long   07e58342H
+	.word   16,9
+	.long   FRAG01P
+FRAG208:
+	.word   06480H,39,11
+	.long   07e58f70H
+	.word   17,3
+	.long   FRAG01P
+FRAG209:
+	.word   06480H,39,28
+	.long   07e5966aH
+	.word   18,10
+	.long   FRAG01P
+FRAG210:
+	.word   06480H,40,36
+	.long   07e5a6aaH
+	.word   19,15
+	.long   FRAG01P
+FRAG301:
+	.word   06580H,41,33
+	.long   07e5bbaaH
+	.word   20,14
+	.long   FRAG01P
+FRAG302:
+	.word   06580H,41,18
+	.long   07e5cdd4H
+	.word   20,7
+	.long   FRAG01P
+FRAG303:
+	.word   06580H,40,16
+	.long   07e5d9e0H
+	.word   20,7
+	.long   FRAG01P
+FRAG304:
+	.word   06580H,38,30
+	.long   07e5e3a8H
+	.word   19,15
+	.long   FRAG01P
+FRAG305:
+	.word   06580H,38,38
+	.long   07e5f1dcH
+	.word   19,17
+	.long   FRAG01P
+FRAG306:
+	.word   06580H,37,33
+	.long   07e603b0H
+	.word   19,13
+	.long   FRAG01P
+FRAG307:
+	.word   06180H,37,19
+	.long   07e61496H
+	.word   19,5
+	.long   FRAG01P
+FRAG308:
+	.word   06580H,39,15
+	.long   07e61fd8H
+	.word   19,6
+	.long   FRAG01P
+FRAG309:
+	.word   06580H,39,31
+	.long   07e627d6H
+	.word   19,15
+	.long   FRAG01P
+FRAG310:
+	.word   06580H,39,39
+	.long   07e63660H
+	.word   20,17
+	.long   FRAG01P
+FRAG401:
+	.word   06080H,20,21
+	.long   07e649c2H
+	.word   7,10
+	.long   FRAG01P
+FRAG402:
+	.word   06480H,26,12
+	.long   07e65130H
+	.word   12,6
+	.long   FRAG01P
+FRAG403:
+	.word   06580H,29,15
+	.long   07e655f2H
+	.word   12,6
+	.long   FRAG01P
+FRAG404:
+	.word   06480H,29,22
+	.long   07e65bc8H
+	.word   12,12
+	.long   FRAG01P
+FRAG405:
+	.word   06080H,30,26
+	.long   07e663daH
+	.word   14,13
+	.long   FRAG01P
+FRAG406:
+	.word   06480H,31,20
+	.long   07e66edcH
+	.word   11,8
+	.long   FRAG01P
+FRAG407:
+	.word   06480H,29,11
+	.long   07e676c6H
+	.word   12,4
+	.long   FRAG01P
+FRAG408:
+	.word   06180H,25,15
+	.long   07e67c04H
+	.word   13,7
+	.long   FRAG01P
+FRAG409:
+	.word   06080H,20,23
+	.long   07e68156H
+	.word   10,9
+	.long   FRAG01P
+FRAG410:
+	.word   06080H,31,26
+	.long   07e68a3cH
+	.word   17,11
+	.long   FRAG01P
+	.TEXT
+

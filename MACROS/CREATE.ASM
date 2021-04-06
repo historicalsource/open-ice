@@ -1,0 +1,11 @@
+*
+*PROCESS CREATION MACRO
+*P1=ID-->A1, P2=PC-->A7
+*
+CREATE	.macro	P1,P2
+ 	MOVI	:P1:,A1
+	MOVI	:P2:,A7,L
+	CALLA	GETPRC
+	.endm
+
+

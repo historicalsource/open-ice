@@ -1,0 +1,38 @@
+	.DATA
+M_TURGEON:
+	.word   07480H,57,60
+	.long   020deeH
+	.word   28,59
+	.long   TURGEON3P
+M_SODERST:
+	.word   06080H,55,61
+	.long   024b6aH
+	.word   28,60
+	.long   TOMMY01Px
+M_OSGOOD:
+	.word   06580H,72,61
+	.long   027f98H
+	.word   36,60
+	.long   OSGOOD3P
+M_FUHR:
+	.word   06580H,69,61
+	.long   02b8b8H
+	.word   36,60
+	.long   FUHR3P
+SODERSTROM1:
+	.word   02000H,68,7
+	.long   02f742H
+	.word   34,3
+	.long   LSTNME1P
+OSGOOD1:
+	.word   02000H,48,7
+	.long   02fafaH
+	.word   24,3
+	.long   LSTNME1P
+FUHR:
+	.word   02000H,32,7
+	.long   02fd9aH
+	.word   16,3
+	.long   LSTNME1P
+	.TEXT
+

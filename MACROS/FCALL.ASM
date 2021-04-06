@@ -1,0 +1,10 @@
+*
+*FCALL - FUNCTION CALL WITHOUT USING THE SYSTEM STACK
+*	FCALL	ROUTINE, BREG
+*
+FCALL   .macro NAME, BREG
+         MOVI  :NAME:, :BREG:, L
+         EXGPC :BREG:
+        .endm
+
+

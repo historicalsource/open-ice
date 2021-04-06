@@ -1,0 +1,73 @@
+MEMV
+	0000ch
+	effch
+	>9F84
+	0
+	00
+	0505,100
+	0505h,100
+	0606h,100
+	1fh
+	0101h,100
+	0101h,10000
+	7fffh
+	0,3000
+	001fh,256
+	000c
+	000ch
+	f02ch
+REG
+	1883000h
+	1800000h
+	1a0000a0h
+	200000h
+	1010000h
+	1a000a0
+	1a000a0h
+	1884000h
+	1000000h
+	10100000h
+	1880000h
+	1b00000h
+	ad1
+	c000000h
+	>C0000000
+	c0000000h
+SRCH
+	DMA
+	DMAINT
+	%PALTRANS
+	SYSCTRL
+	GAME_START
+	ATTRACT_SOUND
+	ATTRACT_SND
+	ATTRACT_
+	ATTRACT
+	SET_TUNE_A0
+	%SNDSND
+	%LINT
+	%FILL
+	%SET_TUNE_A0
+	%PERIOD_START
+	DIRQ
+	DISPLAY
+	%DIRQ
+	DO_RINK
+PTCH
+	jauc	>ffac5270
+	rets
+	nop
+FILE
+	hhc
+	hhpall
+	flist
+	hhutil
+	hhsnd
+	hhgame
+	hhd.asm
+	%DIRQ
+	hh
+	hhd
+SRCWRD
+	S
+	w

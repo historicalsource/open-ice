@@ -1,0 +1,203 @@
+**************************************************************************
+*                                                                        *
+* 		ToddView Structure Declarations				 *
+*                                                                        *
+**************************************************************************
+
+;**** LSTHD, LSTTL offsets above must match OLINK, OBLINK offset of OBJ ****
+*STRUCT	OBJ
+OLINK			EQU	000h	;UHL Link to next object block
+OBLINK			EQU	020h	;UHL Back Link to previous obj
+OSLINK			EQU	040h	;UHL Supplemental lists (OID class)
+OPLINK			EQU	060h	;UHL Link to controlling process
+OCVECT			EQU	080h	;UHL vector to collision table
+OPART1			EQU	0a0h	;UHL ptr to head of multi-part obj
+OPARTS			EQU	0c0h	;UHL linked list of multi-parts
+OZVEL			EQU	0e0h	;SHL Z VELOCITY
+OXVEL			EQU	100h	;SHL X VELOCITY
+OYVEL			EQU	120h	;SHL Y VELOCITY
+OXVAL			EQU	140h	;SHL BIT X POSITION
+OXFRAC			EQU	140h	; Fractional portion of X position
+OXPOS			EQU	150h	; Integer portion of X position
+OYVAL			EQU	160h	;SHL BIT Y POSITION
+OYFRAC			EQU	160h	; Fractional portion of Y position
+OYPOS			EQU	170h	; Integer portion of Y position
+OZVAL			EQU	180h	;SHL Z POSITION
+OZFRAC			EQU	180h	; Fractional portion of Z position
+OZPOS			EQU	190h	; INTEGER Z position of object
+OPARTSXY 		EQU	1a0h	;UHL multi part position offset
+OANIOFF			EQU	1c0h	;UHL ADJUSTED ANIMATION OFFSET
+OANIOFFX 		EQU	1c0h	; X ANIMATION OFFSET FROM TOP LEFT ADJUSTED FOR FLIP
+OANIOFFY 		EQU	1d0h	; Y ANIMATION OFFSET FROM TOP LEFT ADJUSTED FOR FLIP
+OFSET			EQU	1e0h	;UHW PRECOMPUTED OFFSET
+OCTRL			EQU	1f0h	;UHW DMA #2 CONTROL WORD
+OSAG			EQU	200h	;UHL SOURCE ADDRESS (UNCLIPPED, ADJUSTED FOR FLIPS)
+ODAG			EQU	220h	;UHL Screen Pos (saved as intermediate step in DISPLAY! NEW)
+ODAGX			EQU	220h	
+ODAGY			EQU	230h	
+OUSIZE			EQU	240h	;UHL DMA #2 UNSCALED SIZE
+OUSIZEX			EQU	240h	; X-SIZE
+OUSIZEY			EQU	250h	; Y-SIZE
+OSIZE			EQU	260h	;UHL H,W OF OBJECT (16,16)	W=ADJUSTED FOR MORSEL
+OSIZEX			EQU	260h	; X SIZE
+OSIZEY			EQU	270h	; Y SIZE
+OPAL			EQU	280h	;UHW B(0-15) PALETTE; B(16-31) CONSTANT COLOR
+OCONST			EQU	290h	;UHW CONSTANT COLOR
+OSCALE			EQU	2a0h	;UHL DMA #2 SCALE
+OSCALEX			EQU	2a0h	; X-SCALE
+OSCALEY			EQU	2b0h	; Y-SCALE
+OIMG			EQU	2c0h	;UHL Pointer to image data table
+ONuManScl 		EQU	2e0h	;UHW New scale for manually scaled imgs
+OYACCEL			EQU	2f0h	;UHW just the fraction for Grav
+OVAR1			EQU	300h
+OVAR2			EQU	320h
+OVAR3			EQU	340h
+OVAR4			EQU	360h
+OVAR5			EQU	380h
+OVAR6			EQU	3a0h
+OVAR7			EQU	3c0h
+OVAR8			EQU	3e0h
+OVAR9			EQU	400h
+OFLAGS			EQU	420h	;UHW General purpose flags
+OID			EQU	430h	;UHW Object ID
+OUANIOFF 		EQU	440h	;UHL UNSCALED ANIMATION OFFSET
+OUANIOFFX 		EQU	440h	; X ANIMATION OFFSET FROM TOP LEFT ADJUSTED FOR FLIP
+OUANIOFFY 		EQU	450h	; Y ANIMATION OFFSET FROM TOP LEFT ADJUSTED FOR FLIP
+OIHOFF			EQU	460h	;UHW OFFSET TO IMAGE HEADER	; NEW
+OSCTAB			EQU	470h	;UHL address of scale table
+OSPPOS			EQU	490h	;UHL address of x offset (if M_SPPOS)
+ODATA			EQU	4b0h
+ODATAX  		EQU	ODATA+0280H
+*ENDSTRUCT
+
+*STRUCT	ANIM+OBJ
+AnimNxt EQU	OVAR1	;UHL	link to next obj of Animy linked list
+AnimFrm EQU	OVAR2	;UHL	ptr to current animation frame
+AnimScr EQU	OVAR3	;UHL	ptr to animation script
+AnimSlp EQU	OVAR4+8	;UDB	# tiks before next ANI
+AnimLoop EQU	OVAR4+16 ;UDB	General purpose Loop counter
+AnimOpen EQU	OVAR4+24 ;UDB	reserved for future definition (keep cleared)
+*ENDSTRUCT
+
+*STRUCT	ANIMP+OBJ
+OID	EQU	430h	;UHW	Object ID
+ODT_EVEND	.EQU	ODATA+060H	;END OF EVERYTHING
+;ODT_FOCIOFF0	.EQU	ODT_EVEND+0C0H	;UHL FOCI [Z,X] WORLD OFFSET FROM ANIMP
+;ODT_FOCIOFF1	.EQU	ODT_EVEND+0E0H	;UHL FOCI [Z,X] WORLD OFFSET FROM ANIMP
+AnimFrm EQU	OVAR2	;UHL	ptr to current animation frame
+AnimScr EQU	OVAR3	;UHL	ptr to animation script
+AnimSLP EQU	OVAR4	;UDB	reset value for AnimSlp
+AnimSlp EQU	OVAR4+8	;UDB	# tiks before next ANI
+AnimLoop EQU	OVAR4+16 ;UDB	General purpose Loop counter
+AnimOpen EQU	OVAR4+24 ;UDB	reserved for future definition (keep cleared)
+*ENDSTRUCT
+
+*PROCESS DATA STRUCTURE
+*STRUCT	PRC
+PLINK	EQU	0	;UHL LINK TO NEXT 32 BITS
+PROCID	EQU	>20	;UHW PROCESS ID 16 BITS
+PTIME	EQU	>30	;UHW SLEEP TIME X 16MSEC 16 BITS
+PWAKE	EQU	>E0	;UHL
+PA8	EQU	>C0	;UHL
+PA9	EQU	>A0	;UHL
+PA10	EQU	>80	;UHL
+PA11	EQU	>60	;UHL
+PSPTR	EQU	>40	;UHL PROCESS STACK POINTER 32 BITS
+PDATA	EQU	>100	;UHL PROCESS DATA STORE
+PSDATA	EQU	>500	;UHL PROCESS STACK DATA
+PTEMP1	EQU	PSDATA->A0	;UHL	;PROCESS TEMPORARY STORE AREAS
+PTEMP2	EQU	PSDATA->80	;UHL
+PTEMP3	EQU	PSDATA->60	;UHL
+PTEMP4	EQU	PSDATA->40	;UHL
+PCTIME	EQU	PSDATA->20	;UHW PROCESS CREATION TIME (DEBUGGING)
+PCOMM	EQU	PSDATA->10	;UHW PROCESS COMMUNICATION AREA
+*ENDSTRUCT
+
+************************************************************
+*                                                          *
+* PLAYER DATA STRUCTURE					   *
+*                                                          *
+************************************************************
+*struct PLAYER
+POF_NUMBER		.equ	0000h	;UHB 1-8
+POF_FLAGS		.equ	0200h	;UHW - see below
+POF_MODE		.equ	0210h	;UHW what player is doing (not valid during higher control)
+POF_OBJECT		.equ	0280h	;UHL players object
+POF_SHADOW		.equ	02a0h	;UHL players shadow object
+POF_BUTTONS		.equ	0380h	;UHW buttons of player
+POF_DIRECTION		.equ	0390h	;UHB last facing direction of player
+POF_IGNORE_PUCK		.equ	0598h	;UHB ignore puck till this is zero
+POF_JOY			.equ	0398h	;UHB joystick direction (1-8)
+POF_I_JOY		.equ	03a0h	;UHB ignore this joystick direction
+POF_M_JOY		.equ	03a8h	;UHB modified joystick direction (1-8)
+POF_D_1P		.equ	0600h	;UHW distance to player 1
+POF_D_2P		.equ	0610h	;UHW distance to player 2
+POF_D_3P		.equ	0620h	;UHW distance to player 3
+POF_D_4P		.equ	0630h	;UHW distance to player 4
+POF_D_5P		.equ	0640h	;UHW distance to player 5
+POF_D_6P		.equ	0650h	;UHW distance to player 6
+POF_D_7P		.equ	0660h	;UHW distance to player 7
+POF_D_8P		.equ	0670h	;UHW distance to player 8
+POF_D_PUCK		.equ	0680h	;UHW distance to puck (only valid if free puck, or opposing team)
+POF_SHOTS_P1		.equ	0780h	;UHL shots on goal - period 1
+POF_GOALS_P1		.equ	07a0h	;UHL goals scored - period 1
+POF_ASSISTS_P1		.equ	07c0h	;UHL assists on goals - period 1
+POF_PASSES_P1		.equ	07e0h	;UHL passes - period 1
+POF_STEALS_P1		.equ	0800h	;UHL steals - period 1
+POF_CHECKS_P1		.equ	0820h	;UHL checks - period 1
+POF_LAST		.equ	0FF0H	;UHW LAST ENTRY
+*endstruct
+
+*
+*PALETTE ENTRY DATA STRUCTURE
+*struct	PALETTE
+PALID	.SET	0		;UHL PALETTE I.D.
+PALCNT	.SET	>20		;UHW PALETTE ALLOCATION COUNT
+PALTIME	.SET	>30		;UHW TIME WHEN PAL WAS DELETED
+*endstruct
+
+*struct	PUCKPOS
+XPOS	equ	000h	;SDW	puck x position
+ZPOS	equ	010h	;SDW	puck z position
+YPOS	equ	020h	;SDW	puck y position
+CTRL	equ	030h	;SDW	puck control
+PM	equ	040h	;SDW	puck owners mode
+FRM	equ	050h	;UHL	puck owners ANIMFRM
+XVEL	equ	070h	;SHL	puck x velocity
+ZVEL	equ	090h	;SHL	puck z velocity
+YVEL	equ	0b0h	;SHL	puck y velocity
+DIR	equ	0d0h	;SHL	puck direction
+VEL	equ	0f0h	;UHL	puck velocity
+OUT	equ	110h	;UDW	outlaw puck
+OUT2	equ	120h	;UDW	outlaw puck2
+BOUNCE	equ	130h	;UHL	last bounce against angle
+GPASS	equ	150h	;SHW	puck will pass goal next tick
+CPULFT	equ	160h	;UDW	CPU LEFT
+P1SCR	equ	170h	;UHL	script address
+P1FRM	equ	190h	;UHL	script frame
+P2SCR	equ	1b0h	;UHL	script address
+P2FRM	equ	1d0h	;UHL	script frame
+P4SCR	equ	1f0h	;UHL	script address
+P4FRM	equ	210h	;UHL	script frame
+P5SCR	equ	230h	;UHL	script address
+P5FRM	equ	250h	;UHL	script frame
+P6SCR	equ	270h	;UHL	script address
+P6FRM	equ	290h	;UHL	script frame
+P8SCR	equ	2b0h	;UHL	script address
+P8FRM	equ	2d0h	;UHL	script frame
+PMTS	equ	2f0h	;UHW	period,minutes,tenseconds,seconds
+*endstruct
+
+*struct SNDQUE
+SNDRAW	equ	00h	;UHW	raw sound code
+*endstruct
+
+*struct DMAQUE
+CTRL_OFFS	equ	000h	;UHL	self explanatory raw dma queue
+SAG		equ	020h	;UHL
+Y_X_DEST	equ	040h	;UHL
+Y_X_SIZE	equ	060h	;UHL
+CONST_PAL	equ	080h	;UHL
+Y_X_SCALE	equ	0a0h	;UHL
+*endstruct
+

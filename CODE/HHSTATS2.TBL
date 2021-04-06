@@ -1,0 +1,33 @@
+	.DATA
+STAR301:
+	.word   07f80H,140,118
+	.long   03ded0ccH
+	.word   70,59
+	.long   STAR301P
+STAR302:
+	.word   07f80H,136,118
+	.long   03df6354H
+	.word   68,59
+	.long   STAR301P
+STAR303:
+	.word   07f80H,132,120
+	.long   03dff764H
+	.word   66,60
+	.long   STAR301P
+STAR304:
+	.word   07f80H,134,120
+	.long   03e0bac4H
+	.word   67,60
+	.long   STAR301P
+STAR305:
+	.word   07f80H,138,120
+	.long   03e14384H
+	.word   69,60
+	.long   STAR301P
+STAR306:
+	.word   07f80H,140,116
+	.long   03e1e844H
+	.word   70,58
+	.long   STAR301P
+	.TEXT
+

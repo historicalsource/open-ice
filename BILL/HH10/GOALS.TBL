@@ -1,0 +1,93 @@
+	.DATA
+GOAL1A:
+	.word   07000H,47,75
+	.long   0392811H
+	.word   40,72
+	.long   GOAL203P
+GOAL2A:
+	.word   07000H,48,75
+	.long   0398874H
+	.word   40,72
+	.long   GOAL203P
+GOAL3A:
+	.word   07000H,50,75
+	.long   039eae4H
+	.word   39,72
+	.long   GOAL203P
+GOAL4A:
+	.word   07000H,52,75
+	.long   03a516eH
+	.word   39,72
+	.long   GOAL203P
+GOALN1A:
+	.word   07000H,47,75
+	.long   03abc12H
+	.word   40,72
+	.long   GOAL203P
+GOALN2A:
+	.word   07000H,53,75
+	.long   03b1c75H
+	.word   46,72
+	.long   GOAL203P
+GOALN3A:
+	.word   07000H,60,75
+	.long   03b8926H
+	.word   53,72
+	.long   GOAL203P
+GOALN4A:
+	.word   07000H,68,75
+	.long   03c0432H
+	.word   61,72
+	.long   GOAL203P
+goal1a:
+	.word   07000H,41,73
+	.long   03c8fa6H
+	.word   33,71
+	.long   GL520P
+goal1b:
+	.word   07000H,30,43
+	.long   03ce17dH
+	.word   28,42
+	.long   GL520P
+goal2a:
+	.word   07000H,41,73
+	.long   03d04c3H
+	.word   33,71
+	.long   GL520P
+goal2b:
+	.word   07000H,30,43
+	.long   03d569aH
+	.word   28,42
+	.long   GL520P
+goal3a:
+	.word   07000H,42,73
+	.long   03d79e0H
+	.word   33,71
+	.long   GL520P
+goal3b:
+	.word   07000H,30,43
+	.long   03dcdb6H
+	.word   28,42
+	.long   GL520P
+goal4a:
+	.word   07000H,44,73
+	.long   03df0fcH
+	.word   33,71
+	.long   GL520P
+goal4b:
+	.word   07000H,30,43
+	.long   03e48d0H
+	.word   28,42
+	.long   GL520P
+goal6a:
+	.word   07000H,45,73
+	.long   03e6c16H
+	.word   33,71
+	.long   GL520P
+goal6b:
+	.word   07000H,30,43
+	.long   03ec5e9H
+	.word   28,42
+	.long   GL520P
+	.TEXT
+

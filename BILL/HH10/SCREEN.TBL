@@ -1,0 +1,393 @@
+	.DATA
+sana:
+	.word   01000H,20,10
+	.long   0b89741H
+	.word   0,0
+	.long   scbxp
+sbos:
+	.word   01000H,20,10
+	.long   0b89809H
+	.word   0,0
+	.long   scbxp
+sbuf:
+	.word   01000H,20,10
+	.long   0b898d1H
+	.word   0,0
+	.long   scbxp
+scal:
+	.word   01000H,20,10
+	.long   0b89999H
+	.word   0,0
+	.long   scbxp
+schi:
+	.word   01000H,18,10
+	.long   0b89a61H
+	.word   0,0
+	.long   scbxp
+sdal:
+	.word   01000H,20,10
+	.long   0b89b15H
+	.word   0,0
+	.long   scbxp
+sdet:
+	.word   01000H,20,10
+	.long   0b89bddH
+	.word   0,0
+	.long   scbxp
+sedm:
+	.word   01000H,21,10
+	.long   0b89ca5H
+	.word   0,0
+	.long   scbxp
+sfla:
+	.word   01000H,20,10
+	.long   0b89d77H
+	.word   0,0
+	.long   scbxp
+shar:
+	.word   01000H,20,10
+	.long   0b89e3fH
+	.word   0,0
+	.long   scbxp
+sla:
+	.word   01000H,13,10
+	.long   0b89f07H
+	.word   0,0
+	.long   scbxp
+smon:
+	.word   01000H,21,10
+	.long   0b89f89H
+	.word   0,0
+	.long   scbxp
+snyi:
+	.word   01000H,19,10
+	.long   0b8a05bH
+	.word   0,0
+	.long   scbxp
+snyr:
+	.word   01000H,20,10
+	.long   0b8a119H
+	.word   0,0
+	.long   scbxp
+snj:
+	.word   01000H,13,10
+	.long   0b8a1e1H
+	.word   0,0
+	.long   scbxp
+sott:
+	.word   01000H,20,10
+	.long   0b8a263H
+	.word   0,0
+	.long   scbxp
+sphi:
+	.word   01000H,18,10
+	.long   0b8a32bH
+	.word   0,0
+	.long   scbxp
+spit:
+	.word   01000H,18,10
+	.long   0b8a3dfH
+	.word   0,0
+	.long   scbxp
+sque:
+	.word   01000H,20,10
+	.long   0b8a493H
+	.word   0,0
+	.long   scbxp
+ssj:
+	.word   01000H,13,10
+	.long   0b8a55bH
+	.word   0,0
+	.long   scbxp
+sstl:
+	.word   01000H,20,10
+	.long   0b8a5ddH
+	.word   0,0
+	.long   scbxp
+svan:
+	.word   01000H,21,10
+	.long   0b8a6a5H
+	.word   0,0
+	.long   scbxp
+stam:
+	.word   01000H,20,10
+	.long   0b8a777H
+	.word   0,0
+	.long   scbxp
+stor:
+	.word   01000H,20,10
+	.long   0b8a83fH
+	.word   0,0
+	.long   scbxp
+swas:
+	.word   01000H,21,10
+	.long   0b8a907H
+	.word   0,0
+	.long   scbxp
+swin:
+	.word   01000H,19,10
+	.long   0b8a9d9H
+	.word   0,0
+	.long   scbxp
+CHICAG:
+	.word   02000H,82,16
+	.long   0b8aa97H
+	.word   0,0
+	.long   CITYP
+DALLAS:
+	.word   02000H,74,16
+	.long   0b8b4d7H
+	.word   0,0
+	.long   CITYP
+DETROT:
+	.word   02000H,82,16
+	.long   0b8be17H
+	.word   0,0
+	.long   CITYP
+EDMONT:
+	.word   02000H,105,16
+	.long   0b8c857H
+	.word   0,0
+	.long   CITYP
+FLORID:
+	.word   02000H,81,16
+	.long   0b8d577H
+	.word   0,0
+	.long   CITYP
+HRTFRD:
+	.word   02000H,103,16
+	.long   0b8df97H
+	.word   0,0
+	.long   CITYP
+LOSANG:
+	.word   02000H,131,16
+	.long   0b8ec77H
+	.word   0,0
+	.long   CITYP
+MONTRL:
+	.word   02000H,104,16
+	.long   0b8fcd7H
+	.word   0,0
+	.long   CITYP
+NEWJER:
+	.word   02000H,125,16
+	.long   0b909d7H
+	.word   0,0
+	.long   CITYP
+NYISLD:
+	.word   02000H,147,16
+	.long   0b91977H
+	.word   0,0
+	.long   CITYP
+NYRANG:
+	.word   02000H,131,16
+	.long   0b92bd7H
+	.word   0,0
+	.long   CITYP
+OTTAWA:
+	.word   02000H,81,16
+	.long   0b93c37H
+	.word   0,0
+	.long   CITYP
+PHILAD:
+	.word   02000H,137,16
+	.long   0b94657H
+	.word   0,0
+	.long   CITYP
+PITBRG:
+	.word   02000H,120,16
+	.long   0b95777H
+	.word   0,0
+	.long   CITYP
+QUEBEC:
+	.word   02000H,76,16
+	.long   0b96677H
+	.word   0,0
+	.long   CITYP
+SANJOS:
+	.word   02000H,94,16
+	.long   0b96ff7H
+	.word   0,0
+	.long   CITYP
+STLOUS:
+	.word   02000H,90,16
+	.long   0b97bb7H
+	.word   0,0
+	.long   CITYP
+TAMPAB:
+	.word   02000H,111,16
+	.long   0b986f7H
+	.word   0,0
+	.long   CITYP
+TORONT:
+	.word   02000H,90,16
+	.long   0b994d7H
+	.word   0,0
+	.long   CITYP
+VANCOV:
+	.word   02000H,116,16
+	.long   0b9a017H
+	.word   0,0
+	.long   CITYP
+WASHTN:
+	.word   02000H,124,16
+	.long   0b9ae97H
+	.word   0,0
+	.long   CITYP
+WINNIP:
+	.word   02000H,91,16
+	.long   0b9be17H
+	.word   0,0
+	.long   CITYP
+ANAHEM:
+	.word   02000H,84,16
+	.long   0b9c977H
+	.word   0,0
+	.long   CITYP
+BOSTON:
+	.word   02000H,76,16
+	.long   0b9d3f7H
+	.word   0,0
+	.long   CITYP
+BUFFAL:
+	.word   02000H,89,16
+	.long   0b9dd77H
+	.word   0,0
+	.long   CITYP
+CALGAR:
+	.word   02000H,89,16
+	.long   0b9e897H
+	.word   0,0
+	.long   CITYP
+ANA:
+	.word   02000H,24,7
+	.long   0b9f3b7H
+	.word   0,0
+	.long   CITYP
+BOS:
+	.word   02000H,24,7
+	.long   0b9f507H
+	.word   0,0
+	.long   CITYP
+BUF:
+	.word   02000H,24,7
+	.long   0b9f657H
+	.word   0,0
+	.long   CITYP
+CAL:
+	.word   02000H,24,7
+	.long   0b9f7a7H
+	.word   0,0
+	.long   CITYP
+CHI:
+	.word   02000H,19,7
+	.long   0b9f8f7H
+	.word   0,0
+	.long   CITYP
+DAL:
+	.word   02000H,24,7
+	.long   0b9fa01H
+	.word   0,0
+	.long   CITYP
+DET:
+	.word   02000H,25,7
+	.long   0b9fb51H
+	.word   0,0
+	.long   CITYP
+EDM:
+	.word   02000H,26,7
+	.long   0b9fcafH
+	.word   0,0
+	.long   CITYP
+FLO:
+	.word   02000H,23,7
+	.long   0b9fe1bH
+	.word   0,0
+	.long   CITYP
+HAR:
+	.word   02000H,24,7
+	.long   0b9ff5dH
+	.word   0,0
+	.long   CITYP
+LOS:
+	.word   02000H,23,7
+	.long   0ba00adH
+	.word   0,0
+	.long   CITYP
+MON:
+	.word   02000H,26,7
+	.long   0ba01efH
+	.word   0,0
+	.long   CITYP
+NJR:
+	.word   02000H,24,7
+	.long   0ba035bH
+	.word   0,0
+	.long   CITYP
+NYI:
+	.word   02000H,18,7
+	.long   0ba04abH
+	.word   0,0
+	.long   CITYP
+NYR:
+	.word   02000H,23,7
+	.long   0ba05a7H
+	.word   0,0
+	.long   CITYP
+OTT:
+	.word   02000H,25,7
+	.long   0ba06e9H
+	.word   0,0
+	.long   CITYP
+PHI:
+	.word   02000H,19,7
+	.long   0ba0847H
+	.word   0,0
+	.long   CITYP
+PIT:
+	.word   02000H,20,7
+	.long   0ba0951H
+	.word   0,0
+	.long   CITYP
+QUE:
+	.word   02000H,24,7
+	.long   0ba0a69H
+	.word   0,0
+	.long   CITYP
+SAN:
+	.word   02000H,24,7
+	.long   0ba0bb9H
+	.word   0,0
+	.long   CITYP
+STL:
+	.word   02000H,25,7
+	.long   0ba0d09H
+	.word   0,0
+	.long   CITYP
+TAM:
+	.word   02000H,26,7
+	.long   0ba0e67H
+	.word   0,0
+	.long   CITYP
+TOR:
+	.word   02000H,24,7
+	.long   0ba0fd3H
+	.word   0,0
+	.long   CITYP
+VAN:
+	.word   02000H,23,7
+	.long   0ba1123H
+	.word   0,0
+	.long   CITYP
+WAS:
+	.word   02000H,27,7
+	.long   0ba1265H
+	.word   0,0
+	.long   CITYP
+WNP:
+	.word   02000H,23,7
+	.long   0ba13dfH
+	.word   0,0
+	.long   CITYP
+	.TEXT
+

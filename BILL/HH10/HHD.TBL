@@ -1,0 +1,6 @@
+	.DATA
+HALF12	.set	02453f60h
+HALF1X	.set	02596760h
+HALF2X	.set	026d8f60h
+	.TEXT
+

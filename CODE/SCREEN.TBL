@@ -1,0 +1,268 @@
+	.DATA
+CHICAG:
+	.word   04080H,91,17
+	.long   061e893cH
+	.word   0,0
+	.long   KCITYP
+DALLAS:
+	.word   04380H,80,17
+	.long   061ea114H
+	.word   0,0
+	.long   KCITYP
+DETROT:
+	.word   04680H,88,17
+	.long   061eb468H
+	.word   0,0
+	.long   KCITYP
+EDMONT:
+	.word   04680H,115,17
+	.long   061ec8c0H
+	.word   0,0
+	.long   KCITYP
+FLORID:
+	.word   04980H,82,17
+	.long   061ee554H
+	.word   0,0
+	.long   KCITYP
+HRTFRD:
+	.word   04b80H,110,17
+	.long   061ef91cH
+	.word   0,0
+	.long   KCITYP
+LOSANG:
+	.word   04080H,135,17
+	.long   061f13bcH
+	.word   0,0
+	.long   KCITYP
+MONTRL:
+	.word   04980H,111,17
+	.long   061f36d4H
+	.word   0,0
+	.long   KCITYP
+NEWJER:
+	.word   04780H,126,17
+	.long   061f5138H
+	.word   0,0
+	.long   KCITYP
+NYISLD:
+	.word   04180H,140,17
+	.long   061f6f40H
+	.word   0,0
+	.long   KCITYP
+NYRANG:
+	.word   04380H,126,17
+	.long   061f9344H
+	.word   0,0
+	.long   KCITYP
+OTTAWA:
+	.word   04c80H,79,17
+	.long   061fb270H
+	.word   0,0
+	.long   KCITYP
+PHILAD:
+	.word   04080H,137,15
+	.long   061fc59cH
+	.word   0,-1
+	.long   KCITYP
+PITBRG:
+	.word   04680H,123,17
+	.long   061fe59cH
+	.word   0,0
+	.long   KCITYP
+QUEBEC:
+	.word   04080H,113,17
+	.long   06200498H
+	.word   0,0
+	.long   KCITYP
+SANJOS:
+	.word   04480H,99,17
+	.long   06202214H
+	.word   0,0
+	.long   KCITYP
+STLOUS:
+	.word   04080H,92,17
+	.long   06203ae8H
+	.word   1,0
+	.long   KCITYP
+TAMPAB:
+	.word   04080H,107,15
+	.long   06205290H
+	.word   0,-1
+	.long   KCITYP
+TORONT:
+	.word   04080H,95,17
+	.long   06206a64H
+	.word   0,0
+	.long   KCITYP
+VANCOV:
+	.word   04a80H,122,17
+	.long   062082a4H
+	.word   0,0
+	.long   KCITYP
+WASHTN:
+	.word   04680H,128,17
+	.long   0620a0a4H
+	.word   -1,0
+	.long   KCITYP
+WINNIP:
+	.word   04380H,97,17
+	.long   0620c164H
+	.word   0,0
+	.long   KCITYP
+ANAHEM:
+	.word   04080H,93,15
+	.long   0620d8acH
+	.word   0,0
+	.long   KCITYP
+BOSTON:
+	.word   04580H,84,17
+	.long   0620edccH
+	.word   0,0
+	.long   KCITYP
+BUFFAL:
+	.word   04380H,92,17
+	.long   062102ecH
+	.word   0,0
+	.long   KCITYP
+CALGAR:
+	.word   04880H,98,17
+	.long   06211a04H
+	.word   0,0
+	.long   KCITYP
+ANA:
+	.word   02000H,24,7
+	.long   06213204H
+	.word   0,0
+	.long   CITYP
+BOS:
+	.word   02000H,24,7
+	.long   06213354H
+	.word   0,0
+	.long   CITYP
+BUF:
+	.word   02000H,24,7
+	.long   062134a4H
+	.word   0,0
+	.long   CITYP
+CAL:
+	.word   02000H,23,7
+	.long   062135f4H
+	.word   0,0
+	.long   CITYP
+CHI:
+	.word   02000H,19,7
+	.long   06213736H
+	.word   0,0
+	.long   CITYP
+DAL:
+	.word   02000H,24,7
+	.long   06213840H
+	.word   0,0
+	.long   CITYP
+DET:
+	.word   02000H,25,7
+	.long   06213990H
+	.word   0,0
+	.long   CITYP
+EDM:
+	.word   02000H,26,7
+	.long   06213aeeH
+	.word   0,0
+	.long   CITYP
+FLO:
+	.word   02000H,24,7
+	.long   06213c5aH
+	.word   0,0
+	.long   CITYP
+HAR:
+	.word   02000H,24,7
+	.long   06213daaH
+	.word   0,0
+	.long   CITYP
+LOS:
+	.word   02000H,16,7
+	.long   06213efaH
+	.word   0,0
+	.long   CITYP
+MON:
+	.word   02000H,27,7
+	.long   06213fdaH
+	.word   0,0
+	.long   CITYP
+NJR:
+	.word   02000H,16,7
+	.long   06214154H
+	.word   0,0
+	.long   CITYP
+NYI:
+	.word   02000H,18,7
+	.long   06214234H
+	.word   0,0
+	.long   CITYP
+NYR:
+	.word   02000H,23,7
+	.long   06214330H
+	.word   0,0
+	.long   CITYP
+OTT:
+	.word   02000H,25,7
+	.long   06214472H
+	.word   0,0
+	.long   CITYP
+PHI:
+	.word   02000H,19,7
+	.long   062145d0H
+	.word   0,0
+	.long   CITYP
+PIT:
+	.word   02000H,20,7
+	.long   062146daH
+	.word   0,0
+	.long   CITYP
+QUE:
+	.word   02000H,24,7
+	.long   062147f2H
+	.word   0,0
+	.long   CITYP
+SAN:
+	.word   02000H,16,7
+	.long   06214942H
+	.word   0,0
+	.long   CITYP
+STL:
+	.word   02000H,25,7
+	.long   06214a22H
+	.word   0,0
+	.long   CITYP
+TAM:
+	.word   02000H,17,7
+	.long   06214b80H
+	.word   0,0
+	.long   CITYP
+TOR:
+	.word   02000H,24,7
+	.long   06214c6eH
+	.word   0,0
+	.long   CITYP
+VAN:
+	.word   02000H,23,7
+	.long   06214dbeH
+	.word   0,0
+	.long   CITYP
+WAS:
+	.word   02000H,28,7
+	.long   06214f00H
+	.word   0,0
+	.long   CITYP
+WNP:
+	.word   02000H,28,7
+	.long   06215088H
+	.word   0,0
+	.long   CITYP
+SPCT:
+	.word   02000H,24,7
+	.long   06215210H
+	.word   0,0
+	.long   CITYP
+	.TEXT
+

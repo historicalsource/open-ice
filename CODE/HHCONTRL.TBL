@@ -1,0 +1,53 @@
+	.DATA
+shadow3:
+	.word   01000H,51,7
+	.long   060963a4H
+	.word   25,3
+	.long   shad_p
+shadow4:
+	.word   01000H,49,7
+	.long   06096509H
+	.word   24,3
+	.long   shad_p
+shadow5:
+	.word   01000H,47,7
+	.long   06096660H
+	.word   23,3
+	.long   shad_p
+shadow6:
+	.word   01000H,45,7
+	.long   060967a9H
+	.word   22,3
+	.long   shad_p
+shadow7:
+	.word   01000H,43,6
+	.long   060968e4H
+	.word   21,2
+	.long   shad_p
+shadow8:
+	.word   01000H,44,5
+	.long   060969e6H
+	.word   22,2
+	.long   shad_p
+shadow9:
+	.word   01000H,40,5
+	.long   06096ac2H
+	.word   18,2
+	.long   shad_p
+shadow10:
+	.word   01000H,38,5
+	.long   06096b8aH
+	.word   19,2
+	.long   shad_p
+shadow11:
+	.word   01000H,36,5
+	.long   06096c48H
+	.word   20,2
+	.long   shad_p
+shadow12:
+	.word   01000H,32,5
+	.long   06096cfcH
+	.word   20,2
+	.long   shad_p
+	.TEXT
+

@@ -1,0 +1,128 @@
+	.DATA
+SPRAY1m1:
+	.word   03000H,31,29
+	.long   03533296H
+	.word   16,19
+	.long   SPRAY1p
+SPRAY1m2:
+	.word   03000H,32,33
+	.long   03533d1fH
+	.word   15,21
+	.long   SPRAY1p
+SPRAY1m3:
+	.word   04000H,54,55
+	.long   0353497fH
+	.word   25,42
+	.long   SPRAY1p
+SPRAY1m4:
+	.word   04000H,47,52
+	.long   035377e7H
+	.word   23,34
+	.long   SPRAY1p
+SPRAY1m5:
+	.word   04000H,39,30
+	.long   03539e17H
+	.word   20,12
+	.long   SPRAY1p
+SPRAY2m1:
+	.word   03000H,52,35
+	.long   0353b05fH
+	.word   12,15
+	.long   SPRAY1p
+SPRAY2m2:
+	.word   04000H,46,34
+	.long   0353c5b3H
+	.word   9,14
+	.long   SPRAY1p
+SPRAY2m3:
+	.word   04000H,57,45
+	.long   0353de23H
+	.word   2,30
+	.long   SPRAY1p
+SPRAY2m4:
+	.word   04000H,56,40
+	.long   03540637H
+	.word   -13,21
+	.long   SPRAY1p
+SPRAY2m5:
+	.word   04000H,48,28
+	.long   03542937H
+	.word   -23,0
+	.long   SPRAY1p
+SPRAY3m1:
+	.word   04000H,41,23
+	.long   03543e37H
+	.word   -1,17
+	.long   SPRAY1p
+SPRAY3m2:
+	.word   04000H,40,24
+	.long   03544cf3H
+	.word   -2,17
+	.long   SPRAY1p
+SPRAY3m3:
+	.word   04000H,54,31
+	.long   03545bf3H
+	.word   -1,24
+	.long   SPRAY1p
+SPRAY3m4:
+	.word   04000H,38,41
+	.long   0354761bH
+	.word   -23,33
+	.long   SPRAY1p
+SPRAY3m5:
+	.word   04000H,35,27
+	.long   03548e73H
+	.word   -41,19
+	.long   SPRAY1p
+SPRAY4m1:
+	.word   04000H,39,27
+	.long   03549d37H
+	.word   7,23
+	.long   SPRAY1p
+SPRAY4m2:
+	.word   04000H,38,27
+	.long   0354adabH
+	.word   9,23
+	.long   SPRAY1p
+SPRAY4m3:
+	.word   04000H,55,41
+	.long   0354bdb3H
+	.word   3,40
+	.long   SPRAY1p
+SPRAY4m4:
+	.word   04000H,59,29
+	.long   0354e0efH
+	.word   2,31
+	.long   SPRAY1p
+SPRAY4m5:
+	.word   04000H,44,20
+	.long   0354fbabH
+	.word   -26,16
+	.long   SPRAY1p
+SPRAY5m1:
+	.word   03000H,31,29
+	.long   03533296H
+	.word   16,20
+	.long   SPRAY1p
+SPRAY5m2:
+	.word   03000H,32,33
+	.long   03533d1fH
+	.word   14,23
+	.long   SPRAY1p
+SPRAY5m3:
+	.word   04000H,54,55
+	.long   0353497fH
+	.word   23,50
+	.long   SPRAY1p
+SPRAY5m4:
+	.word   04000H,47,52
+	.long   035377e7H
+	.word   21,60
+	.long   SPRAY1p
+SPRAY5m5:
+	.word   04000H,39,30
+	.long   03539e17H
+	.word   18,33
+	.long   SPRAY1p
+	.TEXT
+

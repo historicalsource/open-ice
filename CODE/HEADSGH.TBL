@@ -1,0 +1,44 @@
+	.DATA
+GHOWE01:
+	.word   05000H,23,39
+	.long   07f30861H
+	.word   9,34
+	.long   NEWGORD2
+GHOWE02:
+	.word   05000H,27,37
+	.long   07f319e6H
+	.word   10,33
+GHOWE03:
+	.word   05000H,28,36
+	.long   07f32d69H
+	.word   11,33
+GHOWE04:
+	.word   05000H,26,34
+	.long   07f34119H
+	.word   10,33
+GHOWE05:
+	.word   04000H,23,36
+	.long   07f3525dH
+	.word   10,33
+GHOWE11:
+	.word   05000H,23,38
+	.long   07f35f4dH
+	.word   10,31
+GHOWE12:
+	.word   05000H,25,38
+	.long   07f3705fH
+	.word   6,31
+GHOWE13:
+	.word   04000H,31,37
+	.long   07f382edH
+	.word   7,31
+GHOWE14:
+	.word   05000H,24,34
+	.long   07f394d9H
+	.word   8,30
+GHOWE15:
+	.word   04000H,23,35
+	.long   07f3a4c9H
+	.word   10,30
+	.TEXT
+

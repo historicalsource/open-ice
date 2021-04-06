@@ -1,0 +1,84 @@
+;
+;	GLOBALS DEFINED IN HHSND.ASM
+;
+;	ROUTINES:
+;
+	.def		LINT2_SERVICE
+	.def		QSNDRST
+	.def		DEBUG_SNDRST
+	.def		FACTORY_VOLUME
+	.def		FACTORY_MINVOL
+	.def		SNDRES
+	.def		do_sound
+	.def		sound_exec
+	.def		set_background_tune
+	.def		send_track_volume
+	.def		set_track_volume
+	.def		SEND_RAW_SOUND
+	.def		do_sound_at_volume
+	.def		cancel_track_sound
+	.def		SOUND_RX
+	.def		ice_skate_track
+	.def		puck_bounce_track
+	.def		puck_ice_track
+	.def		current_tune
+	.def		set_track_priority
+	.def		get_track_time
+	.def		set_track_time
+	.def		get_track_volume
+	.def		track_0_pri
+	.def		track_0_time
+	.def		track_0_last
+	.def		track_0_volume
+	.def		track_1_pri
+	.def		track_1_time
+	.def		track_1_last
+	.def		track_2_pri
+	.def		track_2_time
+	.def		track_2_last
+	.def		track_2_volume
+	.def		track_3_pri
+	.def		track_3_time
+	.def		track_3_last
+	.def		track_3_volume
+	.def		last_track_used
+	.def		kill_all_sound
+	.def		SWITCH_VOLUME_UP
+	.def		SWITCH_VOLUME_DOWN
+	.def		track_1_volume
+	.def		track_4_pri
+	.def		track_4_time
+	.def		track_4_last
+	.def		track_4_volume
+	.def		track_5_pri
+	.def		track_5_time
+	.def		track_5_last
+	.def		track_5_volume
+	.def		set_tune_a0
+	.def		tune_address_5
+	.def		tune_address_4
+	.def		tune_address_3
+	.def		tune_address_2
+	.def		tune_address_1
+	.def		raw_sound_pointer
+	.def		raw_sound_buffer
+	.def		organ_track
+	.def		crowd_track
+	.def		set_select_tune
+	.def		set_intermission_tune
+	.def		init_speech_buffer
+	.def		add_speech_sound_or_time
+	.def		speech_irq
+	.def		add_speech_sound
+	.def		add_speech_time
+	.def		get_speech_time_remaining
+	.def		END_INTERMISSION_TUNE
+	.def		SET_VOLUME
+	.def		kill_all_sound_but_speech
+	.def		set_game_over_tune
+	.def		set_tune_a0_safe
+	.def		kill_all_but_speech_tune
+;
+;	RAM:
+;
+

@@ -1,0 +1,8 @@
+	.DATA
+CITYPLQ2:
+	.word   06c80H,195,62
+	.long   064b889fH
+	.word   0,0
+	.long   SLVFRM07P
+	.TEXT
+

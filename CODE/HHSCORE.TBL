@@ -1,0 +1,664 @@
+	.DATA
+ghit101:
+	.word   07180H,42,73
+	.long   060bfa06H
+	.word   37,70
+	.long   GOALP
+ghit102:
+	.word   07180H,42,73
+	.long   060c3478H
+	.word   37,70
+	.long   GOALP
+ghit103:
+	.word   07180H,42,73
+	.long   060c7048H
+	.word   37,70
+	.long   GOALP
+ghit104:
+	.word   07180H,45,73
+	.long   060cadd8H
+	.word   40,70
+	.long   GOALP
+ghit105:
+	.word   07180H,50,73
+	.long   060cedd7H
+	.word   45,70
+	.long   GOALP
+ghit201:
+	.word   07180H,42,73
+	.long   060d306fH
+	.word   37,70
+	.long   GOALP
+ghit202:
+	.word   07180H,42,73
+	.long   060d6ba5H
+	.word   37,70
+	.long   GOALP
+ghit203:
+	.word   07180H,42,73
+	.long   060da81dH
+	.word   37,70
+	.long   GOALP
+ghit204:
+	.word   07180H,42,73
+	.long   060de5c9H
+	.word   37,70
+	.long   GOALP
+ghit301:
+	.word   07180H,42,73
+	.long   060e24c5H
+	.word   37,70
+	.long   GOALP
+ghit302:
+	.word   07180H,42,73
+	.long   060e5f0dH
+	.word   37,70
+	.long   GOALP
+ghit303:
+	.word   07180H,42,73
+	.long   060e9955H
+	.word   37,70
+	.long   GOALP
+ghit304:
+	.word   07180H,42,73
+	.long   060ed39dH
+	.word   37,70
+	.long   GOALP
+ghit305:
+	.word   07180H,42,73
+	.long   060f0e7fH
+	.word   37,70
+	.long   GOALP
+ghit401:
+	.word   07180H,42,73
+	.long   060f4b21H
+	.word   37,70
+	.long   GOALP
+ghit402:
+	.word   07180H,45,73
+	.long   060f85f5H
+	.word   40,70
+	.long   GOALP
+ghit403:
+	.word   07180H,48,73
+	.long   060fc24aH
+	.word   43,70
+	.long   GOALP
+ghit404:
+	.word   07180H,51,73
+	.long   060fff78H
+	.word   46,70
+	.long   GOALP
+ghit405:
+	.word   07180H,54,73
+	.long   06103e27H
+	.word   49,70
+	.long   GOALP
+ghit501:
+	.word   07180H,42,73
+	.long   06107e3bH
+	.word   37,70
+	.long   GOALP
+ghit502:
+	.word   07180H,42,73
+	.long   0610b955H
+	.word   37,70
+	.long   GOALP
+ghit503:
+	.word   07080H,42,73
+	.long   0610f4dfH
+	.word   37,70
+	.long   GOALP
+ghit504:
+	.word   07080H,42,75
+	.long   06113188H
+	.word   37,72
+	.long   GOALP
+ghit505:
+	.word   07080H,42,77
+	.long   06116ef7H
+	.word   37,74
+	.long   GOALP
+ntfrg101:
+	.word   07080H,23,19
+	.long   0611ada3H
+	.word   14,9
+	.long   GOALP
+ntfrg102:
+	.word   07080H,21,22
+	.long   0611b7d4H
+	.word   14,11
+ntfrg103:
+	.word   07080H,17,25
+	.long   0611bfbcH
+	.word   8,13
+ntfrg104:
+	.word   07080H,22,25
+	.long   0611c7b5H
+	.word   12,13
+ntfrg105:
+	.word   07080H,22,25
+	.long   0611d224H
+	.word   15,14
+ntfrg106:
+	.word   07480H,24,27
+	.long   0611e013H
+	.word   14,14
+ntfrg107:
+	.word   07080H,22,27
+	.long   0611ee6dH
+	.word   13,13
+ntfrg108:
+	.word   07080H,19,25
+	.long   0611f940H
+	.word   15,11
+ntfrg109:
+	.word   07080H,23,22
+	.long   061200deH
+	.word   15,10
+ntfrg110:
+	.word   07080H,23,18
+	.long   06120809H
+	.word   12,8
+ntfrg301:
+	.word   07080H,18,11
+	.long   061211ecH
+	.word   14,2
+ntfrg302:
+	.word   07080H,18,9
+	.long   061215d2H
+	.word   14,0
+ntfrg303:
+	.word   07080H,17,10
+	.long   0612189eH
+	.word   14,4
+ntfrg304:
+	.word   07080H,17,12
+	.long   06121c2fH
+	.word   14,6
+ntfrg305:
+	.word   07080H,18,14
+	.long   061220beH
+	.word   14,6
+ntfrg306:
+	.word   07080H,18,10
+	.long   061225e2H
+	.word   14,4
+ntfrg307:
+	.word   04080H,18,8
+	.long   0612297aH
+	.word   14,4
+ntfrg308:
+	.word   07080H,17,9
+	.long   06122b0eH
+	.word   14,2
+ntfrg309:
+	.word   07080H,18,14
+	.long   06122ebaH
+	.word   14,4
+ntfrg310:
+	.word   07080H,18,14
+	.long   061233deH
+	.word   14,4
+ntfrg401:
+	.word   07080H,14,12
+	.long   06123925H
+	.word   7,8
+ntfrg402:
+	.word   07000H,11,14
+	.long   06123ce2H
+	.word   6,9
+ntfrg403:
+	.word   07000H,11,15
+	.long   06124118H
+	.word   5,10
+ntfrg404:
+	.word   07080H,12,17
+	.long   0612459bH
+	.word   3,11
+ntfrg405:
+	.word   07080H,15,16
+	.long   06124adeH
+	.word   5,11
+ntfrg406:
+	.word   07080H,15,17
+	.long   0612504aH
+	.word   7,11
+ntfrg407:
+	.word   07000H,10,17
+	.long   061255b7H
+	.word   4,10
+ntfrg408:
+	.word   07000H,10,15
+	.long   06125a5dH
+	.word   5,9
+ntfrg409:
+	.word   07080H,12,13
+	.long   06125e77H
+	.word   8,8
+ntfrg410:
+	.word   07080H,16,12
+	.long   06126289H
+	.word   9,8
+ntfrg501:
+	.word   07080H,18,33
+	.long   061266afH
+	.word   10,18
+ntfrg502:
+	.word   07080H,18,14
+	.long   061274a6H
+	.word   10,8
+ntfrg503:
+	.word   07080H,19,21
+	.long   061279b5H
+	.word   11,12
+ntfrg504:
+	.word   07080H,19,33
+	.long   0612835cH
+	.word   11,17
+ntfrg505:
+	.word   07080H,20,39
+	.long   061292e2H
+	.word   12,19
+ntfrg506:
+	.word   07080H,21,33
+	.long   0612a45fH
+	.word   12,16
+ntfrg507:
+	.word   07480H,20,14
+	.long   0612b217H
+	.word   12,7
+ntfrg508:
+	.word   07080H,20,22
+	.long   0612b734H
+	.word   12,12
+ntfrg509:
+	.word   07080H,19,34
+	.long   0612c184H
+	.word   11,18
+ntfrg510:
+	.word   07080H,18,40
+	.long   0612d16dH
+	.word   10,21
+ntfrg701:
+	.word   07180H,29,37
+	.long   0612e393H
+	.word   16,16
+ntfrg702:
+	.word   07880H,44,35
+	.long   0612f0b5H
+	.word   20,16
+ntfrg703:
+	.word   07880H,52,31
+	.long   061303f5H
+	.word   24,17
+ntfrg704:
+	.word   07580H,42,32
+	.long   06131af7H
+	.word   19,19
+ntfrg705:
+	.word   07580H,24,37
+	.long   06132e8fH
+	.word   6,21
+ntfrg706:
+	.word   07480H,31,41
+	.long   06133ac3H
+	.word   9,22
+ntfrg707:
+	.word   07580H,46,41
+	.long   06134da0H
+	.word   20,22
+ntfrg708:
+	.word   07580H,54,39
+	.long   06136b58H
+	.word   24,21
+ntfrg709:
+	.word   07180H,42,38
+	.long   06138d8aH
+	.word   19,19
+ntfrg710:
+	.word   07080H,24,38
+	.long   0613ac18H
+	.word   12,17
+GFLM101:
+	.word   0180H,45,74
+	.long   0613bed6H
+	.word   39,70
+	.long   GFLM1P
+GFLM102:
+	.word   0180H,45,74
+	.long   06140966H
+	.word   39,70
+	.long   GFLM1P
+GFLM103:
+	.word   0180H,45,74
+	.long   061453f6H
+	.word   39,70
+	.long   GFLM1P
+GFLM104:
+	.word   0180H,45,74
+	.long   06149ebeH
+	.word   39,70
+	.long   GFLM1P
+GFLM105:
+	.word   0180H,46,74
+	.long   0614e976H
+	.word   39,70
+	.long   GFLM1P
+GFLM106:
+	.word   0180H,46,74
+	.long   061534c6H
+	.word   39,70
+	.long   GFLM1P
+GFLM107:
+	.word   0180H,46,73
+	.long   061580d6H
+	.word   39,69
+	.long   GFLM1P
+GFLM108:
+	.word   0180H,46,73
+	.long   0615ccb6H
+	.word   39,69
+	.long   GFLM1P
+GFLM109:
+	.word   0180H,46,77
+	.long   0616196eH
+	.word   39,73
+	.long   GFLM1P
+GFLM201:
+	.word   07180H,47,83
+	.long   0616696eH
+	.word   39,79
+	.long   GFLM2P
+GFLM202:
+	.word   07180H,47,82
+	.long   0616b5fdH
+	.word   39,78
+	.long   GFLM2P
+GFLM203:
+	.word   07180H,47,84
+	.long   06170206H
+	.word   39,80
+	.long   GFLM2P
+GFLM204:
+	.word   07180H,47,84
+	.long   06174edcH
+	.word   39,80
+	.long   GFLM2P
+GFLM205:
+	.word   07180H,47,83
+	.long   06179ba4H
+	.word   39,79
+	.long   GFLM2P
+GFLM206:
+	.word   07180H,47,84
+	.long   0617e872H
+	.word   39,80
+	.long   GFLM2P
+GFLM207:
+	.word   07180H,47,81
+	.long   0618359cH
+	.word   39,77
+	.long   GFLM2P
+GFLM208:
+	.word   07180H,47,83
+	.long   0618816cH
+	.word   39,79
+	.long   GFLM2P
+GFLM209:
+	.word   07180H,47,84
+	.long   0618cdbcH
+	.word   39,80
+	.long   GFLM2P
+GFLM210:
+	.word   07180H,46,83
+	.long   061919b9H
+	.word   39,79
+	.long   GFLM2P
+GFLM211:
+	.word   07180H,46,84
+	.long   06196522H
+	.word   39,80
+	.long   GFLM2P
+GFLM212:
+	.word   07180H,47,85
+	.long   0619b11fH
+	.word   39,81
+	.long   GFLM2P
+GFLM213:
+	.word   07180H,47,86
+	.long   0619fd1dH
+	.word   39,82
+	.long   GFLM2P
+GFLM214:
+	.word   07180H,47,83
+	.long   061a4977H
+	.word   39,79
+	.long   GFLM2P
+GFLM215:
+	.word   07180H,47,85
+	.long   061a955eH
+	.word   39,81
+	.long   GFLM2P
+GFLM216:
+	.word   07180H,46,83
+	.long   061ae274H
+	.word   39,79
+	.long   GFLM2P
+GFLM217:
+	.word   07180H,47,84
+	.long   061b2e4dH
+	.word   39,80
+	.long   GFLM2P
+GFLM218:
+	.word   07180H,47,84
+	.long   061b7a58H
+	.word   39,80
+	.long   GFLM2P
+GFLM219:
+	.word   07180H,47,82
+	.long   061bc719H
+	.word   39,78
+	.long   GFLM2P
+GFLM220:
+	.word   07180H,47,84
+	.long   061c13dfH
+	.word   39,80
+	.long   GFLM2P
+GFLM221:
+	.word   07180H,47,84
+	.long   061c612cH
+	.word   39,80
+	.long   GFLM2P
+CYCLEGL3:
+	.word   04000H,24,16
+	.long   061cae4fH
+	.word   0,0
+	.long   CYCLEGLP3
+PLYRBOX:
+	.word   05000H,87,94
+	.long   061cb44fH
+	.word   0,0
+	.long   PLYRBXP
+PCKTRI01:
+	.word   04080H,16,16
+	.long   061d5409H
+	.word   0,0
+	.long   TRI
+G01:
+	.word   01000H,5,8
+	.long   061d575dH
+	.word   -2,0
+	.long   GNUMS
+G02:
+	.word   01000H,9,8
+	.long   061d5785H
+	.word   0,0
+	.long   GNUMS
+G03:
+	.word   01000H,9,8
+	.long   061d57cdH
+	.word   0,0
+	.long   GNUMS
+G04:
+	.word   01000H,9,8
+	.long   061d5815H
+	.word   0,0
+	.long   GNUMS
+G05:
+	.word   01000H,9,8
+	.long   061d585dH
+	.word   0,0
+	.long   GNUMS
+G06:
+	.word   01000H,9,8
+	.long   061d58a5H
+	.word   0,0
+	.long   GNUMS
+G07:
+	.word   01000H,9,8
+	.long   061d58edH
+	.word   0,0
+	.long   GNUMS
+G08:
+	.word   01000H,9,8
+	.long   061d5935H
+	.word   0,0
+	.long   GNUMS
+G09:
+	.word   01000H,9,8
+	.long   061d597dH
+	.word   0,0
+	.long   GNUMS
+G00:
+	.word   01000H,9,8
+	.long   061d59c5H
+	.word   0,0
+	.long   GNUMS
+PPLAYER:
+	.word   02000H,10,59
+	.long   061d5a0dH
+	.word   0,0
+	.long   PLAYERP
+GOALTND:
+	.word   02000H,10,54
+	.long   061d5ea9H
+	.word   -4,-19
+	.long   PLAYERP
+PLYRBCK:
+	.word   06000H,70,64
+	.long   061d62e1H
+	.word   0,0
+	.long   PLYRBCK2P
+GOALS:
+	.word   01000H,43,8
+	.long   061dcbe1H
+	.word   0,0
+	.long   POSITP
+GHLM5A01:
+	.word   07080H,15,24
+	.long   061dcd39H
+	.word   7,11
+	.long   GHLM5AP
+GHLM5A02:
+	.word   07080H,17,25
+	.long   061dd5d2H
+	.word   9,11
+	.long   GHLM5AP
+GHLM5A03:
+	.word   07080H,18,25
+	.long   061ddf37H
+	.word   10,11
+	.long   GHLM5AP
+GHLM5A04:
+	.word   07080H,17,26
+	.long   061de8a3H
+	.word   10,12
+	.long   GHLM5AP
+GHLM5A05:
+	.word   07080H,16,26
+	.long   061df279H
+	.word   9,12
+	.long   GHLM5AP
+GHLM5A06:
+	.word   07080H,15,26
+	.long   061dfbf4H
+	.word   7,12
+	.long   GHLM5AP
+GHLM5A07:
+	.word   07080H,16,26
+	.long   061e0568H
+	.word   7,12
+	.long   GHLM5AP
+GHLM5A08:
+	.word   07080H,17,26
+	.long   061e0effH
+	.word   8,12
+	.long   GHLM5AP
+GHLM5A09:
+	.word   07080H,17,26
+	.long   061e18b2H
+	.word   8,12
+	.long   GHLM5AP
+GHLM5A10:
+	.word   07080H,16,24
+	.long   061e226cH
+	.word   8,11
+	.long   GHLM5AP
+GHLM5A11:
+	.word   07080H,16,25
+	.long   061e2b1aH
+	.word   8,11
+	.long   GHLM5AP
+GHLM5A12:
+	.word   07080H,17,25
+	.long   061e340fH
+	.word   8,11
+	.long   GHLM5AP
+GHLM5A13:
+	.word   07080H,18,25
+	.long   061e3d97H
+	.word   8,11
+	.long   GHLM5AP
+GHLM5A14:
+	.word   07080H,16,25
+	.long   061e4749H
+	.word   7,11
+	.long   GHLM5AP
+GHLM5A15:
+	.word   07080H,15,25
+	.long   061e5099H
+	.word   7,11
+	.long   GHLM5AP
+GHLM5A16:
+	.word   07080H,15,25
+	.long   061e599cH
+	.word   8,11
+	.long   GHLM5AP
+GHLM5A17:
+	.word   07080H,16,25
+	.long   061e629fH
+	.word   9,11
+	.long   GHLM5AP
+GHLM5A18:
+	.word   07080H,18,25
+	.long   061e6bf6H
+	.word   10,11
+	.long   GHLM5AP
+GHLM5A19:
+	.word   07080H,17,25
+	.long   061e75a8H
+	.word   9,11
+	.long   GHLM5AP
+GHLM5A20:
+	.word   07080H,15,24
+	.long   061e7f45H
+	.word   7,11
+	.long   GHLM5AP
+SAVES:
+	.word   01000H,42,8
+	.long   061e87ecH
+	.word   -19,-82
+	.long   POSITP
+	.TEXT
+

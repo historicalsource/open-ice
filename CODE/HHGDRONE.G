@@ -1,0 +1,12 @@
+;
+;	GLOBALS DEFINED IN HHGDRONE.ASM
+;
+;	ROUTINES:
+;
+	.global		GOALIE_PASS_PUCK
+	.global		DO_GOALIE_DRONE_LOGIC
+;
+;	RAM:
+;
+
+

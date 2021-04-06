@@ -1,0 +1,1555 @@
+	.DATA
+FONT5A:
+	.word   01000H,4,5
+	.long   043a27dH
+	.word   0,0
+FONT5B:
+	.word   01000H,4,5
+	.long   043a291H
+	.word   0,0
+FONT5C:
+	.word   01000H,4,5
+	.long   043a2a5H
+	.word   0,0
+FONT5D:
+	.word   01000H,4,5
+	.long   043a2b9H
+	.word   0,0
+FONT5E:
+	.word   01000H,4,5
+	.long   043a2cdH
+	.word   0,0
+FONT5F:
+	.word   01000H,4,5
+	.long   043a2e1H
+	.word   0,0
+FONT5G:
+	.word   01000H,4,5
+	.long   043a2f5H
+	.word   0,0
+FONT5H:
+	.word   01000H,4,5
+	.long   043a309H
+	.word   0,0
+FONT5I:
+	.word   01000H,3,5
+	.long   043a31dH
+	.word   0,0
+FONT5J:
+	.word   01000H,4,5
+	.long   043a32cH
+	.word   0,0
+FONT5K:
+	.word   01000H,4,5
+	.long   043a340H
+	.word   0,0
+FONT5L:
+	.word   01000H,4,5
+	.long   043a354H
+	.word   0,0
+FONT5M:
+	.word   01000H,5,5
+	.long   043a368H
+	.word   0,0
+FONT5N:
+	.word   01000H,4,5
+	.long   043a381H
+	.word   0,0
+FONT5O:
+	.word   01000H,4,5
+	.long   043a395H
+	.word   0,0
+FONT5P:
+	.word   01000H,4,5
+	.long   043a3a9H
+	.word   0,0
+FONT5Q:
+	.word   01000H,4,5
+	.long   043a3bdH
+	.word   0,0
+FONT5R:
+	.word   01000H,4,5
+	.long   043a3d1H
+	.word   0,0
+FONT5S:
+	.word   01000H,4,5
+	.long   043a3e5H
+	.word   0,0
+FONT5T:
+	.word   01000H,5,5
+	.long   043a3f9H
+	.word   0,0
+FONT5U:
+	.word   01000H,4,5
+	.long   043a412H
+	.word   0,0
+FONT5V:
+	.word   01000H,5,5
+	.long   043a426H
+	.word   0,0
+FONT5W:
+	.word   01000H,5,5
+	.long   043a43fH
+	.word   0,0
+FONT5X:
+	.word   01000H,5,5
+	.long   043a458H
+	.word   0,0
+FONT5Y:
+	.word   01000H,4,5
+	.long   043a471H
+	.word   0,0
+FONT5Z:
+	.word   01000H,4,5
+	.long   043a485H
+	.word   0,0
+FONT51:
+	.word   01000H,4,5
+	.long   043a499H
+	.word   0,0
+FONT52:
+	.word   01000H,4,5
+	.long   043a4adH
+	.word   0,0
+FONT53:
+	.word   01000H,4,5
+	.long   043a4c1H
+	.word   0,0
+FONT54:
+	.word   01000H,4,5
+	.long   043a4d5H
+	.word   0,0
+FONT55:
+	.word   01000H,4,5
+	.long   043a4e9H
+	.word   0,0
+FONT56:
+	.word   01000H,4,5
+	.long   043a4fdH
+	.word   0,0
+FONT57:
+	.word   01000H,4,5
+	.long   043a511H
+	.word   0,0
+FONT58:
+	.word   01000H,4,5
+	.long   043a525H
+	.word   0,0
+FONT59:
+	.word   01000H,4,5
+	.long   043a539H
+	.word   0,0
+FONT50:
+	.word   01000H,4,5
+	.long   043a54dH
+	.word   0,0
+FONT5PER:
+	.word   01000H,3,1
+	.long   043a561H
+	.word   0,-4
+FONT5EXC:
+	.word   01000H,3,6
+	.long   043a564H
+	.word   0,1
+FONT5MIN:
+	.word   01000H,4,1
+	.long   043a576H
+	.word   0,0
+FONT5SLA:
+	.word   01000H,4,4
+	.long   043a57aH
+	.word   0,0
+FONT5COLON:
+	.word   01000H,4,5
+	.long   043a58aH
+	.word   0,0
+FONT5APOS:
+	.word   01000H,3,2
+	.long   043a59eH
+	.word   0,1
+FONT5GERB:
+	.word   01000H,4,5
+	.long   043a5a4H
+	.word   0,0
+FONT5GERA:
+	.word   01000H,4,7
+	.long   043a5b8H
+	.word   0,2
+FONT5GERO:
+	.word   01000H,4,7
+	.long   043a5d4H
+	.word   0,2
+FONT5GERU:
+	.word   01000H,4,7
+	.long   043a5f0H
+	.word   0,2
+FONT5TM:
+	.word   01000H,9,3
+	.long   043a60cH
+	.word   0,2
+FONT5REG:
+	.word   01000H,7,8
+	.long   043a627H
+	.word   1,2
+FONT5COPY:
+	.word   01000H,7,8
+	.long   043a65fH
+	.word   1,2
+FONT80:
+	.word   01000H,6,8
+	.long   043a697H
+	.word   0,0
+FONT81:
+	.word   01000H,4,8
+	.long   043a6c7H
+	.word   0,0
+FONT82:
+	.word   01000H,6,8
+	.long   043a6e7H
+	.word   0,0
+FONT83:
+	.word   01000H,6,8
+	.long   043a717H
+	.word   0,0
+FONT84:
+	.word   01000H,6,8
+	.long   043a747H
+	.word   0,0
+FONT85:
+	.word   01000H,6,8
+	.long   043a777H
+	.word   0,0
+FONT86:
+	.word   01000H,6,8
+	.long   043a7a7H
+	.word   0,0
+FONT87:
+	.word   01000H,6,8
+	.long   043a7d7H
+	.word   0,0
+FONT88:
+	.word   01000H,6,8
+	.long   043a807H
+	.word   0,0
+FONT89:
+	.word   01000H,6,8
+	.long   043a837H
+	.word   0,0
+FONT8A:
+	.word   01000H,6,8
+	.long   043a867H
+	.word   0,0
+FONT8AND:
+	.word   01000H,6,8
+	.long   043a897H
+	.word   0,0
+FONT8APOS:
+	.word   01000H,3,3
+	.long   043a8c7H
+	.word   0,0
+FONT8ASTR:
+	.word   01000H,5,7
+	.long   043a8d0H
+	.word   -1,-1
+FONT8B:
+	.word   01000H,6,8
+	.long   043a8f3H
+	.word   0,0
+FONT8C:
+	.word   01000H,6,8
+	.long   043a923H
+	.word   0,0
+FONT8COL:
+	.word   01000H,3,6
+	.long   043a953H
+	.word   0,-1
+FONT8COM:
+	.word   01000H,3,4
+	.long   043a965H
+	.word   0,-6
+FONT8COPY:
+	.word   01000H,7,8
+	.long   043a971H
+	.word   0,0
+FONT8D:
+	.word   01000H,6,8
+	.long   043a9a9H
+	.word   0,0
+FONT8DOLL:
+	.word   01000H,6,8
+	.long   043a9d9H
+	.word   0,0
+FONT8DSH:
+	.word   01000H,5,2
+	.long   043aa09H
+	.word   0,0
+FONT8E:
+	.word   01000H,6,8
+	.long   043aa13H
+	.word   0,0
+FONT8EQL:
+	.word   01000H,6,3
+	.long   043aa43H
+	.word   0,-3
+FONT8EXC:
+	.word   01000H,3,8
+	.long   043aa55H
+	.word   0,0
+FONT8F:
+	.word   01000H,6,8
+	.long   043aa6dH
+	.word   0,0
+FONT8G:
+	.word   01000H,6,8
+	.long   043aa9dH
+	.word   0,0
+FONT8GERA:
+	.word   01000H,6,10
+	.long   043aacdH
+	.word   0,2
+FONT8GERB:
+	.word   01000H,7,8
+	.long   043ab09H
+	.word   0,0
+FONT8GERO:
+	.word   01000H,7,10
+	.long   043ab41H
+	.word   0,2
+FONT8GERU:
+	.word   01000H,6,10
+	.long   043ab87H
+	.word   0,2
+FONT8H:
+	.word   01000H,6,8
+	.long   043abc3H
+	.word   0,0
+FONT8I:
+	.word   01000H,3,8
+	.long   043abf3H
+	.word   0,0
+FONT8J:
+	.word   01000H,6,8
+	.long   043ac0bH
+	.word   0,0
+FONT8K:
+	.word   01000H,6,8
+	.long   043ac3bH
+	.word   0,0
+FONT8L:
+	.word   01000H,5,8
+	.long   043ac6bH
+	.word   0,0
+FONT8LPAREN:
+	.word   01000H,3,8
+	.long   043ac93H
+	.word   0,0
+FONT8M:
+	.word   01000H,10,8
+	.long   043acabH
+	.word   0,0
+FONT8MIN:
+	.word   01000H,6,2
+	.long   043acfbH
+	.word   0,-3
+FONT8N:
+	.word   01000H,7,8
+	.long   043ad07H
+	.word   0,0
+FONT8NUM:
+	.word   01000H,6,8
+	.long   043ad3fH
+	.word   0,0
+FONT8O:
+	.word   01000H,7,8
+	.long   043ad6fH
+	.word   0,0
+FONT8P:
+	.word   01000H,6,8
+	.long   043ada7H
+	.word   0,0
+FONT8PER:
+	.word   01000H,3,2
+	.long   043add7H
+	.word   0,-6
+FONT8PERC:
+	.word   01000H,6,8
+	.long   043adddH
+	.word   0,0
+FONT8PLUS:
+	.word   01000H,6,6
+	.long   043ae0dH
+	.word   0,-1
+FONT8Q:
+	.word   01000H,7,9
+	.long   043ae31H
+	.word   0,0
+FONT8QUEST:
+	.word   01000H,4,9
+	.long   043ae70H
+	.word   0,1
+FONT8R:
+	.word   01000H,6,8
+	.long   043ae94H
+	.word   0,0
+FONT8REG:
+	.word   01000H,7,8
+	.long   043aec4H
+	.word   0,5
+FONT8RPAREN:
+	.word   01000H,3,8
+	.long   043aefcH
+	.word   0,0
+FONT8S:
+	.word   01000H,6,8
+	.long   043af14H
+	.word   0,0
+FONT8SLA:
+	.word   01000H,6,8
+	.long   043af44H
+	.word   0,0
+FONT8SMCOL:
+	.word   01000H,3,8
+	.long   043af74H
+	.word   -2,-1
+FONT8T:
+	.word   01000H,6,8
+	.long   043af8cH
+	.word   0,0
+FONT8TM:
+	.word   01000H,9,3
+	.long   043afbcH
+	.word   0,3
+FONT8U:
+	.word   01000H,6,8
+	.long   043afd7H
+	.word   0,0
+FONT8V:
+	.word   01000H,7,8
+	.long   043b007H
+	.word   0,0
+FONT8W:
+	.word   01000H,11,8
+	.long   043b03fH
+	.word   0,0
+FONT8X:
+	.word   01000H,7,8
+	.long   043b097H
+	.word   0,0
+FONT8Y:
+	.word   01000H,6,8
+	.long   043b0cfH
+	.word   0,0
+FONT8Z:
+	.word   01000H,6,8
+	.long   043b0ffH
+	.word   0,0
+FONT20TM:
+	.word   01000H,11,4
+	.long   043b12fH
+	.word   0,3
+FONT20REG:
+	.word   01000H,8,8
+	.long   043b15bH
+	.word   0,5
+FONT20COPY:
+	.word   01000H,11,9
+	.long   043b19bH
+	.word   0,-10
+T2FONT20GERB:
+	.word   01000H,23,20
+	.long   043b1feH
+	.word   0,0
+T2FONT20GERA:
+	.word   01000H,30,25
+	.long   043b3caH
+	.word   0,5
+T2FONT20GERO:
+	.word   01000H,28,25
+	.long   043b6b8H
+	.word   0,5
+T2FONT20GERU:
+	.word   01000H,19,25
+	.long   043b974H
+	.word   0,5
+FONT200:
+	.word   01000H,16,20
+	.long   043bb4fH
+	.word   0,0
+FONT201:
+	.word   01000H,13,20
+	.long   043bc8fH
+	.word   0,0
+FONT202:
+	.word   01000H,15,20
+	.long   043bd93H
+	.word   0,0
+FONT203:
+	.word   01000H,16,20
+	.long   043bebfH
+	.word   0,0
+FONT204:
+	.word   01000H,16,20
+	.long   043bfffH
+	.word   0,0
+FONT205:
+	.word   01000H,15,20
+	.long   043c13fH
+	.word   0,0
+FONT206:
+	.word   01000H,15,20
+	.long   043c26bH
+	.word   0,0
+FONT207:
+	.word   01000H,15,20
+	.long   043c397H
+	.word   0,0
+FONT208:
+	.word   01000H,16,20
+	.long   043c4c3H
+	.word   0,0
+FONT209:
+	.word   01000H,15,20
+	.long   043c603H
+	.word   0,0
+FONT20A:
+	.word   01000H,25,20
+	.long   043c72fH
+	.word   0,0
+FONT20AND:
+	.word   01000H,23,20
+	.long   043c923H
+	.word   0,0
+FONT20ASTERIX:
+	.word   01000H,11,13
+	.long   043caefH
+	.word   0,-3
+FONT20AT:
+	.word   01000H,21,20
+	.long   043cb7eH
+	.word   0,1
+FONT20B:
+	.word   01000H,23,20
+	.long   043cd22H
+	.word   0,0
+FONT20C:
+	.word   01000H,19,20
+	.long   043ceeeH
+	.word   0,0
+FONT20COL:
+	.word   01000H,7,18
+	.long   043d06aH
+	.word   0,-1
+FONT20COM:
+	.word   01000H,7,11
+	.long   043d0e8H
+	.word   0,-13
+FONT20D:
+	.word   01000H,23,20
+	.long   043d135H
+	.word   0,0
+FONT20DOLL:
+	.word   01000H,15,25
+	.long   043d301H
+	.word   0,2
+FONT20E:
+	.word   01000H,21,20
+	.long   043d478H
+	.word   0,0
+FONT20EQUAL:
+	.word   01000H,7,9
+	.long   043d61cH
+	.word   0,-5
+FONT20EXC:
+	.word   01000H,7,20
+	.long   043d65bH
+	.word   0,0
+FONT20F:
+	.word   01000H,21,20
+	.long   043d6e7H
+	.word   0,0
+FONT20G:
+	.word   01000H,21,20
+	.long   043d88bH
+	.word   0,0
+FONT20H:
+	.word   01000H,27,20
+	.long   043da2fH
+	.word   0,0
+FONT20I:
+	.word   01000H,14,20
+	.long   043dc4bH
+	.word   0,0
+FONT20J:
+	.word   01000H,20,20
+	.long   043dd63H
+	.word   0,0
+FONT20K:
+	.word   01000H,27,20
+	.long   043def3H
+	.word   0,0
+FONT20L:
+	.word   01000H,19,20
+	.long   043e10fH
+	.word   0,0
+FONT20LPAREN:
+	.word   01000H,11,30
+	.long   043e28bH
+	.word   0,0
+FONT20M:
+	.word   01000H,30,20
+	.long   043e3d5H
+	.word   0,0
+FONT20MIN:
+	.word   01000H,7,3
+	.long   043e62dH
+	.word   0,-8
+FONT20N:
+	.word   01000H,23,20
+	.long   043e642H
+	.word   0,0
+FONT20O:
+	.word   01000H,20,20
+	.long   043e80eH
+	.word   0,0
+FONT20P:
+	.word   01000H,22,20
+	.long   043e99eH
+	.word   0,0
+FONT20PCT:
+	.word   01000H,20,20
+	.long   043eb56H
+	.word   0,0
+FONT20PER:
+	.word   01000H,7,7
+	.long   043ece6H
+	.word   0,-13
+FONT20PLUS:
+	.word   01000H,9,9
+	.long   043ed17H
+	.word   0,-6
+FONT20POUND:
+	.word   01000H,18,17
+	.long   043ed68H
+	.word   0,0
+FONT20Q:
+	.word   01000H,21,25
+	.long   043ee9aH
+	.word   0,0
+FONT20QUEST:
+	.word   01000H,15,20
+	.long   043f0a7H
+	.word   0,0
+FONT20QUOTE:
+	.word   01000H,16,11
+	.long   043f1d3H
+	.word   0,0
+FONT20R:
+	.word   01000H,25,20
+	.long   043f283H
+	.word   0,0
+FONT20RPAREN:
+	.word   01000H,11,30
+	.long   043f477H
+	.word   0,0
+FONT20S:
+	.word   01000H,17,20
+	.long   043f5c1H
+	.word   0,0
+FONT20SEMI:
+	.word   01000H,7,22
+	.long   043f715H
+	.word   0,-2
+FONT20SLA:
+	.word   01000H,7,19
+	.long   043f7afH
+	.word   0,0
+FONT20SQUOTE:
+	.word   01000H,7,11
+	.long   043f834H
+	.word   0,0
+FONT20T:
+	.word   01000H,20,20
+	.long   043f881H
+	.word   0,0
+FONT20U:
+	.word   01000H,21,20
+	.long   043fa11H
+	.word   0,0
+FONT20V:
+	.word   01000H,23,20
+	.long   043fbb5H
+	.word   0,0
+FONT20W:
+	.word   01000H,33,20
+	.long   043fd81H
+	.word   0,0
+FONT20X:
+	.word   01000H,23,20
+	.long   0440015H
+	.word   0,0
+FONT20Y:
+	.word   01000H,24,20
+	.long   04401e1H
+	.word   0,0
+FONT20Z:
+	.word   01000H,17,20
+	.long   04403c1H
+	.word   0,0
+FONT150:
+	.word   01000H,9,13
+	.long   0440515H
+	.word   0,0
+FONT151:
+	.word   01000H,5,13
+	.long   044058aH
+	.word   0,0
+FONT152:
+	.word   01000H,9,13
+	.long   04405cbH
+	.word   0,0
+FONT153:
+	.word   01000H,9,13
+	.long   0440640H
+	.word   0,0
+FONT154:
+	.word   01000H,10,13
+	.long   04406b5H
+	.word   0,0
+FONT155:
+	.word   01000H,9,13
+	.long   0440737H
+	.word   0,0
+FONT156:
+	.word   01000H,9,13
+	.long   04407acH
+	.word   0,0
+FONT157:
+	.word   01000H,9,13
+	.long   0440821H
+	.word   0,0
+FONT158:
+	.word   01000H,10,13
+	.long   0440896H
+	.word   0,0
+FONT159:
+	.word   01000H,9,13
+	.long   0440918H
+	.word   0,0
+FONT15A:
+	.word   01000H,10,13
+	.long   044098dH
+	.word   0,0
+FONT15AND:
+	.word   01000H,11,13
+	.long   0440a0fH
+	.word   0,0
+FONT15ASTERIX:
+	.word   01000H,7,8
+	.long   0440a9eH
+	.word   0,-2
+FONT15B:
+	.word   01000H,10,13
+	.long   0440ad6H
+	.word   0,0
+FONT15C:
+	.word   01000H,10,13
+	.long   0440b58H
+	.word   0,0
+FONT15COLON:
+	.word   01000H,3,10
+	.long   0440bdaH
+	.word   0,-1
+FONT15COMMA:
+	.word   01000H,3,5
+	.long   0440bf8H
+	.word   0,-11
+FONT15COPY:
+	.word   01000H,8,8
+	.long   0440c07H
+	.word   0,-4
+FONT15CR:
+	.word   01000H,15,11
+	.long   0440c47H
+	.word   0,0
+FONT15D:
+	.word   01000H,9,13
+	.long   0440cecH
+	.word   0,0
+FONT15DOLL:
+	.word   01000H,9,16
+	.long   0440d61H
+	.word   0,2
+FONT15E:
+	.word   01000H,9,13
+	.long   0440df1H
+	.word   0,0
+FONT15END:
+	.word   01000H,21,16
+	.long   0440e66H
+	.word   0,0
+FONT15ENGPOUND:
+	.word   01000H,11,15
+	.long   0440fb6H
+	.word   0,0
+FONT15EQUAL:
+	.word   01000H,5,6
+	.long   044105bH
+	.word   0,-3
+FONT15EXC:
+	.word   01000H,3,13
+	.long   0441079H
+	.word   0,0
+FONT15F:
+	.word   01000H,9,13
+	.long   04410a0H
+	.word   0,0
+FONT15G:
+	.word   01000H,10,13
+	.long   0441115H
+	.word   0,0
+FONT15GERA:
+	.word   01000H,10,16
+	.long   0441197H
+	.word   0,3
+FONT15GERB:
+	.word   01000H,11,13
+	.long   0441237H
+	.word   0,0
+FONT15GERO:
+	.word   01000H,11,16
+	.long   04412c6H
+	.word   0,3
+FONT15GERU:
+	.word   01000H,9,16
+	.long   0441376H
+	.word   0,3
+FONT15GERa:
+	.word   01000H,9,13
+	.long   0441406H
+	.word   0,0
+FONT15GERo:
+	.word   01000H,9,13
+	.long   044147bH
+	.word   0,0
+FONT15GERu:
+	.word   01000H,9,13
+	.long   04414f0H
+	.word   0,0
+FONT15GREATER:
+	.word   01000H,4,7
+	.long   0441565H
+	.word   0,-3
+FONT15H:
+	.word   01000H,9,13
+	.long   0441581H
+	.word   0,0
+FONT15I:
+	.word   01000H,3,13
+	.long   04415f6H
+	.word   0,0
+FONT15J:
+	.word   01000H,9,13
+	.long   044161dH
+	.word   0,0
+FONT15K:
+	.word   01000H,11,13
+	.long   0441692H
+	.word   0,0
+FONT15L:
+	.word   01000H,8,13
+	.long   0441721H
+	.word   0,0
+FONT15LESS:
+	.word   01000H,4,7
+	.long   0441789H
+	.word   0,-3
+FONT15LPAREN:
+	.word   01000H,5,15
+	.long   04417a5H
+	.word   0,1
+FONT15M:
+	.word   01000H,14,13
+	.long   04417f0H
+	.word   0,0
+FONT15N:
+	.word   01000H,10,13
+	.long   04418a6H
+	.word   0,0
+FONT15O:
+	.word   01000H,11,13
+	.long   0441928H
+	.word   0,0
+FONT15P:
+	.word   01000H,9,13
+	.long   04419b7H
+	.word   0,0
+FONT15PCT:
+	.word   01000H,12,13
+	.long   0441a2cH
+	.word   0,0
+FONT15PER:
+	.word   01000H,3,2
+	.long   0441ac8H
+	.word   0,-11
+FONT15PLUS:
+	.word   01000H,6,6
+	.long   0441aceH
+	.word   0,-4
+FONT15POUND:
+	.word   01000H,12,12
+	.long   0441af2H
+	.word   0,0
+FONT15Q:
+	.word   01000H,12,13
+	.long   0441b82H
+	.word   0,0
+FONT15QUEST:
+	.word   01000H,8,13
+	.long   0441c1eH
+	.word   0,0
+FONT15QUOTE:
+	.word   01000H,6,4
+	.long   0441c86H
+	.word   0,1
+FONT15R:
+	.word   01000H,9,13
+	.long   0441c9eH
+	.word   0,0
+FONT15REG:
+	.word   01000H,8,8
+	.long   0441d13H
+	.word   0,7
+FONT15RPAREN:
+	.word   01000H,5,15
+	.long   0441d53H
+	.word   0,1
+FONT15RQUOTE:
+	.word   01000H,10,6
+	.long   0441d9eH
+	.word   0,1
+FONT15RUB:
+	.word   01000H,20,16
+	.long   0441ddaH
+	.word   0,0
+FONT15S:
+	.word   01000H,9,13
+	.long   0441f1aH
+	.word   0,0
+FONT15SEMI:
+	.word   01000H,3,13
+	.long   0441f8fH
+	.word   0,0
+FONT15SLASH:
+	.word   01000H,8,13
+	.long   0441fb6H
+	.word   0,0
+FONT15SP:
+	.word   01000H,13,13
+	.long   044201eH
+	.word   0,0
+FONT15SQUOTE:
+	.word   01000H,3,5
+	.long   04420c7H
+	.word   0,1
+FONT15T:
+	.word   01000H,10,13
+	.long   04420d6H
+	.word   0,0
+FONT15TM:
+	.word   01000H,11,4
+	.long   0442158H
+	.word   0,4
+FONT15U:
+	.word   01000H,9,13
+	.long   0442184H
+	.word   0,0
+FONT15V:
+	.word   01000H,10,13
+	.long   04421f9H
+	.word   0,0
+FONT15W:
+	.word   01000H,16,13
+	.long   044227bH
+	.word   0,0
+FONT15X:
+	.word   01000H,10,13
+	.long   044234bH
+	.word   0,0
+FONT15Y:
+	.word   01000H,10,13
+	.long   04423cdH
+	.word   0,0
+FONT15Z:
+	.word   01000H,10,13
+	.long   044244fH
+	.word   0,0
+FONT15a:
+	.word   01000H,9,10
+	.long   04424d1H
+	.word   0,-3
+FONT15b:
+	.word   01000H,9,13
+	.long   044252bH
+	.word   0,0
+FONT15c:
+	.word   01000H,9,10
+	.long   04425a0H
+	.word   0,-3
+FONT15d:
+	.word   01000H,9,13
+	.long   04425faH
+	.word   0,0
+FONT15e:
+	.word   01000H,9,10
+	.long   044266fH
+	.word   0,-3
+FONT15f:
+	.word   01000H,7,13
+	.long   04426c9H
+	.word   0,0
+FONT15g:
+	.word   01000H,9,13
+	.long   0442724H
+	.word   0,-3
+FONT15h:
+	.word   01000H,9,13
+	.long   0442799H
+	.word   0,0
+FONT15i:
+	.word   01000H,3,13
+	.long   044280eH
+	.word   0,0
+FONT15j:
+	.word   01000H,4,15
+	.long   0442835H
+	.word   0,0
+FONT15k:
+	.word   01000H,9,13
+	.long   0442871H
+	.word   0,0
+FONT15l:
+	.word   01000H,3,13
+	.long   04428e6H
+	.word   0,0
+FONT15m:
+	.word   01000H,14,10
+	.long   044290dH
+	.word   0,-3
+FONT15n:
+	.word   01000H,9,10
+	.long   0442999H
+	.word   0,-3
+FONT15o:
+	.word   01000H,9,10
+	.long   04429f3H
+	.word   0,-3
+FONT15p:
+	.word   01000H,9,14
+	.long   0442a4dH
+	.word   0,-3
+FONT15q:
+	.word   01000H,9,14
+	.long   0442acbH
+	.word   0,-3
+FONT15r:
+	.word   01000H,6,10
+	.long   0442b49H
+	.word   0,-3
+FONT15s:
+	.word   01000H,8,10
+	.long   0442b85H
+	.word   0,-3
+FONT15t:
+	.word   01000H,6,12
+	.long   0442bd5H
+	.word   0,-1
+FONT15u:
+	.word   01000H,9,10
+	.long   0442c1dH
+	.word   0,-3
+FONT15v:
+	.word   01000H,9,10
+	.long   0442c77H
+	.word   0,-3
+FONT15w:
+	.word   01000H,14,10
+	.long   0442cd1H
+	.word   0,-3
+FONT15x:
+	.word   01000H,8,10
+	.long   0442d5dH
+	.word   0,-3
+FONT15y:
+	.word   01000H,10,14
+	.long   0442dadH
+	.word   0,-3
+FONT15z:
+	.word   01000H,8,10
+	.long   0442e39H
+	.word   0,-3
+FONT15MINUS:
+	.word   02000H,5,2
+	.long   0442e89H
+	.word   0,-6
+FONT10A:
+	.word   04000H,9,11
+	.long   0442e9dH
+	.word   0,0
+FONT10B:
+	.word   04000H,9,11
+	.long   0443029H
+	.word   0,0
+FONT10C:
+	.word   04000H,9,11
+	.long   04431b5H
+	.word   0,0
+FONT10D:
+	.word   04000H,9,11
+	.long   0443341H
+	.word   0,0
+FONT10E:
+	.word   04000H,9,11
+	.long   04434cdH
+	.word   0,0
+FONT10F:
+	.word   04000H,9,11
+	.long   0443659H
+	.word   0,0
+FONT10G:
+	.word   04000H,9,11
+	.long   04437e5H
+	.word   0,0
+FONT10H:
+	.word   04000H,9,11
+	.long   0443971H
+	.word   0,0
+FONT10I:
+	.word   04000H,5,11
+	.long   0443afdH
+	.word   0,0
+FONT10J:
+	.word   04000H,9,11
+	.long   0443bd9H
+	.word   0,0
+FONT10K:
+	.word   04000H,9,11
+	.long   0443d65H
+	.word   0,0
+FONT10L:
+	.word   04000H,9,11
+	.long   0443ef1H
+	.word   0,0
+FONT10M:
+	.word   04000H,11,11
+	.long   044407dH
+	.word   0,0
+FONT10N:
+	.word   04000H,10,11
+	.long   0444261H
+	.word   0,0
+FONT10O:
+	.word   04000H,9,11
+	.long   0444419H
+	.word   0,0
+FONT10P:
+	.word   04000H,9,11
+	.long   04445a5H
+	.word   0,0
+FONT10Q:
+	.word   04000H,9,11
+	.long   0444731H
+	.word   0,0
+FONT10R:
+	.word   04000H,9,11
+	.long   04448bdH
+	.word   0,0
+FONT10S:
+	.word   04000H,9,11
+	.long   0444a49H
+	.word   0,0
+FONT10T:
+	.word   04000H,9,11
+	.long   0444bd5H
+	.word   0,0
+FONT10U:
+	.word   04000H,9,11
+	.long   0444d61H
+	.word   0,0
+FONT10V:
+	.word   04000H,9,11
+	.long   0444eedH
+	.word   0,0
+FONT10W:
+	.word   04000H,11,11
+	.long   0445079H
+	.word   0,0
+FONT10X:
+	.word   04000H,10,11
+	.long   044525dH
+	.word   0,0
+FONT10Y:
+	.word   04000H,11,11
+	.long   0445415H
+	.word   0,0
+FONT10Z:
+	.word   04000H,9,11
+	.long   04455f9H
+	.word   0,0
+FONT101:
+	.word   04000H,6,11
+	.long   0445785H
+	.word   0,0
+FONT102:
+	.word   04000H,9,11
+	.long   044588dH
+	.word   0,0
+FONT103:
+	.word   04000H,9,11
+	.long   0445a19H
+	.word   0,0
+FONT104:
+	.word   04000H,9,11
+	.long   0445ba5H
+	.word   0,0
+FONT105:
+	.word   04000H,9,11
+	.long   0445d31H
+	.word   0,0
+FONT106:
+	.word   04000H,9,11
+	.long   0445ebdH
+	.word   0,0
+FONT107:
+	.word   04000H,9,11
+	.long   0446049H
+	.word   0,0
+FONT108:
+	.word   04000H,9,11
+	.long   04461d5H
+	.word   0,0
+FONT109:
+	.word   04000H,9,11
+	.long   0446361H
+	.word   0,0
+FONT100:
+	.word   04000H,9,11
+	.long   04464edH
+	.word   0,0
+FONT10EXC:
+	.word   04000H,5,11
+	.long   0446679H
+	.word   0,0
+FONT11A:
+	.word   04000H,12,11
+	.long   0446755H
+	.word   0,0
+FONT11B:
+	.word   04000H,12,11
+	.long   0446965H
+	.word   0,0
+FONT11C:
+	.word   04000H,12,11
+	.long   0446b75H
+	.word   0,0
+FONT11D:
+	.word   04000H,12,11
+	.long   0446d85H
+	.word   0,0
+FONT11E:
+	.word   04000H,12,11
+	.long   0446f95H
+	.word   0,0
+FONT11F:
+	.word   04000H,12,11
+	.long   04471a5H
+	.word   0,0
+FONT11G:
+	.word   04000H,12,11
+	.long   04473b5H
+	.word   0,0
+FONT11H:
+	.word   04000H,12,11
+	.long   04475c5H
+	.word   0,0
+FONT11I:
+	.word   04000H,6,11
+	.long   04477d5H
+	.word   0,0
+FONT11J:
+	.word   04000H,12,11
+	.long   04478ddH
+	.word   0,0
+FONT11K:
+	.word   04000H,12,11
+	.long   0447aedH
+	.word   0,0
+FONT11L:
+	.word   04000H,12,11
+	.long   0447cfdH
+	.word   0,0
+FONT11M:
+	.word   04000H,15,11
+	.long   0447f0dH
+	.word   0,0
+FONT11N:
+	.word   04000H,12,11
+	.long   04481a1H
+	.word   0,0
+FONT11O:
+	.word   04000H,12,11
+	.long   04483b1H
+	.word   0,0
+FONT11P:
+	.word   04000H,12,11
+	.long   04485c1H
+	.word   0,0
+FONT11Q:
+	.word   04000H,12,11
+	.long   04487d1H
+	.word   0,0
+FONT11R:
+	.word   04000H,12,11
+	.long   04489e1H
+	.word   0,0
+FONT11S:
+	.word   04000H,12,11
+	.long   0448bf1H
+	.word   0,0
+FONT11T:
+	.word   04000H,12,11
+	.long   0448e01H
+	.word   0,0
+FONT11U:
+	.word   04000H,12,11
+	.long   0449011H
+	.word   0,0
+FONT11V:
+	.word   04000H,12,11
+	.long   0449221H
+	.word   0,0
+FONT11W:
+	.word   04000H,16,11
+	.long   0449431H
+	.word   0,0
+FONT11X:
+	.word   04000H,12,11
+	.long   04496f1H
+	.word   0,0
+FONT11Y:
+	.word   04000H,12,11
+	.long   0449901H
+	.word   0,0
+FONT11Z:
+	.word   04000H,12,11
+	.long   0449b11H
+	.word   0,0
+FONT111:
+	.word   04000H,8,11
+	.long   0449d21H
+	.word   0,0
+FONT112:
+	.word   04000H,12,11
+	.long   0449e81H
+	.word   0,0
+FONT113:
+	.word   04000H,12,11
+	.long   044a091H
+	.word   0,0
+FONT114:
+	.word   04000H,12,11
+	.long   044a2a1H
+	.word   0,0
+FONT115:
+	.word   04000H,12,11
+	.long   044a4b1H
+	.word   0,0
+FONT116:
+	.word   04000H,12,11
+	.long   044a6c1H
+	.word   0,0
+FONT117:
+	.word   04000H,12,11
+	.long   044a8d1H
+	.word   0,0
+FONT118:
+	.word   04000H,12,11
+	.long   044aae1H
+	.word   0,0
+FONT119:
+	.word   04000H,12,11
+	.long   044acf1H
+	.word   0,0
+FONT110:
+	.word   04000H,12,11
+	.long   044af01H
+	.word   0,0
+FONT11EXC:
+	.word   04000H,6,11
+	.long   044b111H
+	.word   0,0
+FONT11PER:
+	.word   02000H,6,5
+	.long   044b219H
+	.word   0,0
+FONT19A:
+	.word   04000H,12,19
+	.long   044b255H
+	.word   0,0
+FONT19B:
+	.word   04000H,12,19
+	.long   044b5e5H
+	.word   0,0
+FONT19C:
+	.word   04000H,12,19
+	.long   044b975H
+	.word   0,0
+FONT19D:
+	.word   04000H,12,19
+	.long   044bd05H
+	.word   0,0
+FONT19E:
+	.word   04000H,12,19
+	.long   044c095H
+	.word   0,0
+FONT19F:
+	.word   04000H,12,19
+	.long   044c425H
+	.word   0,0
+FONT19G:
+	.word   04000H,12,19
+	.long   044c7b5H
+	.word   0,0
+FONT19H:
+	.word   04000H,12,19
+	.long   044cb45H
+	.word   0,0
+FONT19I:
+	.word   04000H,6,19
+	.long   044ced5H
+	.word   0,0
+FONT19J:
+	.word   04000H,12,19
+	.long   044d09dH
+	.word   0,0
+FONT19K:
+	.word   04000H,13,19
+	.long   044d42dH
+	.word   0,0
+FONT19L:
+	.word   04000H,12,19
+	.long   044d809H
+	.word   0,0
+FONT19M:
+	.word   04000H,15,19
+	.long   044db99H
+	.word   0,0
+FONT19N:
+	.word   04000H,12,19
+	.long   044e00dH
+	.word   0,0
+FONT19O:
+	.word   04000H,12,19
+	.long   044e39dH
+	.word   0,0
+FONT19P:
+	.word   04000H,12,19
+	.long   044e72dH
+	.word   0,0
+FONT19Q:
+	.word   04000H,12,19
+	.long   044eabdH
+	.word   0,0
+FONT19R:
+	.word   04000H,12,19
+	.long   044ee4dH
+	.word   0,0
+FONT19S:
+	.word   04000H,12,19
+	.long   044f1ddH
+	.word   0,0
+FONT19T:
+	.word   04000H,12,19
+	.long   044f56dH
+	.word   0,0
+FONT19U:
+	.word   04000H,12,19
+	.long   044f8fdH
+	.word   0,0
+FONT19V:
+	.word   04000H,12,19
+	.long   044fc8dH
+	.word   0,0
+FONT19W:
+	.word   04000H,16,19
+	.long   045001dH
+	.word   0,0
+FONT19X:
+	.word   04000H,12,19
+	.long   04504ddH
+	.word   0,0
+FONT19Y:
+	.word   04000H,12,19
+	.long   045086dH
+	.word   0,0
+FONT19Z:
+	.word   04000H,12,19
+	.long   0450bfdH
+	.word   0,0
+FONT19ARR:
+	.word   04000H,13,20
+	.long   0450f8dH
+	.word   0,0
+FONT19SP:
+	.word   04000H,14,16
+	.long   045139dH
+	.word   0,0
+FONT19SPC:
+	.word   04000H,22,10
+	.long   045171dH
+	.word   0,0
+FONT19EXC:
+	.word   03000H,8,19
+	.long   0451a8dH
+	.word   0,0
+FONT191:
+	.word   04000H,10,19
+	.long   0451c55H
+	.word   0,0
+FONT192:
+	.word   04000H,12,19
+	.long   0451f4dH
+	.word   0,0
+FONT193:
+	.word   04000H,12,19
+	.long   04522ddH
+	.word   0,0
+FONT194:
+	.word   04000H,12,19
+	.long   045266dH
+	.word   0,0
+FONT195:
+	.word   04000H,12,19
+	.long   04529fdH
+	.word   0,0
+FONT196:
+	.word   04000H,12,19
+	.long   0452d8dH
+	.word   0,0
+FONT197:
+	.word   04000H,12,19
+	.long   045311dH
+	.word   0,0
+FONT198:
+	.word   04000H,12,19
+	.long   04534adH
+	.word   0,0
+FONT199:
+	.word   04000H,12,19
+	.long   045383dH
+	.word   0,0
+FONT190:
+	.word   04000H,12,19
+	.long   0453bcdH
+	.word   0,0
+	.TEXT
+

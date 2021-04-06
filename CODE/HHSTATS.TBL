@@ -1,0 +1,153 @@
+	.DATA
+SHOTS:
+	.word   04080H,41,10
+	.long   03b14358H
+	.word   -105,-6
+	.long   GFONT10CP
+CHECKS:
+	.word   04080H,48,10
+	.long   03b149c0H
+	.word   -98,-18
+	.long   GFONT10CP
+STEALS:
+	.word   04080H,48,10
+	.long   03b15120H
+	.word   -98,-30
+	.long   GFONT10CP
+PASSES:
+	.word   04000H,48,10
+	.long   03b158a0H
+	.word   -98,-42
+	.long   GFONT10CP
+GOALS:
+	.word   04080H,41,10
+	.long   03b16020H
+	.word   -105,-54
+	.long   GFONT10CP
+ASSISTS:
+	.word   04000H,51,10
+	.long   03b16680H
+	.word   -95,-66
+	.long   GFONT10CP
+POINTS:
+	.word   04000H,45,10
+	.long   03b16e78H
+	.word   -101,-78
+	.long   GFONT10CP
+STATCARD1:
+	.word   07c80H,174,94
+	.long   03b17580H
+	.word   0,0
+	.long   FRAMEA04P
+BLUBAR1:
+	.word   00H,158,16
+	.long   03b306acH
+	.word   -16,-78
+	.long   BLUBARA2P
+REDBAR1:
+	.word   07000H,158,16
+	.long   03b355acH
+	.word   -16,-78
+	.long   REDBAR2P
+STATSLH1:
+	.word   06080H,78,65
+	.long   03b39accH
+	.word   0,0
+	.long   GRYBLOCKP
+COMPA00:
+	.word   07000H,158,63
+	.long   03b3fdb8H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPA01:
+	.word   07000H,158,63
+	.long   03b50de6H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPA02:
+	.word   07000H,158,63
+	.long   03b61e14H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPA03:
+	.word   07000H,158,63
+	.long   03b72e42H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPB01:
+	.word   07000H,158,63
+	.long   03b83e70H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPB02:
+	.word   07000H,158,63
+	.long   03b94e9eH
+	.word   -16,-15
+	.long   FLASHA01P
+COMPB03:
+	.word   07000H,158,63
+	.long   03ba5eccH
+	.word   -16,-15
+	.long   FLASHA01P
+COMPC01:
+	.word   07000H,158,63
+	.long   03bb6efaH
+	.word   -16,-15
+	.long   FLASHA01P
+COMPC02:
+	.word   07000H,158,63
+	.long   03bc7f28H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPC03:
+	.word   07000H,158,63
+	.long   03bd8f56H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPD01:
+	.word   07000H,158,63
+	.long   03be9f84H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPD02:
+	.word   07000H,158,63
+	.long   03bfafb2H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPD03:
+	.word   07000H,158,63
+	.long   03c0bfe0H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPE01:
+	.word   07000H,158,63
+	.long   03c1d00eH
+	.word   -16,-15
+	.long   FLASHA01P
+COMPE02:
+	.word   07000H,158,63
+	.long   03c2e03cH
+	.word   -16,-15
+	.long   FLASHA01P
+COMPE03:
+	.word   07000H,158,63
+	.long   03c3f06aH
+	.word   -16,-15
+	.long   FLASHA01P
+COMPF01:
+	.word   07000H,158,63
+	.long   03c50098H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPF02:
+	.word   07000H,158,63
+	.long   03c610c6H
+	.word   -16,-15
+	.long   FLASHA01P
+COMPF03:
+	.word   07000H,158,63
+	.long   03c720f4H
+	.word   -16,-15
+	.long   FLASHA01P
+	.TEXT
+

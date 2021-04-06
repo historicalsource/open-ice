@@ -1,0 +1,11 @@
+*
+*PROCESS CREATION MACRO
+*P1=ID-->A1, P2=PC-->A7
+*
+P_FORKP	.macro	P1
+	MOVI	:P1:,A7,L
+	CALLA	PPROCESS_FORK
+	.endm
+
+
+

@@ -1,0 +1,51 @@
+	.DATA
+RFO51F01:
+	.word   06000H,40,89
+	.long   0f9026fH
+	.word   20,90,11,48,0,0,0,0
+RFO51F02:
+	.word   06000H,41,88
+	.long   0f955dfH
+	.word   20,88,13,47,0,0,0,0
+RFO51F03:
+	.word   06000H,41,85
+	.long   0f9aa6fH
+	.word   20,86,13,45,0,0,0,0
+RFO51F04:
+	.word   06000H,41,81
+	.long   0f9fc1dH
+	.word   20,82,13,40,0,0,0,0
+RFO51F05:
+	.word   06000H,42,79
+	.long   0fa49f3H
+	.word   21,80,13,34,0,0,0,0
+RFO51F06:
+	.word   06000H,41,78
+	.long   0fa97b7H
+	.word   20,79,12,37,0,0,0,0
+RFO51F07:
+	.word   06000H,41,77
+	.long   0fae2abH
+	.word   20,78,16,33,0,0,0,0
+RFO51F08:
+	.word   06000H,41,76
+	.long   0fb2ca9H
+	.word   20,77,18,26,0,0,0,0
+RFO51F09:
+	.word   06000H,40,74
+	.long   0fb75b1H
+	.word   20,75,20,75,0,0,0,0
+RFO51F10:
+	.word   06000H,41,83
+	.long   0fbbb11H
+	.word   20,84,20,84,0,0,0,0
+RFO51F11:
+	.word   06000H,41,88
+	.long   0fc0ad3H
+	.word   20,89,20,89,0,0,0,0
+RFO51F12:
+	.word   06000H,41,90
+	.long   0fc5f63H
+	.word   20,91,20,91,0,0,0,0
+	.TEXT
+
